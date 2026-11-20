@@ -1,0 +1,20 @@
+{
+  "A": {
+    "stage": {
+      "set": "paper", "v": "dark",
+      "chars": [{ "c": "scroller", "x": 1380, "y": 1230, "s": 2.5, "expr": "panic", "armR": "phone", "holdR": { "kind": "mobile", "x": 0, "y": 0 }, "look": -0.3 }],
+      "props": [{ "kind": "puppet", "x": 1380, "y": 120, "s": 1.1, "len": 300, "to": [-160, 0, 160] }]
+    },
+    "line1": "IS YOUR PHONE", "line2": "USING YOU?", "x": 70, "y": 330, "size": 150
+  },
+  "B": {
+    "stage": {
+      "set": "paper",
+      "chars": [{ "c": "scrollerOld", "x": 480, "y": 960, "s": 1.25, "expr": "sad", "armR": "phone", "holdR": { "kind": "mobile", "x": 0, "y": 0 } },
+                { "c": "builderOld", "x": 1440, "y": 960, "s": 1.25, "expr": "happy", "armL": "up", "armR": "up" }],
+      "props": [{ "kind": "label", "x": 480, "y": 450, "text": "SCROLLED", "size": 80, "c": "#cfd3da" },
+                { "kind": "label", "x": 1440, "y": 450, "text": "BUILT", "size": 80, "c": "#2f9a4a" }]
+    },
+    "line1": "SAME 24 HOURS.", "line2": "10 YEARS LATER", "x": 360, "y": 140, "size": 115
+  }
+}

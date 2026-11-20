@@ -1,0 +1,9 @@
+node_modules/
+audio/*.wav
+work/sample/
+work/qa_*.jpg
+work/*.mp4
+work/npm.log
+work/fonts.css
+out/*.mp4
+stills/
