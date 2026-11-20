@@ -4,6 +4,7 @@ import { STORY_SHOTS, STORY_TOTAL, Story, StorySampler, StoryVertical, StoryVSam
 import { ThumbA, ThumbB } from "./bean/Thumbs";
 import { CastSheet } from "./bean/CastSheet";
 import { AvatarInk, AvatarSun } from "./bean/Avatar";
+import { ChannelBanner, ChannelBannerGuides } from "./bean/Banner";
 
 export const RemotionRoot: React.FC = () => {
   return (
@@ -16,6 +17,8 @@ export const RemotionRoot: React.FC = () => {
       <Still id="ThumbB" component={ThumbB} width={1920} height={1080} />
       <Still id="AvatarInk" component={AvatarInk} width={800} height={800} />
       <Still id="AvatarSun" component={AvatarSun} width={800} height={800} />
+      <Still id="ChannelBanner" component={ChannelBanner} width={2560} height={1440} />
+      <Still id="ChannelBannerGuides" component={ChannelBannerGuides} width={2560} height={1440} />
       <Still id="CastSheet" component={CastSheet} width={1920} height={1080} />
     </>
   );
