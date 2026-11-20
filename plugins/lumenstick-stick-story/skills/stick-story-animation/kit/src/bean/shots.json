@@ -1,0 +1,443 @@
+[
+{
+"type": "stage",
+"set": "garage",
+"place": "1999",
+"cam": {
+"z": [
+1.0,
+1.12
+],
+"f": [
+0.5,
+0.6
+]
+},
+"chars": [
+{
+"c": "woman",
+"x": 820,
+"s": 0.95,
+"expr": "worried",
+"look": 0.4
+}
+],
+"props": [
+{
+"kind": "box",
+"x": 1180,
+"y": 900,
+"s": 0.9,
+"label": "TOYS"
+},
+{
+"kind": "crt",
+"x": 1180,
+"y": 720,
+"s": 0.45,
+"mode": "code"
+}
+],
+"t0": 0.0,
+"_match": "In 1999, a tiny toy company  (1.00)",
+"t1": 3.725
+},
+{
+"type": "stage",
+"set": "paper",
+"cam": {
+"z": [
+1.0,
+1.1
+],
+"f": [
+0.5,
+0.5
+]
+},
+"props": [
+{
+"kind": "calendar",
+"x": 780,
+"y": 520,
+"s": 1.2,
+"month": "DAYS LEFT",
+"from": 30,
+"to": 29,
+"a": 4.862,
+"b": 6.325
+},
+{
+"kind": "money",
+"x": 1250,
+"y": 760,
+"s": 0.9,
+"n": 2
+},
+{
+"kind": "label",
+"x": 1250,
+"y": 470,
+"text": "ALMOST BROKE",
+"size": 70,
+"c": "#d1262e",
+"at": 5.588
+}
+],
+"t0": 3.725,
+"_match": "one phone, and thirty days  (1.00)",
+"t1": 6.612
+},
+{
+"type": "stage",
+"set": "office",
+"v": "night",
+"cam": {
+"z": [
+1.0,
+1.12
+],
+"f": [
+0.55,
+0.45
+]
+},
+"chars": [
+{
+"c": "woman",
+"x": 720,
+"s": 1.0,
+"expr": "think",
+"armR": "chin",
+"look": 0.6,
+"lookY": -1,
+"k": [
+{
+"t": 8.537,
+"expr": "happy",
+"armR": "pointUp"
+}
+]
+}
+],
+"props": [
+{
+"kind": "thought",
+"x": 1260,
+"y": 330,
+"s": 1.0,
+"at": 8.537,
+"thoughtChip": true
+}
+],
+"t0": 6.612,
+"_match": "Its founder, Maya, had a crazy idea.  (1.00)",
+"t1": 9.788
+},
+{
+"type": "split",
+"panels": [
+{
+"set": "hq",
+"label": "TOY MART",
+"props": [
+{
+"kind": "label",
+"x": 960,
+"y": 170,
+"text": "STORES",
+"size": 100,
+"c": "#fff"
+}
+]
+},
+{
+"set": "paper",
+"props": [
+{
+"kind": "phone",
+"x": 960,
+"y": 560,
+"s": 0.9,
+"head": "TOYS ONLINE",
+"posts": [
+"order now",
+"fast delivery"
+],
+"a": 10.188
+},
+{
+"kind": "label",
+"x": 960,
+"y": 170,
+"text": "ONLINE",
+"size": 100,
+"c": "#2f9a4a",
+"at": 12.863
+}
+]
+}
+],
+"t0": 9.788,
+"_match": "Instead of selling toys in big stores,  (1.00)",
+"t1": 13.725
+},
+{
+"type": "stage",
+"set": "boardroom",
+"cam": {
+"z": [
+1.0,
+1.1
+],
+"f": [
+0.5,
+0.5
+],
+"shake": 13.925
+},
+"chars": [
+{
+"c": "suitA",
+"x": 600,
+"y": 880,
+"s": 0.9,
+"expr": "happy"
+},
+{
+"c": "suitB",
+"x": 840,
+"y": 880,
+"s": 0.9,
+"expr": "happy",
+"armL": "up"
+},
+{
+"c": "suitC",
+"x": 1080,
+"y": 880,
+"s": 0.9,
+"expr": "smug"
+},
+{
+"c": "suitD",
+"x": 1320,
+"y": 880,
+"s": 0.9,
+"expr": "happy",
+"armR": "point"
+}
+],
+"t0": 13.725,
+"_match": "Everyone laughed.  (1.00)",
+"t1": 14.888
+},
+{
+"type": "stage",
+"set": "skyline",
+"cam": {
+"z": [
+1.0,
+1.08
+],
+"f": [
+0.5,
+0.5
+]
+},
+"props": [
+{
+"kind": "building",
+"x": 620,
+"y": 905,
+"label": "TOY MART"
+},
+{
+"kind": "building",
+"x": 1300,
+"y": 905,
+"label": "KIDZ CO",
+"a": 15.188,
+"b": 16.888
+},
+{
+"kind": "label",
+"x": 960,
+"y": 430,
+"text": "BILLIONS",
+"size": 100,
+"c": "#ffd21f",
+"at": 16.262
+}
+],
+"t0": 14.888,
+"_match": "The giant toy chains had billions  (1.00)",
+"t1": 19.438
+},
+{
+"type": "stage",
+"set": "paper",
+"cam": {
+"z": [
+1.0,
+1.06
+],
+"f": [
+0.5,
+0.55
+],
+"pan": [
+0,
+-40
+]
+},
+"props": [
+{
+"kind": "stairs",
+"x": 560,
+"y": 880,
+"n": 4,
+"w": 200,
+"h": 90
+}
+],
+"chars": [
+{
+"c": "woman",
+"x": 1300,
+"y": 790,
+"s": 0.6,
+"expr": "angry",
+"walk": {
+"x0": 1300,
+"x1": 700,
+"a": 19.438,
+"b": 21.238,
+"y0": 790,
+"y1": 520,
+"steps": 3
+}
+}
+],
+"t0": 19.438,
+"_match": "But Maya kept going.  (1.00)",
+"t1": 20.738
+},
+{
+"type": "card",
+"text": "Ten years *later...*",
+"a": 20.838,
+"b": 21.575,
+"t0": 20.738,
+"_match": "Ten years later,  (1.00)",
+"t1": 21.8
+},
+{
+"type": "stage",
+"set": "hq",
+"v": "dusk",
+"label": "TOY MART",
+"cam": {
+"z": [
+1.0,
+1.1
+],
+"f": [
+0.5,
+0.5
+]
+},
+"props": [
+{
+"kind": "stamp",
+"x": 960,
+"y": 500,
+"front": true,
+"text": "CLOSED",
+"a": 22.5,
+"size": 110
+}
+],
+"chars": [
+{
+"c": "suitB",
+"x": 1300,
+"y": 930,
+"s": 0.7,
+"expr": "sad",
+"armL": "box",
+"armR": "box",
+"holdBox": {
+"kind": "box",
+"x": 0,
+"y": 0,
+"s": 0.9,
+"label": "DESK",
+"items": true
+}
+}
+],
+"t0": 21.8,
+"_match": "the giants were closing their stores.  (1.00)",
+"t1": 24.012
+},
+{
+"type": "stage",
+"set": "paper",
+"cam": {
+"z": [
+1.0,
+1.1
+],
+"f": [
+0.5,
+0.5
+]
+},
+"props": [
+{
+"kind": "chart",
+"x": 900,
+"y": 480,
+"s": 0.85,
+"a": 24.212,
+"b": 26.612,
+"label": "MAYA'S COMPANY"
+},
+{
+"kind": "label",
+"x": 1450,
+"y": 300,
+"text": "WORTH MORE",
+"size": 90,
+"c": "#2f9a4a",
+"at": 25.788,
+"rot": -6
+}
+],
+"chars": [
+{
+"c": "woman",
+"x": 1500,
+"y": 960,
+"s": 0.8,
+"expr": "happy",
+"armL": "up",
+"armR": "up",
+"front": true
+}
+],
+"t0": 24.012,
+"_match": "And Maya's little company?  (1.00)",
+"t1": 27.813
+},
+{
+"type": "card",
+"text": "What She Saw",
+"chapter": true,
+"num": "1",
+"t0": 27.813,
+"_match": "So what did she see  (1.00)",
+"t1": 30.24
+}
+]

@@ -1,0 +1,12 @@
+{
+  "name": "claude-stick-project",
+  "owner": { "name": "GabeH012" },
+  "plugins": [
+    {
+      "name": "lumenstick-stick-story",
+      "source": "./plugins/lumenstick-stick-story",
+      "description": "Stick Story Animation: long-form 16:9 stick figure story videos built with Remotion.",
+      "version": "1.0.0"
+    }
+  ]
+}
