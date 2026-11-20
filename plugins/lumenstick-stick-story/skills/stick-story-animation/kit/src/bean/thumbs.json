@@ -1,0 +1,21 @@
+{
+  "A": {
+    "stage": {
+      "set": "office", "v": "night", "blur": 5,
+      "chars": [{ "c": "woman", "x": 560, "y": 1330, "s": 2.6, "expr": "smug", "look": 0.4 }],
+      "props": [{ "kind": "building", "x": 1420, "y": 1040, "s": 1.0, "label": "TOY MART" },
+                { "kind": "stamp", "x": 1420, "y": 560, "text": "CLOSED", "size": 90 }]
+    },
+    "line1": "THEY LAUGHED", "line2": "AT HER?", "x": 70, "y": 170, "size": 150
+  },
+  "B": {
+    "stage": {
+      "set": "boardroom",
+      "chars": [{ "c": "suitA", "x": 520, "y": 960, "s": 1.25, "expr": "happy" },
+                { "c": "suitB", "x": 900, "y": 960, "s": 1.25, "expr": "happy", "armL": "up" },
+                { "c": "suitD", "x": 1280, "y": 960, "s": 1.25, "expr": "happy", "armR": "point" },
+                { "c": "woman", "x": 1660, "y": 1000, "s": 1.1, "expr": "smug", "front": true }]
+    },
+    "zoom": 1.05, "line1": "EVERYONE", "line2": "WAS WRONG", "x": 70, "y": 170, "size": 150
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "extraKnownMarketplaces": {
+    "claude-stick-project": {
+      "source": { "source": "github", "repo": "GabeH012/Claude-Stick-Project-" }
+    }
+  },
+  "enabledPlugins": {
+    "lumenstick-stick-story@claude-stick-project": true
+  }
+}
