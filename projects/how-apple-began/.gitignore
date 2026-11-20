@@ -2,3 +2,4 @@ node_modules/
 work/sample/
 work/*.mp4
 audio/*.wav
+__pycache__/
