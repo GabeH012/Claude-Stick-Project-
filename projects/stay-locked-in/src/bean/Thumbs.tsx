@@ -31,3 +31,18 @@ const Thumb: React.FC<{ spec: Spec }> = ({ spec }) => {
 
 export const ThumbA: React.FC = () => <Thumb spec={(thumbs as any).A} />;
 export const ThumbB: React.FC = () => <Thumb spec={(thumbs as any).B} />;
+
+/* 9:16 covers (1080x1920) from thumbs.json "VA"/"VB": the stage seen through the vertical window (stage.cx), text in the top quarter */
+const VThumb: React.FC<{ spec: Spec }> = ({ spec }) => {
+  const x = spec.x ?? 70, y = spec.y ?? 260, size = spec.size ?? 150;
+  return (<AbsoluteFill>
+    <ShotStill sh={spec.stage} T={spec.T ?? 2} zoom={spec.zoom ?? 1} vertical />
+    <AbsoluteFill style={{ background: "radial-gradient(ellipse at center, rgba(0,0,0,0) 50%, rgba(0,0,0,0.45) 100%)" }} />
+    <svg viewBox="0 0 1080 1920" width={1080} height={1920} style={{ position: "absolute" }}>
+      <Big x={x} y={y} size={size * 0.85} fill="#fff">{spec.line1}</Big>
+      <Big x={x} y={y + size * 1.02} size={size} fill="#ffd21f">{spec.line2}</Big>
+    </svg>
+  </AbsoluteFill>);
+};
+export const VThumbA: React.FC = () => <VThumb spec={(thumbs as any).VA} />;
+export const VThumbB: React.FC = () => <VThumb spec={(thumbs as any).VB} />;

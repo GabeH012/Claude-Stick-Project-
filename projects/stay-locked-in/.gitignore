@@ -7,3 +7,7 @@ work/npm.log
 work/fonts.css
 out/*.mp4
 stills/
+work/vsample/
+work/vqa_*.jpg
+work/vrender.log
+work/vthumbs.jpg

@@ -1,0 +1,682 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 2
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Cap,Arial Black,96,&H00FFFFFF,&H00FFFFFF,&H00180F14,&H96000000,-1,0,0,0,100,100,1,0,1,7,4,2,60,60,430,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:00.22,Cap,,0,0,0,,{\fscx82\fscy82\t(0,90,\fscx100\fscy100)}{\c&H00F5FF&}THE{\c&HFFFFFF&} WORLD IS
+Dialogue: 0,0:00:00.22,0:00:00.42,Cap,,0,0,0,,THE {\c&H00F5FF&}WORLD{\c&HFFFFFF&} IS
+Dialogue: 0,0:00:00.42,0:00:00.62,Cap,,0,0,0,,THE WORLD {\c&H00F5FF&}IS{\c&HFFFFFF&}
+Dialogue: 0,0:00:00.62,0:00:01.04,Cap,,0,0,0,,{\fscx82\fscy82\t(0,90,\fscx100\fscy100)}{\c&H00F5FF&}PROGRAMMED{\c&HFFFFFF&} TO
+Dialogue: 0,0:00:01.04,0:00:01.36,Cap,,0,0,0,,PROGRAMMED {\c&H00F5FF&}TO{\c&HFFFFFF&}
+Dialogue: 0,0:00:01.36,0:00:01.66,Cap,,0,0,0,,{\fscx82\fscy82\t(0,90,\fscx100\fscy100)}{\c&H00F5FF&}DISTRACT{\c&HFFFFFF&} YOU
+Dialogue: 0,0:00:01.66,0:00:02.40,Cap,,0,0,0,,DISTRACT {\c&H00F5FF&}YOU{\c&HFFFFFF&}
+Dialogue: 0,0:00:02.40,0:00:02.46,Cap,,0,0,0,,{\fscx82\fscy82\t(0,90,\fscx100\fscy100)}{\c&H00F5FF&}THE{\c&HFFFFFF&} WORLD
+Dialogue: 0,0:00:02.46,0:00:02.72,Cap,,0,0,0,,THE {\c&H00F5FF&}WORLD{\c&HFFFFFF&}
+Dialogue: 0,0:00:02.72,0:00:03.00,Cap,,0,0,0,,{\fscx68\fscy68\t(0,90,\fscx84\fscy84)}{\c&H00F5FF&}DOESN'T{\c&HFFFFFF&} WANT YOU
+Dialogue: 0,0:00:03.00,0:00:03.14,Cap,,0,0,0,,{\fscx84\fscy84}DOESN'T {\c&H00F5FF&}WANT{\c&HFFFFFF&} YOU
+Dialogue: 0,0:00:03.14,0:00:03.26,Cap,,0,0,0,,{\fscx84\fscy84}DOESN'T WANT {\c&H00F5FF&}YOU{\c&HFFFFFF&}
+Dialogue: 0,0:00:03.26,0:00:03.38,Cap,,0,0,0,,{\fscx82\fscy82\t(0,90,\fscx100\fscy100)}{\c&H00F5FF&}TO{\c&HFFFFFF&} FAIL
+Dialogue: 0,0:00:03.38,0:00:04.03,Cap,,0,0,0,,TO {\c&H00F5FF&}FAIL{\c&HFFFFFF&}
+Dialogue: 0,0:00:04.22,0:00:04.34,Cap,,0,0,0,,{\fscx82\fscy82\t(0,90,\fscx100\fscy100)}{\c&H00F5FF&}IT{\c&HFFFFFF&} WANTS
+Dialogue: 0,0:00:04.34,0:00:04.50,Cap,,0,0,0,,IT {\c&H00F5FF&}WANTS{\c&HFFFFFF&}
+Dialogue: 0,0:00:04.50,0:00:04.78,Cap,,0,0,0,,{\fscx76\fscy76\t(0,90,\fscx93\fscy93)}{\c&H00F5FF&}SOMETHING{\c&HFFFFFF&} EVEN
+Dialogue: 0,0:00:04.78,0:00:04.98,Cap,,0,0,0,,{\fscx93\fscy93}SOMETHING {\c&H00F5FF&}EVEN{\c&HFFFFFF&}
+Dialogue: 0,0:00:04.98,0:00:05.67,Cap,,0,0,0,,{\fscx82\fscy82\t(0,90,\fscx100\fscy100)}{\c&H00F5FF&}WORSE{\c&HFFFFFF&}
+Dialogue: 0,0:00:06.10,0:00:06.20,Cap,,0,0,0,,{\fscx82\fscy82\t(0,90,\fscx100\fscy100)}{\c&H00F5FF&}IT{\c&HFFFFFF&} WANTS YOU
+Dialogue: 0,0:00:06.20,0:00:06.34,Cap,,0,0,0,,IT {\c&H00F5FF&}WANTS{\c&HFFFFFF&} YOU
+Dialogue: 0,0:00:06.34,0:00:06.48,Cap,,0,0,0,,IT WANTS {\c&H00F5FF&}YOU{\c&HFFFFFF&}
+Dialogue: 0,0:00:06.48,0:00:07.29,Cap,,0,0,0,,{\fscx82\fscy82\t(0,90,\fscx100\fscy100)}{\c&H00F5FF&}DISTRACTED{\c&HFFFFFF&}
+Dialogue: 0,0:00:08.00,0:00:08.08,Cap,,0,0,0,,{\fscx79\fscy79\t(0,90,\fscx97\fscy97)}{\c&H00F5FF&}THINK{\c&HFFFFFF&} ABOUT IT
+Dialogue: 0,0:00:08.08,0:00:08.30,Cap,,0,0,0,,{\fscx97\fscy97}THINK {\c&H00F5FF&}ABOUT{\c&HFFFFFF&} IT
+Dialogue: 0,0:00:08.30,0:00:09.33,Cap,,0,0,0,,{\fscx97\fscy97}THINK ABOUT {\c&H00F5FF&}IT{\c&HFFFFFF&}
+Dialogue: 0,0:00:09.86,0:00:10.08,Cap,,0,0,0,,{\fscx68\fscy68\t(0,90,\fscx84\fscy84)}{\c&H00F5FF&}EVERY{\c&HFFFFFF&} SINGLE DAY
+Dialogue: 0,0:00:10.08,0:00:10.32,Cap,,0,0,0,,{\fscx84\fscy84}EVERY {\c&H00F5FF&}SINGLE{\c&HFFFFFF&} DAY
+Dialogue: 0,0:00:10.32,0:00:11.02,Cap,,0,0,0,,{\fscx84\fscy84}EVERY SINGLE {\c&H00F5FF&}DAY{\c&HFFFFFF&}
+Dialogue: 0,0:00:11.02,0:00:11.16,Cap,,0,0,0,,{\fscx82\fscy82\t(0,90,\fscx100\fscy100)}{\c&H00F5FF&}MILLIONS{\c&HFFFFFF&} OF
+Dialogue: 0,0:00:11.16,0:00:11.44,Cap,,0,0,0,,MILLIONS {\c&H00F5FF&}OF{\c&HFFFFFF&}
+Dialogue: 0,0:00:11.44,0:00:11.66,Cap,,0,0,0,,{\fscx79\fscy79\t(0,90,\fscx97\fscy97)}{\c&H00F5FF&}PEOPLE{\c&HFFFFFF&} WAKE UP
+Dialogue: 0,0:00:11.66,0:00:11.90,Cap,,0,0,0,,{\fscx97\fscy97}PEOPLE {\c&H00F5FF&}WAKE{\c&HFFFFFF&} UP
+Dialogue: 0,0:00:11.90,0:00:12.46,Cap,,0,0,0,,{\fscx97\fscy97}PEOPLE WAKE {\c&H00F5FF&}UP{\c&HFFFFFF&}
+Dialogue: 0,0:00:12.46,0:00:12.56,Cap,,0,0,0,,{\fscx82\fscy82\t(0,90,\fscx100\fscy100)}{\c&H00F5FF&}GRAB{\c&HFFFFFF&} THEIR
+Dialogue: 0,0:00:12.56,0:00:12.78,Cap,,0,0,0,,GRAB {\c&H00F5FF&}THEIR{\c&HFFFFFF&}
+Dialogue: 0,0:00:12.78,0:00:13.46,Cap,,0,0,0,,{\fscx82\fscy82\t(0,90,\fscx100\fscy100)}{\c&H00F5FF&}PHONES{\c&HFFFFFF&}
+Dialogue: 0,0:00:13.46,0:00:13.58,Cap,,0,0,0,,{\fscx71\fscy71\t(0,90,\fscx87\fscy87)}{\c&H00F5FF&}AND{\c&HFFFFFF&} IMMEDIATELY
+Dialogue: 0,0:00:13.58,0:00:13.92,Cap,,0,0,0,,{\fscx87\fscy87}AND {\c&H00F5FF&}IMMEDIATELY{\c&HFFFFFF&}
+Dialogue: 0,0:00:13.92,0:00:14.36,Cap,,0,0,0,,{\fscx71\fscy71\t(0,90,\fscx87\fscy87)}{\c&H00F5FF&}BEGIN{\c&HFFFFFF&} SCROLLING
+Dialogue: 0,0:00:14.36,0:00:15.19,Cap,,0,0,0,,{\fscx87\fscy87}BEGIN {\c&H00F5FF&}SCROLLING{\c&HFFFFFF&}
+Dialogue: 0,0:00:15.20,0:00:15.36,Cap,,0,0,0,,{\fscx82\fscy82\t(0,90,\fscx100\fscy100)}{\c&H00F5FF&}THEY{\c&HFFFFFF&} WATCH
+Dialogue: 0,0:00:15.36,0:00:15.52,Cap,,0,0,0,,THEY {\c&H00F5FF&}WATCH{\c&HFFFFFF&}
+Dialogue: 0,0:00:15.52,0:00:16.25,Cap,,0,0,0,,{\fscx82\fscy82\t(0,90,\fscx100\fscy100)}{\c&H00F5FF&}VIDEOS{\c&HFFFFFF&}
+Dialogue: 0,0:00:16.36,0:00:16.48,Cap,,0,0,0,,{\fscx82\fscy82\t(0,90,\fscx100\fscy100)}{\c&H00F5FF&}THEY{\c&HFFFFFF&} CHECK
+Dialogue: 0,0:00:16.48,0:00:16.68,Cap,,0,0,0,,THEY {\c&H00F5FF&}CHECK{\c&HFFFFFF&}
+Dialogue: 0,0:00:16.68,0:00:17.61,Cap,,0,0,0,,{\fscx78\fscy78\t(0,90,\fscx96\fscy96)}{\c&H00F5FF&}NOTIFICATIONS{\c&HFFFFFF&}
+Dialogue: 0,0:00:17.80,0:00:17.92,Cap,,0,0,0,,{\fscx82\fscy82\t(0,90,\fscx100\fscy100)}{\c&H00F5FF&}THEY{\c&HFFFFFF&} LOOK AT
+Dialogue: 0,0:00:17.92,0:00:18.04,Cap,,0,0,0,,THEY {\c&H00F5FF&}LOOK{\c&HFFFFFF&} AT
+Dialogue: 0,0:00:18.04,0:00:18.16,Cap,,0,0,0,,THEY LOOK {\c&H00F5FF&}AT{\c&HFFFFFF&}
+Dialogue: 0,0:00:18.16,0:00:18.32,Cap,,0,0,0,,{\fscx76\fscy76\t(0,90,\fscx93\fscy93)}{\c&H00F5FF&}OTHER{\c&HFFFFFF&} PEOPLE'S
+Dialogue: 0,0:00:18.32,0:00:18.68,Cap,,0,0,0,,{\fscx93\fscy93}OTHER {\c&H00F5FF&}PEOPLE'S{\c&HFFFFFF&}
+Dialogue: 0,0:00:18.68,0:00:19.35,Cap,,0,0,0,,{\fscx82\fscy82\t(0,90,\fscx100\fscy100)}{\c&H00F5FF&}LIVES{\c&HFFFFFF&}
+Dialogue: 0,0:00:19.50,0:00:19.60,Cap,,0,0,0,,{\fscx73\fscy73\t(0,90,\fscx90\fscy90)}{\c&H00F5FF&}AND{\c&HFFFFFF&} BEFORE THEY
+Dialogue: 0,0:00:19.60,0:00:19.82,Cap,,0,0,0,,{\fscx90\fscy90}AND {\c&H00F5FF&}BEFORE{\c&HFFFFFF&} THEY
+Dialogue: 0,0:00:19.82,0:00:19.94,Cap,,0,0,0,,{\fscx90\fscy90}AND BEFORE {\c&H00F5FF&}THEY{\c&HFFFFFF&}
+Dialogue: 0,0:00:19.94,0:00:20.18,Cap,,0,0,0,,{\fscx73\fscy73\t(0,90,\fscx90\fscy90)}{\c&H00F5FF&}EVEN{\c&HFFFFFF&} REALIZE IT
+Dialogue: 0,0:00:20.18,0:00:20.56,Cap,,0,0,0,,{\fscx90\fscy90}EVEN {\c&H00F5FF&}REALIZE{\c&HFFFFFF&} IT
+Dialogue: 0,0:00:20.56,0:00:21.14,Cap,,0,0,0,,{\fscx90\fscy90}EVEN REALIZE {\c&H00F5FF&}IT{\c&HFFFFFF&}
+Dialogue: 0,0:00:21.14,0:00:21.22,Cap,,0,0,0,,{\fscx82\fscy82\t(0,90,\fscx100\fscy100)}{\c&H00F5FF&}AN{\c&HFFFFFF&} HOUR HAS
+Dialogue: 0,0:00:21.22,0:00:21.44,Cap,,0,0,0,,AN {\c&H00F5FF&}HOUR{\c&HFFFFFF&} HAS
+Dialogue: 0,0:00:21.44,0:00:21.66,Cap,,0,0,0,,AN HOUR {\c&H00F5FF&}HAS{\c&HFFFFFF&}
+Dialogue: 0,0:00:21.66,0:00:22.59,Cap,,0,0,0,,{\fscx82\fscy82\t(0,90,\fscx100\fscy100)}{\c&H00F5FF&}DISAPPEARED{\c&HFFFFFF&}
+Dialogue: 0,0:00:22.70,0:00:22.80,Cap,,0,0,0,,{\fscx79\fscy79\t(0,90,\fscx97\fscy97)}{\c&H00F5FF&}BUT{\c&HFFFFFF&} HERE'S THE
+Dialogue: 0,0:00:22.80,0:00:23.02,Cap,,0,0,0,,{\fscx97\fscy97}BUT {\c&H00F5FF&}HERE'S{\c&HFFFFFF&} THE
+Dialogue: 0,0:00:23.02,0:00:23.14,Cap,,0,0,0,,{\fscx97\fscy97}BUT HERE'S {\c&H00F5FF&}THE{\c&HFFFFFF&}
+Dialogue: 0,0:00:23.14,0:00:23.34,Cap,,0,0,0,,{\fscx82\fscy82\t(0,90,\fscx100\fscy100)}{\c&H00F5FF&}SCARY{\c&HFFFFFF&} PART
+Dialogue: 0,0:00:23.34,0:00:24.13,Cap,,0,0,0,,SCARY {\c&H00F5FF&}PART{\c&HFFFFFF&}
+Dialogue: 0,0:00:24.56,0:00:24.64,Cap,,0,0,0,,{\fscx71\fscy71\t(0,90,\fscx87\fscy87)}{\c&H00F5FF&}AND{\c&HFFFFFF&} THE NEXT DAY
+Dialogue: 0,0:00:24.64,0:00:24.72,Cap,,0,0,0,,{\fscx87\fscy87}AND {\c&H00F5FF&}THE{\c&HFFFFFF&} NEXT DAY
+Dialogue: 0,0:00:24.72,0:00:24.88,Cap,,0,0,0,,{\fscx87\fscy87}AND THE {\c&H00F5FF&}NEXT{\c&HFFFFFF&} DAY
+Dialogue: 0,0:00:24.88,0:00:25.57,Cap,,0,0,0,,{\fscx87\fscy87}AND THE NEXT {\c&H00F5FF&}DAY{\c&HFFFFFF&}
+Dialogue: 0,0:00:26.28,0:00:26.52,Cap,,0,0,0,,{\fscx82\fscy82\t(0,90,\fscx100\fscy100)}{\c&H00F5FF&}AND{\c&HFFFFFF&} THE NEXT
+Dialogue: 0,0:00:26.52,0:00:26.60,Cap,,0,0,0,,AND {\c&H00F5FF&}THE{\c&HFFFFFF&} NEXT
+Dialogue: 0,0:00:26.60,0:00:27.29,Cap,,0,0,0,,AND THE {\c&H00F5FF&}NEXT{\c&HFFFFFF&}
+Dialogue: 0,0:00:28.04,0:00:28.52,Cap,,0,0,0,,{\fscx82\fscy82\t(0,90,\fscx100\fscy100)}{\c&H00F5FF&}UNTIL{\c&HFFFFFF&} ONE DAY
+Dialogue: 0,0:00:28.52,0:00:28.80,Cap,,0,0,0,,UNTIL {\c&H00F5FF&}ONE{\c&HFFFFFF&} DAY
+Dialogue: 0,0:00:28.80,0:00:29.32,Cap,,0,0,0,,UNTIL ONE {\c&H00F5FF&}DAY{\c&HFFFFFF&}
+Dialogue: 0,0:00:29.32,0:00:29.42,Cap,,0,0,0,,{\fscx79\fscy79\t(0,90,\fscx97\fscy97)}{\c&H00F5FF&}THEY{\c&HFFFFFF&} LOOK BACK
+Dialogue: 0,0:00:29.42,0:00:29.54,Cap,,0,0,0,,{\fscx97\fscy97}THEY {\c&H00F5FF&}LOOK{\c&HFFFFFF&} BACK
+Dialogue: 0,0:00:29.54,0:00:29.86,Cap,,0,0,0,,{\fscx97\fscy97}THEY LOOK {\c&H00F5FF&}BACK{\c&HFFFFFF&}
+Dialogue: 0,0:00:29.86,0:00:30.16,Cap,,0,0,0,,{\fscx82\fscy82\t(0,90,\fscx100\fscy100)}{\c&H00F5FF&}AND{\c&HFFFFFF&} REALIZE
+Dialogue: 0,0:00:30.16,0:00:30.52,Cap,,0,0,0,,AND {\c&H00F5FF&}REALIZE{\c&HFFFFFF&}
+Dialogue: 0,0:00:30.52,0:00:30.82,Cap,,0,0,0,,{\fscx82\fscy82\t(0,90,\fscx100\fscy100)}{\c&H00F5FF&}THEY'VE{\c&HFFFFFF&} SPENT
+Dialogue: 0,0:00:30.82,0:00:31.00,Cap,,0,0,0,,THEY'VE {\c&H00F5FF&}SPENT{\c&HFFFFFF&}
+Dialogue: 0,0:00:31.00,0:00:31.30,Cap,,0,0,0,,{\fscx76\fscy76\t(0,90,\fscx93\fscy93)}{\c&H00F5FF&}YEARS{\c&HFFFFFF&} WATCHING
+Dialogue: 0,0:00:31.30,0:00:31.70,Cap,,0,0,0,,{\fscx93\fscy93}YEARS {\c&H00F5FF&}WATCHING{\c&HFFFFFF&}
+Dialogue: 0,0:00:31.70,0:00:32.02,Cap,,0,0,0,,{\fscx82\fscy82\t(0,90,\fscx100\fscy100)}{\c&H00F5FF&}OTHER{\c&HFFFFFF&} PEOPLE
+Dialogue: 0,0:00:32.02,0:00:32.26,Cap,,0,0,0,,OTHER {\c&H00F5FF&}PEOPLE{\c&HFFFFFF&}
+Dialogue: 0,0:00:32.26,0:00:32.78,Cap,,0,0,0,,{\fscx76\fscy76\t(0,90,\fscx93\fscy93)}{\c&H00F5FF&}ACCOMPLISH{\c&HFFFFFF&} THE
+Dialogue: 0,0:00:32.78,0:00:33.02,Cap,,0,0,0,,{\fscx93\fscy93}ACCOMPLISH {\c&H00F5FF&}THE{\c&HFFFFFF&}
+Dialogue: 0,0:00:33.02,0:00:33.26,Cap,,0,0,0,,{\fscx82\fscy82\t(0,90,\fscx100\fscy100)}{\c&H00F5FF&}THINGS{\c&HFFFFFF&} THEY
+Dialogue: 0,0:00:33.26,0:00:33.44,Cap,,0,0,0,,THINGS {\c&H00F5FF&}THEY{\c&HFFFFFF&}
+Dialogue: 0,0:00:33.44,0:00:33.82,Cap,,0,0,0,,{\fscx76\fscy76\t(0,90,\fscx93\fscy93)}{\c&H00F5FF&}ALWAYS{\c&HFFFFFF&} DREAMED
+Dialogue: 0,0:00:33.82,0:00:34.18,Cap,,0,0,0,,{\fscx93\fscy93}ALWAYS {\c&H00F5FF&}DREAMED{\c&HFFFFFF&}
+Dialogue: 0,0:00:34.18,0:00:34.36,Cap,,0,0,0,,{\fscx82\fscy82\t(0,90,\fscx100\fscy100)}{\c&H00F5FF&}OF{\c&HFFFFFF&} DOING
+Dialogue: 0,0:00:34.36,0:00:35.11,Cap,,0,0,0,,OF {\c&H00F5FF&}DOING{\c&HFFFFFF&}
+Dialogue: 0,0:00:35.26,0:00:35.32,Cap,,0,0,0,,{\fscx82\fscy82\t(0,90,\fscx100\fscy100)}{\c&H00F5FF&}IMAGINE{\c&HFFFFFF&} TWO
+Dialogue: 0,0:00:35.32,0:00:35.56,Cap,,0,0,0,,IMAGINE {\c&H00F5FF&}TWO{\c&HFFFFFF&}
+Dialogue: 0,0:00:35.56,0:00:36.29,Cap,,0,0,0,,{\fscx82\fscy82\t(0,90,\fscx100\fscy100)}{\c&H00F5FF&}PEOPLE{\c&HFFFFFF&}
+Dialogue: 0,0:00:36.86,0:00:37.04,Cap,,0,0,0,,{\fscx79\fscy79\t(0,90,\fscx97\fscy97)}{\c&H00F5FF&}THEY{\c&HFFFFFF&} BOTH WAKE
+Dialogue: 0,0:00:37.04,0:00:37.22,Cap,,0,0,0,,{\fscx97\fscy97}THEY {\c&H00F5FF&}BOTH{\c&HFFFFFF&} WAKE
+Dialogue: 0,0:00:37.22,0:00:37.44,Cap,,0,0,0,,{\fscx97\fscy97}THEY BOTH {\c&H00F5FF&}WAKE{\c&HFFFFFF&}
+Dialogue: 0,0:00:37.44,0:00:37.62,Cap,,0,0,0,,{\fscx82\fscy82\t(0,90,\fscx100\fscy100)}{\c&H00F5FF&}UP{\c&HFFFFFF&} AT 7AM
+Dialogue: 0,0:00:37.62,0:00:37.80,Cap,,0,0,0,,UP {\c&H00F5FF&}AT{\c&HFFFFFF&} 7AM
+Dialogue: 0,0:00:37.80,0:00:38.73,Cap,,0,0,0,,UP AT {\c&H00F5FF&}7AM{\c&HFFFFFF&}
+Dialogue: 0,0:00:38.78,0:00:38.90,Cap,,0,0,0,,{\fscx79\fscy79\t(0,90,\fscx97\fscy97)}{\c&H00F5FF&}THEY{\c&HFFFFFF&} BOTH HAVE
+Dialogue: 0,0:00:38.90,0:00:39.08,Cap,,0,0,0,,{\fscx97\fscy97}THEY {\c&H00F5FF&}BOTH{\c&HFFFFFF&} HAVE
+Dialogue: 0,0:00:39.08,0:00:39.26,Cap,,0,0,0,,{\fscx97\fscy97}THEY BOTH {\c&H00F5FF&}HAVE{\c&HFFFFFF&}
+Dialogue: 0,0:00:39.26,0:00:39.42,Cap,,0,0,0,,{\fscx82\fscy82\t(0,90,\fscx100\fscy100)}{\c&H00F5FF&}THE{\c&HFFFFFF&} SAME 24
+Dialogue: 0,0:00:39.42,0:00:39.66,Cap,,0,0,0,,THE {\c&H00F5FF&}SAME{\c&HFFFFFF&} 24
+Dialogue: 0,0:00:39.66,0:00:40.18,Cap,,0,0,0,,THE SAME {\c&H00F5FF&}24{\c&HFFFFFF&}
+Dialogue: 0,0:00:40.18,0:00:40.91,Cap,,0,0,0,,{\fscx82\fscy82\t(0,90,\fscx100\fscy100)}{\c&H00F5FF&}HOURS{\c&HFFFFFF&}
+Dialogue: 0,0:00:41.04,0:00:41.14,Cap,,0,0,0,,{\fscx79\fscy79\t(0,90,\fscx97\fscy97)}{\c&H00F5FF&}THEY{\c&HFFFFFF&} BOTH HAVE
+Dialogue: 0,0:00:41.14,0:00:41.34,Cap,,0,0,0,,{\fscx97\fscy97}THEY {\c&H00F5FF&}BOTH{\c&HFFFFFF&} HAVE
+Dialogue: 0,0:00:41.34,0:00:41.52,Cap,,0,0,0,,{\fscx97\fscy97}THEY BOTH {\c&H00F5FF&}HAVE{\c&HFFFFFF&}
+Dialogue: 0,0:00:41.52,0:00:41.82,Cap,,0,0,0,,{\fscx82\fscy82\t(0,90,\fscx100\fscy100)}{\c&H00F5FF&}DREAMS{\c&HFFFFFF&} OF
+Dialogue: 0,0:00:41.82,0:00:42.00,Cap,,0,0,0,,DREAMS {\c&H00F5FF&}OF{\c&HFFFFFF&}
+Dialogue: 0,0:00:42.00,0:00:42.30,Cap,,0,0,0,,{\fscx82\fscy82\t(0,90,\fscx100\fscy100)}{\c&H00F5FF&}BECOMING{\c&HFFFFFF&}
+Dialogue: 0,0:00:42.30,0:00:43.15,Cap,,0,0,0,,{\fscx82\fscy82\t(0,90,\fscx100\fscy100)}{\c&H00F5FF&}SUCCESSFUL{\c&HFFFFFF&}
+Dialogue: 0,0:00:43.26,0:00:43.40,Cap,,0,0,0,,{\fscx82\fscy82\t(0,90,\fscx100\fscy100)}{\c&H00F5FF&}BUT{\c&HFFFFFF&} THEY MAKE
+Dialogue: 0,0:00:43.40,0:00:43.54,Cap,,0,0,0,,BUT {\c&H00F5FF&}THEY{\c&HFFFFFF&} MAKE
+Dialogue: 0,0:00:43.54,0:00:43.72,Cap,,0,0,0,,BUT THEY {\c&H00F5FF&}MAKE{\c&HFFFFFF&}
+Dialogue: 0,0:00:43.72,0:00:43.98,Cap,,0,0,0,,{\fscx76\fscy76\t(0,90,\fscx93\fscy93)}{\c&H00F5FF&}TWO{\c&HFFFFFF&} COMPLETELY
+Dialogue: 0,0:00:43.98,0:00:44.42,Cap,,0,0,0,,{\fscx93\fscy93}TWO {\c&H00F5FF&}COMPLETELY{\c&HFFFFFF&}
+Dialogue: 0,0:00:44.42,0:00:44.78,Cap,,0,0,0,,{\fscx82\fscy82\t(0,90,\fscx100\fscy100)}{\c&H00F5FF&}DIFFERENT{\c&HFFFFFF&}
+Dialogue: 0,0:00:44.78,0:00:45.57,Cap,,0,0,0,,{\fscx82\fscy82\t(0,90,\fscx100\fscy100)}{\c&H00F5FF&}DECISIONS{\c&HFFFFFF&}
+Dialogue: 0,0:00:45.72,0:00:45.86,Cap,,0,0,0,,{\fscx68\fscy68\t(0,90,\fscx84\fscy84)}{\c&H00F5FF&}THE{\c&HFFFFFF&} FIRST PERSON
+Dialogue: 0,0:00:45.86,0:00:46.06,Cap,,0,0,0,,{\fscx84\fscy84}THE {\c&H00F5FF&}FIRST{\c&HFFFFFF&} PERSON
+Dialogue: 0,0:00:46.06,0:00:46.38,Cap,,0,0,0,,{\fscx84\fscy84}THE FIRST {\c&H00F5FF&}PERSON{\c&HFFFFFF&}
+Dialogue: 0,0:00:46.38,0:00:46.60,Cap,,0,0,0,,{\fscx73\fscy73\t(0,90,\fscx90\fscy90)}{\c&H00F5FF&}GRABS{\c&HFFFFFF&} HIS PHONE
+Dialogue: 0,0:00:46.60,0:00:46.84,Cap,,0,0,0,,{\fscx90\fscy90}GRABS {\c&H00F5FF&}HIS{\c&HFFFFFF&} PHONE
+Dialogue: 0,0:00:46.84,0:00:47.53,Cap,,0,0,0,,{\fscx90\fscy90}GRABS HIS {\c&H00F5FF&}PHONE{\c&HFFFFFF&}
+Dialogue: 0,0:00:47.62,0:00:47.74,Cap,,0,0,0,,{\fscx79\fscy79\t(0,90,\fscx97\fscy97)}{\c&H00F5FF&}HE{\c&HFFFFFF&} WATCHES ONE
+Dialogue: 0,0:00:47.74,0:00:47.94,Cap,,0,0,0,,{\fscx97\fscy97}HE {\c&H00F5FF&}WATCHES{\c&HFFFFFF&} ONE
+Dialogue: 0,0:00:47.94,0:00:48.18,Cap,,0,0,0,,{\fscx97\fscy97}HE WATCHES {\c&H00F5FF&}ONE{\c&HFFFFFF&}
+Dialogue: 0,0:00:48.18,0:00:48.93,Cap,,0,0,0,,{\fscx82\fscy82\t(0,90,\fscx100\fscy100)}{\c&H00F5FF&}VIDEO{\c&HFFFFFF&}
+Dialogue: 0,0:00:49.54,0:00:49.62,Cap,,0,0,0,,{\fscx82\fscy82\t(0,90,\fscx100\fscy100)}{\c&H00F5FF&}THEN{\c&HFFFFFF&} ANOTHER
+Dialogue: 0,0:00:49.62,0:00:50.31,Cap,,0,0,0,,THEN {\c&H00F5FF&}ANOTHER{\c&HFFFFFF&}
+Dialogue: 0,0:00:51.16,0:00:51.48,Cap,,0,0,0,,{\fscx82\fscy82\t(0,90,\fscx100\fscy100)}{\c&H00F5FF&}THEN{\c&HFFFFFF&} ANOTHER
+Dialogue: 0,0:00:51.48,0:00:52.17,Cap,,0,0,0,,THEN {\c&H00F5FF&}ANOTHER{\c&HFFFFFF&}
+Dialogue: 0,0:00:53.02,0:00:53.36,Cap,,0,0,0,,{\fscx68\fscy68\t(0,90,\fscx84\fscy84)}{\c&H00F5FF&}HE{\c&HFFFFFF&} TELLS HIMSELF
+Dialogue: 0,0:00:53.36,0:00:53.52,Cap,,0,0,0,,{\fscx84\fscy84}HE {\c&H00F5FF&}TELLS{\c&HFFFFFF&} HIMSELF
+Dialogue: 0,0:00:53.52,0:00:53.88,Cap,,0,0,0,,{\fscx84\fscy84}HE TELLS {\c&H00F5FF&}HIMSELF{\c&HFFFFFF&}
+Dialogue: 0,0:00:53.88,0:00:54.16,Cap,,0,0,0,,{\fscx73\fscy73\t(0,90,\fscx90\fscy90)}{\c&H00F5FF&}HE'S{\c&HFFFFFF&} ONLY GOING
+Dialogue: 0,0:00:54.16,0:00:54.34,Cap,,0,0,0,,{\fscx90\fscy90}HE'S {\c&H00F5FF&}ONLY{\c&HFFFFFF&} GOING
+Dialogue: 0,0:00:54.34,0:00:54.54,Cap,,0,0,0,,{\fscx90\fscy90}HE'S ONLY {\c&H00F5FF&}GOING{\c&HFFFFFF&}
+Dialogue: 0,0:00:54.54,0:00:54.72,Cap,,0,0,0,,{\fscx82\fscy82\t(0,90,\fscx100\fscy100)}{\c&H00F5FF&}TO{\c&HFFFFFF&} SCROLL FOR
+Dialogue: 0,0:00:54.72,0:00:54.94,Cap,,0,0,0,,TO {\c&H00F5FF&}SCROLL{\c&HFFFFFF&} FOR
+Dialogue: 0,0:00:54.94,0:00:55.14,Cap,,0,0,0,,TO SCROLL {\c&H00F5FF&}FOR{\c&HFFFFFF&}
+Dialogue: 0,0:00:55.14,0:00:55.38,Cap,,0,0,0,,{\fscx82\fscy82\t(0,90,\fscx100\fscy100)}{\c&H00F5FF&}FIVE{\c&HFFFFFF&} MINUTES
+Dialogue: 0,0:00:55.38,0:00:56.06,Cap,,0,0,0,,FIVE {\c&H00F5FF&}MINUTES{\c&HFFFFFF&}
+Dialogue: 0,0:00:56.06,0:00:56.34,Cap,,0,0,0,,{\fscx68\fscy68\t(0,90,\fscx84\fscy84)}{\c&H00F5FF&}BUT{\c&HFFFFFF&} FIVE MINUTES
+Dialogue: 0,0:00:56.34,0:00:56.62,Cap,,0,0,0,,{\fscx84\fscy84}BUT {\c&H00F5FF&}FIVE{\c&HFFFFFF&} MINUTES
+Dialogue: 0,0:00:56.62,0:00:56.90,Cap,,0,0,0,,{\fscx84\fscy84}BUT FIVE {\c&H00F5FF&}MINUTES{\c&HFFFFFF&}
+Dialogue: 0,0:00:56.90,0:00:57.24,Cap,,0,0,0,,{\fscx82\fscy82\t(0,90,\fscx100\fscy100)}{\c&H00F5FF&}TURNS{\c&HFFFFFF&} INTO 30
+Dialogue: 0,0:00:57.24,0:00:57.50,Cap,,0,0,0,,TURNS {\c&H00F5FF&}INTO{\c&HFFFFFF&} 30
+Dialogue: 0,0:00:57.50,0:00:58.27,Cap,,0,0,0,,TURNS INTO {\c&H00F5FF&}30{\c&HFFFFFF&}
+Dialogue: 0,0:00:58.50,0:00:58.50,Cap,,0,0,0,,{\fscx82\fscy82\t(0,90,\fscx100\fscy100)}{\c&H00F5FF&}30{\c&HFFFFFF&} TURNS INTO
+Dialogue: 0,0:00:58.50,0:00:58.78,Cap,,0,0,0,,30 {\c&H00F5FF&}TURNS{\c&HFFFFFF&} INTO
+Dialogue: 0,0:00:58.78,0:00:59.02,Cap,,0,0,0,,30 TURNS {\c&H00F5FF&}INTO{\c&HFFFFFF&}
+Dialogue: 0,0:00:59.02,0:00:59.16,Cap,,0,0,0,,{\fscx82\fscy82\t(0,90,\fscx100\fscy100)}{\c&H00F5FF&}AN{\c&HFFFFFF&} HOUR
+Dialogue: 0,0:00:59.16,0:00:59.83,Cap,,0,0,0,,AN {\c&H00F5FF&}HOUR{\c&HFFFFFF&}
+Dialogue: 0,0:01:00.14,0:01:00.26,Cap,,0,0,0,,{\fscx82\fscy82\t(0,90,\fscx100\fscy100)}{\c&H00F5FF&}AND{\c&HFFFFFF&} SUDDENLY
+Dialogue: 0,0:01:00.26,0:01:00.98,Cap,,0,0,0,,AND {\c&H00F5FF&}SUDDENLY{\c&HFFFFFF&}
+Dialogue: 0,0:01:00.98,0:01:01.12,Cap,,0,0,0,,{\fscx68\fscy68\t(0,90,\fscx84\fscy84)}{\c&H00F5FF&}HALF{\c&HFFFFFF&} HIS MORNING
+Dialogue: 0,0:01:01.12,0:01:01.28,Cap,,0,0,0,,{\fscx84\fscy84}HALF {\c&H00F5FF&}HIS{\c&HFFFFFF&} MORNING
+Dialogue: 0,0:01:01.28,0:01:01.46,Cap,,0,0,0,,{\fscx84\fscy84}HALF HIS {\c&H00F5FF&}MORNING{\c&HFFFFFF&}
+Dialogue: 0,0:01:01.46,0:01:01.64,Cap,,0,0,0,,{\fscx82\fscy82\t(0,90,\fscx100\fscy100)}{\c&H00F5FF&}IS{\c&HFFFFFF&} GONE
+Dialogue: 0,0:01:01.64,0:01:02.29,Cap,,0,0,0,,IS {\c&H00F5FF&}GONE{\c&HFFFFFF&}
+Dialogue: 0,0:01:02.30,0:01:02.44,Cap,,0,0,0,,{\fscx82\fscy82\t(0,90,\fscx100\fscy100)}{\c&H00F5FF&}THE{\c&HFFFFFF&} SECOND
+Dialogue: 0,0:01:02.44,0:01:02.66,Cap,,0,0,0,,THE {\c&H00F5FF&}SECOND{\c&HFFFFFF&}
+Dialogue: 0,0:01:02.66,0:01:02.94,Cap,,0,0,0,,{\fscx73\fscy73\t(0,90,\fscx90\fscy90)}{\c&H00F5FF&}PERSON{\c&HFFFFFF&} WAKES UP
+Dialogue: 0,0:01:02.94,0:01:03.16,Cap,,0,0,0,,{\fscx90\fscy90}PERSON {\c&H00F5FF&}WAKES{\c&HFFFFFF&} UP
+Dialogue: 0,0:01:03.16,0:01:03.40,Cap,,0,0,0,,{\fscx90\fscy90}PERSON WAKES {\c&H00F5FF&}UP{\c&HFFFFFF&}
+Dialogue: 0,0:01:03.40,0:01:03.64,Cap,,0,0,0,,{\fscx82\fscy82\t(0,90,\fscx100\fscy100)}{\c&H00F5FF&}AND{\c&HFFFFFF&} GETS
+Dialogue: 0,0:01:03.64,0:01:03.80,Cap,,0,0,0,,AND {\c&H00F5FF&}GETS{\c&HFFFFFF&}
+Dialogue: 0,0:01:03.80,0:01:04.06,Cap,,0,0,0,,{\fscx82\fscy82\t(0,90,\fscx100\fscy100)}{\c&H00F5FF&}STRAIGHT{\c&HFFFFFF&} TO
+Dialogue: 0,0:01:04.06,0:01:04.22,Cap,,0,0,0,,STRAIGHT {\c&H00F5FF&}TO{\c&HFFFFFF&}
+Dialogue: 0,0:01:04.22,0:01:04.87,Cap,,0,0,0,,{\fscx82\fscy82\t(0,90,\fscx100\fscy100)}{\c&H00F5FF&}WORK{\c&HFFFFFF&}
+Dialogue: 0,0:01:04.90,0:01:05.02,Cap,,0,0,0,,{\fscx82\fscy82\t(0,90,\fscx100\fscy100)}{\c&H00F5FF&}HE{\c&HFFFFFF&} READS A
+Dialogue: 0,0:01:05.02,0:01:05.14,Cap,,0,0,0,,HE {\c&H00F5FF&}READS{\c&HFFFFFF&} A
+Dialogue: 0,0:01:05.14,0:01:05.30,Cap,,0,0,0,,HE READS {\c&H00F5FF&}A{\c&HFFFFFF&}
+Dialogue: 0,0:01:05.30,0:01:05.48,Cap,,0,0,0,,{\fscx82\fscy82\t(0,90,\fscx100\fscy100)}{\c&H00F5FF&}FEW{\c&HFFFFFF&} PAGES OF
+Dialogue: 0,0:01:05.48,0:01:05.78,Cap,,0,0,0,,FEW {\c&H00F5FF&}PAGES{\c&HFFFFFF&} OF
+Dialogue: 0,0:01:05.78,0:01:05.94,Cap,,0,0,0,,FEW PAGES {\c&H00F5FF&}OF{\c&HFFFFFF&}
+Dialogue: 0,0:01:05.94,0:01:06.04,Cap,,0,0,0,,{\fscx82\fscy82\t(0,90,\fscx100\fscy100)}{\c&H00F5FF&}A{\c&HFFFFFF&} BOOK
+Dialogue: 0,0:01:06.04,0:01:06.67,Cap,,0,0,0,,A {\c&H00F5FF&}BOOK{\c&HFFFFFF&}
+Dialogue: 0,0:01:06.78,0:01:06.90,Cap,,0,0,0,,{\fscx82\fscy82\t(0,90,\fscx100\fscy100)}{\c&H00F5FF&}HE{\c&HFFFFFF&} EXERCISES
+Dialogue: 0,0:01:06.90,0:01:07.73,Cap,,0,0,0,,HE {\c&H00F5FF&}EXERCISES{\c&HFFFFFF&}
+Dialogue: 0,0:01:08.44,0:01:08.76,Cap,,0,0,0,,{\fscx82\fscy82\t(0,90,\fscx100\fscy100)}{\c&H00F5FF&}HE{\c&HFFFFFF&} LEARNS A
+Dialogue: 0,0:01:08.76,0:01:08.92,Cap,,0,0,0,,HE {\c&H00F5FF&}LEARNS{\c&HFFFFFF&} A
+Dialogue: 0,0:01:08.92,0:01:09.06,Cap,,0,0,0,,HE LEARNS {\c&H00F5FF&}A{\c&HFFFFFF&}
+Dialogue: 0,0:01:09.06,0:01:09.22,Cap,,0,0,0,,{\fscx82\fscy82\t(0,90,\fscx100\fscy100)}{\c&H00F5FF&}NEW{\c&HFFFFFF&} SKILL
+Dialogue: 0,0:01:09.22,0:01:09.97,Cap,,0,0,0,,NEW {\c&H00F5FF&}SKILL{\c&HFFFFFF&}
+Dialogue: 0,0:01:10.52,0:01:10.72,Cap,,0,0,0,,{\fscx76\fscy76\t(0,90,\fscx93\fscy93)}{\c&H00F5FF&}NEITHER{\c&HFFFFFF&} PERSON
+Dialogue: 0,0:01:10.72,0:01:11.14,Cap,,0,0,0,,{\fscx93\fscy93}NEITHER {\c&H00F5FF&}PERSON{\c&HFFFFFF&}
+Dialogue: 0,0:01:11.14,0:01:11.56,Cap,,0,0,0,,{\fscx73\fscy73\t(0,90,\fscx90\fscy90)}{\c&H00F5FF&}REALIZES{\c&HFFFFFF&} IT YET
+Dialogue: 0,0:01:11.56,0:01:11.78,Cap,,0,0,0,,{\fscx90\fscy90}REALIZES {\c&H00F5FF&}IT{\c&HFFFFFF&} YET
+Dialogue: 0,0:01:11.78,0:01:12.28,Cap,,0,0,0,,{\fscx90\fscy90}REALIZES IT {\c&H00F5FF&}YET{\c&HFFFFFF&}
+Dialogue: 0,0:01:12.28,0:01:12.44,Cap,,0,0,0,,{\fscx73\fscy73\t(0,90,\fscx90\fscy90)}{\c&H00F5FF&}BUT{\c&HFFFFFF&} THEIR SMALL
+Dialogue: 0,0:01:12.44,0:01:12.58,Cap,,0,0,0,,{\fscx90\fscy90}BUT {\c&H00F5FF&}THEIR{\c&HFFFFFF&} SMALL
+Dialogue: 0,0:01:12.58,0:01:12.88,Cap,,0,0,0,,{\fscx90\fscy90}BUT THEIR {\c&H00F5FF&}SMALL{\c&HFFFFFF&}
+Dialogue: 0,0:01:12.88,0:01:13.22,Cap,,0,0,0,,{\fscx82\fscy82\t(0,90,\fscx100\fscy100)}{\c&H00F5FF&}DECISIONS{\c&HFFFFFF&} ARE
+Dialogue: 0,0:01:13.22,0:01:13.52,Cap,,0,0,0,,DECISIONS {\c&H00F5FF&}ARE{\c&HFFFFFF&}
+Dialogue: 0,0:01:13.52,0:01:13.86,Cap,,0,0,0,,{\fscx82\fscy82\t(0,90,\fscx100\fscy100)}{\c&H00F5FF&}CREATING{\c&HFFFFFF&} TWO
+Dialogue: 0,0:01:13.86,0:01:14.22,Cap,,0,0,0,,CREATING {\c&H00F5FF&}TWO{\c&HFFFFFF&}
+Dialogue: 0,0:01:14.22,0:01:14.74,Cap,,0,0,0,,{\fscx82\fscy82\t(0,90,\fscx100\fscy100)}{\c&H00F5FF&}COMPLETELY{\c&HFFFFFF&}
+Dialogue: 0,0:01:14.74,0:01:15.16,Cap,,0,0,0,,{\fscx82\fscy82\t(0,90,\fscx100\fscy100)}{\c&H00F5FF&}DIFFERENT{\c&HFFFFFF&}
+Dialogue: 0,0:01:15.16,0:01:15.99,Cap,,0,0,0,,{\fscx82\fscy82\t(0,90,\fscx100\fscy100)}{\c&H00F5FF&}FUTURES{\c&HFFFFFF&}
+Dialogue: 0,0:01:16.12,0:01:16.26,Cap,,0,0,0,,{\fscx73\fscy73\t(0,90,\fscx90\fscy90)}{\c&H00F5FF&}I'LL{\c&HFFFFFF&} LEARN THAT
+Dialogue: 0,0:01:16.26,0:01:16.36,Cap,,0,0,0,,{\fscx90\fscy90}I'LL {\c&H00F5FF&}LEARN{\c&HFFFFFF&} THAT
+Dialogue: 0,0:01:16.36,0:01:16.54,Cap,,0,0,0,,{\fscx90\fscy90}I'LL LEARN {\c&H00F5FF&}THAT{\c&HFFFFFF&}
+Dialogue: 0,0:01:16.54,0:01:16.80,Cap,,0,0,0,,{\fscx82\fscy82\t(0,90,\fscx100\fscy100)}{\c&H00F5FF&}SKILL{\c&HFFFFFF&} WHEN
+Dialogue: 0,0:01:16.80,0:01:16.98,Cap,,0,0,0,,SKILL {\c&H00F5FF&}WHEN{\c&HFFFFFF&}
+Dialogue: 0,0:01:16.98,0:01:17.20,Cap,,0,0,0,,{\fscx82\fscy82\t(0,90,\fscx100\fscy100)}{\c&H00F5FF&}THINGS{\c&HFFFFFF&} SLOW
+Dialogue: 0,0:01:17.20,0:01:17.42,Cap,,0,0,0,,THINGS {\c&H00F5FF&}SLOW{\c&HFFFFFF&}
+Dialogue: 0,0:01:17.42,0:01:18.16,Cap,,0,0,0,,{\fscx82\fscy82\t(0,90,\fscx100\fscy100)}{\c&H00F5FF&}DOWN{\c&HFFFFFF&}
+Dialogue: 0,0:01:18.16,0:01:18.34,Cap,,0,0,0,,{\fscx82\fscy82\t(0,90,\fscx100\fscy100)}{\c&H00F5FF&}ANOTHER{\c&HFFFFFF&} VIDEO
+Dialogue: 0,0:01:18.34,0:01:19.09,Cap,,0,0,0,,ANOTHER {\c&H00F5FF&}VIDEO{\c&HFFFFFF&}
+Dialogue: 0,0:01:19.86,0:01:20.10,Cap,,0,0,0,,{\fscx82\fscy82\t(0,90,\fscx100\fscy100)}{\c&H00F5FF&}YOU{\c&HFFFFFF&} NEED TO
+Dialogue: 0,0:01:20.10,0:01:20.22,Cap,,0,0,0,,YOU {\c&H00F5FF&}NEED{\c&HFFFFFF&} TO
+Dialogue: 0,0:01:20.22,0:01:20.36,Cap,,0,0,0,,YOU NEED {\c&H00F5FF&}TO{\c&HFFFFFF&}
+Dialogue: 0,0:01:20.36,0:01:20.56,Cap,,0,0,0,,{\fscx68\fscy68\t(0,90,\fscx84\fscy84)}{\c&H00F5FF&}STOP{\c&HFFFFFF&} GIVING AWAY
+Dialogue: 0,0:01:20.56,0:01:20.82,Cap,,0,0,0,,{\fscx84\fscy84}STOP {\c&H00F5FF&}GIVING{\c&HFFFFFF&} AWAY
+Dialogue: 0,0:01:20.82,0:01:21.06,Cap,,0,0,0,,{\fscx84\fscy84}STOP GIVING {\c&H00F5FF&}AWAY{\c&HFFFFFF&}
+Dialogue: 0,0:01:21.06,0:01:21.20,Cap,,0,0,0,,{\fscx82\fscy82\t(0,90,\fscx100\fscy100)}{\c&H00F5FF&}THE{\c&HFFFFFF&} TIME YOU
+Dialogue: 0,0:01:21.20,0:01:21.38,Cap,,0,0,0,,THE {\c&H00F5FF&}TIME{\c&HFFFFFF&} YOU
+Dialogue: 0,0:01:21.38,0:01:21.52,Cap,,0,0,0,,THE TIME {\c&H00F5FF&}YOU{\c&HFFFFFF&}
+Dialogue: 0,0:01:21.52,0:01:21.74,Cap,,0,0,0,,{\fscx82\fscy82\t(0,90,\fscx100\fscy100)}{\c&H00F5FF&}ALREADY{\c&HFFFFFF&} HAVE
+Dialogue: 0,0:01:21.74,0:01:22.44,Cap,,0,0,0,,ALREADY {\c&H00F5FF&}HAVE{\c&HFFFFFF&}
+Dialogue: 0,0:01:22.44,0:01:22.76,Cap,,0,0,0,,{\fscx82\fscy82\t(0,90,\fscx100\fscy100)}{\c&H00F5FF&}BECAUSE{\c&HFFFFFF&} EVERY
+Dialogue: 0,0:01:22.76,0:01:23.06,Cap,,0,0,0,,BECAUSE {\c&H00F5FF&}EVERY{\c&HFFFFFF&}
+Dialogue: 0,0:01:23.06,0:01:23.22,Cap,,0,0,0,,{\fscx68\fscy68\t(0,90,\fscx84\fscy84)}{\c&H00F5FF&}MINUTE{\c&HFFFFFF&} YOU SPEND
+Dialogue: 0,0:01:23.22,0:01:23.42,Cap,,0,0,0,,{\fscx84\fscy84}MINUTE {\c&H00F5FF&}YOU{\c&HFFFFFF&} SPEND
+Dialogue: 0,0:01:23.42,0:01:23.62,Cap,,0,0,0,,{\fscx84\fscy84}MINUTE YOU {\c&H00F5FF&}SPEND{\c&HFFFFFF&}
+Dialogue: 0,0:01:23.62,0:01:23.88,Cap,,0,0,0,,{\fscx68\fscy68\t(0,90,\fscx84\fscy84)}{\c&H00F5FF&}DOING{\c&HFFFFFF&} NOTHING IS
+Dialogue: 0,0:01:23.88,0:01:24.18,Cap,,0,0,0,,{\fscx84\fscy84}DOING {\c&H00F5FF&}NOTHING{\c&HFFFFFF&} IS
+Dialogue: 0,0:01:24.18,0:01:24.46,Cap,,0,0,0,,{\fscx84\fscy84}DOING NOTHING {\c&H00F5FF&}IS{\c&HFFFFFF&}
+Dialogue: 0,0:01:24.46,0:01:24.62,Cap,,0,0,0,,{\fscx82\fscy82\t(0,90,\fscx100\fscy100)}{\c&H00F5FF&}A{\c&HFFFFFF&} MINUTE YOU
+Dialogue: 0,0:01:24.62,0:01:24.78,Cap,,0,0,0,,A {\c&H00F5FF&}MINUTE{\c&HFFFFFF&} YOU
+Dialogue: 0,0:01:24.78,0:01:25.00,Cap,,0,0,0,,A MINUTE {\c&H00F5FF&}YOU{\c&HFFFFFF&}
+Dialogue: 0,0:01:25.00,0:01:25.12,Cap,,0,0,0,,{\fscx82\fscy82\t(0,90,\fscx100\fscy100)}{\c&H00F5FF&}CAN{\c&HFFFFFF&} NEVER GET
+Dialogue: 0,0:01:25.12,0:01:25.30,Cap,,0,0,0,,CAN {\c&H00F5FF&}NEVER{\c&HFFFFFF&} GET
+Dialogue: 0,0:01:25.30,0:01:25.46,Cap,,0,0,0,,CAN NEVER {\c&H00F5FF&}GET{\c&HFFFFFF&}
+Dialogue: 0,0:01:25.46,0:01:26.21,Cap,,0,0,0,,{\fscx82\fscy82\t(0,90,\fscx100\fscy100)}{\c&H00F5FF&}BACK{\c&HFFFFFF&}
+Dialogue: 0,0:01:26.28,0:01:26.56,Cap,,0,0,0,,{\fscx71\fscy71\t(0,90,\fscx87\fscy87)}{\c&H00F5FF&}IMAGINE{\c&HFFFFFF&} LOOKING
+Dialogue: 0,0:01:26.56,0:01:26.94,Cap,,0,0,0,,{\fscx87\fscy87}IMAGINE {\c&H00F5FF&}LOOKING{\c&HFFFFFF&}
+Dialogue: 0,0:01:26.94,0:01:27.24,Cap,,0,0,0,,{\fscx82\fscy82\t(0,90,\fscx100\fscy100)}{\c&H00F5FF&}10{\c&HFFFFFF&} YEARS INTO
+Dialogue: 0,0:01:27.24,0:01:27.52,Cap,,0,0,0,,10 {\c&H00F5FF&}YEARS{\c&HFFFFFF&} INTO
+Dialogue: 0,0:01:27.52,0:01:27.76,Cap,,0,0,0,,10 YEARS {\c&H00F5FF&}INTO{\c&HFFFFFF&}
+Dialogue: 0,0:01:27.76,0:01:27.88,Cap,,0,0,0,,{\fscx82\fscy82\t(0,90,\fscx100\fscy100)}{\c&H00F5FF&}THE{\c&HFFFFFF&} FUTURE
+Dialogue: 0,0:01:27.88,0:01:28.63,Cap,,0,0,0,,THE {\c&H00F5FF&}FUTURE{\c&HFFFFFF&}
+Dialogue: 0,0:01:28.70,0:01:28.78,Cap,,0,0,0,,{\fscx82\fscy82\t(0,90,\fscx100\fscy100)}{\c&H00F5FF&}YOU{\c&HFFFFFF&} SEE TWO
+Dialogue: 0,0:01:28.78,0:01:28.94,Cap,,0,0,0,,YOU {\c&H00F5FF&}SEE{\c&HFFFFFF&} TWO
+Dialogue: 0,0:01:28.94,0:01:29.14,Cap,,0,0,0,,YOU SEE {\c&H00F5FF&}TWO{\c&HFFFFFF&}
+Dialogue: 0,0:01:29.14,0:01:29.42,Cap,,0,0,0,,{\fscx82\fscy82\t(0,90,\fscx100\fscy100)}{\c&H00F5FF&}VERSIONS{\c&HFFFFFF&} OF
+Dialogue: 0,0:01:29.42,0:01:29.58,Cap,,0,0,0,,VERSIONS {\c&H00F5FF&}OF{\c&HFFFFFF&}
+Dialogue: 0,0:01:29.58,0:01:30.33,Cap,,0,0,0,,{\fscx82\fscy82\t(0,90,\fscx100\fscy100)}{\c&H00F5FF&}YOURSELF{\c&HFFFFFF&}
+Dialogue: 0,0:01:30.60,0:01:30.72,Cap,,0,0,0,,{\fscx82\fscy82\t(0,90,\fscx100\fscy100)}{\c&H00F5FF&}ONE{\c&HFFFFFF&} VERSION
+Dialogue: 0,0:01:30.72,0:01:31.02,Cap,,0,0,0,,ONE {\c&H00F5FF&}VERSION{\c&HFFFFFF&}
+Dialogue: 0,0:01:31.02,0:01:31.30,Cap,,0,0,0,,{\fscx73\fscy73\t(0,90,\fscx90\fscy90)}{\c&H00F5FF&}SPENT{\c&HFFFFFF&} EVERY DAY
+Dialogue: 0,0:01:31.30,0:01:31.70,Cap,,0,0,0,,{\fscx90\fscy90}SPENT {\c&H00F5FF&}EVERY{\c&HFFFFFF&} DAY
+Dialogue: 0,0:01:31.70,0:01:31.92,Cap,,0,0,0,,{\fscx90\fscy90}SPENT EVERY {\c&H00F5FF&}DAY{\c&HFFFFFF&}
+Dialogue: 0,0:01:31.92,0:01:32.22,Cap,,0,0,0,,{\fscx82\fscy82\t(0,90,\fscx100\fscy100)}{\c&H00F5FF&}CHASING{\c&HFFFFFF&}
+Dialogue: 0,0:01:32.22,0:01:33.21,Cap,,0,0,0,,{\fscx78\fscy78\t(0,90,\fscx96\fscy96)}{\c&H00F5FF&}ENTERTAINMENT{\c&HFFFFFF&}
+Dialogue: 0,0:01:33.30,0:01:33.38,Cap,,0,0,0,,{\fscx68\fscy68\t(0,90,\fscx84\fscy84)}{\c&H00F5FF&}HE{\c&HFFFFFF&} WATCHED OTHER
+Dialogue: 0,0:01:33.38,0:01:33.58,Cap,,0,0,0,,{\fscx84\fscy84}HE {\c&H00F5FF&}WATCHED{\c&HFFFFFF&} OTHER
+Dialogue: 0,0:01:33.58,0:01:33.80,Cap,,0,0,0,,{\fscx84\fscy84}HE WATCHED {\c&H00F5FF&}OTHER{\c&HFFFFFF&}
+Dialogue: 0,0:01:33.80,0:01:33.98,Cap,,0,0,0,,{\fscx82\fscy82\t(0,90,\fscx100\fscy100)}{\c&H00F5FF&}PEOPLE{\c&HFFFFFF&} TRAVEL
+Dialogue: 0,0:01:33.98,0:01:34.79,Cap,,0,0,0,,PEOPLE {\c&H00F5FF&}TRAVEL{\c&HFFFFFF&}
+Dialogue: 0,0:01:35.12,0:01:35.24,Cap,,0,0,0,,{\fscx68\fscy68\t(0,90,\fscx84\fscy84)}{\c&H00F5FF&}HE{\c&HFFFFFF&} WATCHED OTHER
+Dialogue: 0,0:01:35.24,0:01:35.44,Cap,,0,0,0,,{\fscx84\fscy84}HE {\c&H00F5FF&}WATCHED{\c&HFFFFFF&} OTHER
+Dialogue: 0,0:01:35.44,0:01:35.66,Cap,,0,0,0,,{\fscx84\fscy84}HE WATCHED {\c&H00F5FF&}OTHER{\c&HFFFFFF&}
+Dialogue: 0,0:01:35.66,0:01:35.88,Cap,,0,0,0,,{\fscx82\fscy82\t(0,90,\fscx100\fscy100)}{\c&H00F5FF&}PEOPLE{\c&HFFFFFF&} BUILD
+Dialogue: 0,0:01:35.88,0:01:36.12,Cap,,0,0,0,,PEOPLE {\c&H00F5FF&}BUILD{\c&HFFFFFF&}
+Dialogue: 0,0:01:36.12,0:01:36.89,Cap,,0,0,0,,{\fscx82\fscy82\t(0,90,\fscx100\fscy100)}{\c&H00F5FF&}BUSINESSES{\c&HFFFFFF&}
+Dialogue: 0,0:01:37.14,0:01:37.24,Cap,,0,0,0,,{\fscx82\fscy82\t(0,90,\fscx100\fscy100)}{\c&H00F5FF&}HE{\c&HFFFFFF&} CONSTANTLY
+Dialogue: 0,0:01:37.24,0:01:37.62,Cap,,0,0,0,,HE {\c&H00F5FF&}CONSTANTLY{\c&HFFFFFF&}
+Dialogue: 0,0:01:37.62,0:01:37.92,Cap,,0,0,0,,{\fscx82\fscy82\t(0,90,\fscx100\fscy100)}{\c&H00F5FF&}TOLD{\c&HFFFFFF&} HIMSELF
+Dialogue: 0,0:01:37.92,0:01:38.22,Cap,,0,0,0,,TOLD {\c&H00F5FF&}HIMSELF{\c&HFFFFFF&}
+Dialogue: 0,0:01:38.22,0:01:38.44,Cap,,0,0,0,,{\fscx82\fscy82\t(0,90,\fscx100\fscy100)}{\c&H00F5FF&}THAT{\c&HFFFFFF&} ONE DAY
+Dialogue: 0,0:01:38.44,0:01:38.64,Cap,,0,0,0,,THAT {\c&H00F5FF&}ONE{\c&HFFFFFF&} DAY
+Dialogue: 0,0:01:38.64,0:01:38.88,Cap,,0,0,0,,THAT ONE {\c&H00F5FF&}DAY{\c&HFFFFFF&}
+Dialogue: 0,0:01:38.88,0:01:39.28,Cap,,0,0,0,,{\fscx82\fscy82\t(0,90,\fscx100\fscy100)}{\c&H00F5FF&}HE{\c&HFFFFFF&} WOULD DO
+Dialogue: 0,0:01:39.28,0:01:39.38,Cap,,0,0,0,,HE {\c&H00F5FF&}WOULD{\c&HFFFFFF&} DO
+Dialogue: 0,0:01:39.38,0:01:39.52,Cap,,0,0,0,,HE WOULD {\c&H00F5FF&}DO{\c&HFFFFFF&}
+Dialogue: 0,0:01:39.52,0:01:39.68,Cap,,0,0,0,,{\fscx82\fscy82\t(0,90,\fscx100\fscy100)}{\c&H00F5FF&}THE{\c&HFFFFFF&} SAME
+Dialogue: 0,0:01:39.68,0:01:40.30,Cap,,0,0,0,,THE {\c&H00F5FF&}SAME{\c&HFFFFFF&}
+Dialogue: 0,0:01:40.30,0:01:40.50,Cap,,0,0,0,,{\fscx82\fscy82\t(0,90,\fscx100\fscy100)}{\c&H00F5FF&}BUT{\c&HFFFFFF&} THAT DAY
+Dialogue: 0,0:01:40.50,0:01:40.66,Cap,,0,0,0,,BUT {\c&H00F5FF&}THAT{\c&HFFFFFF&} DAY
+Dialogue: 0,0:01:40.66,0:01:40.84,Cap,,0,0,0,,BUT THAT {\c&H00F5FF&}DAY{\c&HFFFFFF&}
+Dialogue: 0,0:01:40.84,0:01:41.00,Cap,,0,0,0,,{\fscx82\fscy82\t(0,90,\fscx100\fscy100)}{\c&H00F5FF&}NEVER{\c&HFFFFFF&} CAME
+Dialogue: 0,0:01:41.00,0:01:41.75,Cap,,0,0,0,,NEVER {\c&H00F5FF&}CAME{\c&HFFFFFF&}
+Dialogue: 0,0:01:42.30,0:01:42.38,Cap,,0,0,0,,{\fscx82\fscy82\t(0,90,\fscx100\fscy100)}{\c&H00F5FF&}NOW{\c&HFFFFFF&} LOOK AT
+Dialogue: 0,0:01:42.38,0:01:42.52,Cap,,0,0,0,,NOW {\c&H00F5FF&}LOOK{\c&HFFFFFF&} AT
+Dialogue: 0,0:01:42.52,0:01:42.62,Cap,,0,0,0,,NOW LOOK {\c&H00F5FF&}AT{\c&HFFFFFF&}
+Dialogue: 0,0:01:42.62,0:01:42.72,Cap,,0,0,0,,{\fscx82\fscy82\t(0,90,\fscx100\fscy100)}{\c&H00F5FF&}THE{\c&HFFFFFF&} OTHER
+Dialogue: 0,0:01:42.72,0:01:42.86,Cap,,0,0,0,,THE {\c&H00F5FF&}OTHER{\c&HFFFFFF&}
+Dialogue: 0,0:01:42.86,0:01:43.59,Cap,,0,0,0,,{\fscx82\fscy82\t(0,90,\fscx100\fscy100)}{\c&H00F5FF&}VERSION{\c&HFFFFFF&}
+Dialogue: 0,0:01:44.08,0:01:44.22,Cap,,0,0,0,,{\fscx82\fscy82\t(0,90,\fscx100\fscy100)}{\c&H00F5FF&}HE{\c&HFFFFFF&} WASN'T
+Dialogue: 0,0:01:44.22,0:01:44.48,Cap,,0,0,0,,HE {\c&H00F5FF&}WASN'T{\c&HFFFFFF&}
+Dialogue: 0,0:01:44.48,0:01:45.19,Cap,,0,0,0,,{\fscx82\fscy82\t(0,90,\fscx100\fscy100)}{\c&H00F5FF&}PERFECT{\c&HFFFFFF&}
+Dialogue: 0,0:01:45.80,0:01:46.08,Cap,,0,0,0,,{\fscx82\fscy82\t(0,90,\fscx100\fscy100)}{\c&H00F5FF&}HE{\c&HFFFFFF&} STILL HAD
+Dialogue: 0,0:01:46.08,0:01:46.22,Cap,,0,0,0,,HE {\c&H00F5FF&}STILL{\c&HFFFFFF&} HAD
+Dialogue: 0,0:01:46.22,0:01:46.36,Cap,,0,0,0,,HE STILL {\c&H00F5FF&}HAD{\c&HFFFFFF&}
+Dialogue: 0,0:01:46.36,0:01:46.54,Cap,,0,0,0,,{\fscx82\fscy82\t(0,90,\fscx100\fscy100)}{\c&H00F5FF&}BAD{\c&HFFFFFF&} DAYS
+Dialogue: 0,0:01:46.54,0:01:47.23,Cap,,0,0,0,,BAD {\c&H00F5FF&}DAYS{\c&HFFFFFF&}
+Dialogue: 0,0:01:47.74,0:01:47.96,Cap,,0,0,0,,{\fscx82\fscy82\t(0,90,\fscx100\fscy100)}{\c&H00F5FF&}HE{\c&HFFFFFF&} STILL GOT
+Dialogue: 0,0:01:47.96,0:01:48.12,Cap,,0,0,0,,HE {\c&H00F5FF&}STILL{\c&HFFFFFF&} GOT
+Dialogue: 0,0:01:48.12,0:01:48.28,Cap,,0,0,0,,HE STILL {\c&H00F5FF&}GOT{\c&HFFFFFF&}
+Dialogue: 0,0:01:48.28,0:01:49.01,Cap,,0,0,0,,{\fscx82\fscy82\t(0,90,\fscx100\fscy100)}{\c&H00F5FF&}TIRED{\c&HFFFFFF&}
+Dialogue: 0,0:01:49.76,0:01:50.06,Cap,,0,0,0,,{\fscx82\fscy82\t(0,90,\fscx100\fscy100)}{\c&H00F5FF&}SOMETIMES{\c&HFFFFFF&} HE
+Dialogue: 0,0:01:50.06,0:01:50.24,Cap,,0,0,0,,SOMETIMES {\c&H00F5FF&}HE{\c&HFFFFFF&}
+Dialogue: 0,0:01:50.24,0:01:50.38,Cap,,0,0,0,,{\fscx79\fscy79\t(0,90,\fscx97\fscy97)}{\c&H00F5FF&}WANTED{\c&HFFFFFF&} TO QUIT
+Dialogue: 0,0:01:50.38,0:01:50.54,Cap,,0,0,0,,{\fscx97\fscy97}WANTED {\c&H00F5FF&}TO{\c&HFFFFFF&} QUIT
+Dialogue: 0,0:01:50.54,0:01:51.19,Cap,,0,0,0,,{\fscx97\fscy97}WANTED TO {\c&H00F5FF&}QUIT{\c&HFFFFFF&}
+Dialogue: 0,0:01:51.48,0:01:51.70,Cap,,0,0,0,,{\fscx82\fscy82\t(0,90,\fscx100\fscy100)}{\c&H00F5FF&}BUT{\c&HFFFFFF&} HE KEPT
+Dialogue: 0,0:01:51.70,0:01:51.80,Cap,,0,0,0,,BUT {\c&H00F5FF&}HE{\c&HFFFFFF&} KEPT
+Dialogue: 0,0:01:51.80,0:01:51.96,Cap,,0,0,0,,BUT HE {\c&H00F5FF&}KEPT{\c&HFFFFFF&}
+Dialogue: 0,0:01:51.96,0:01:52.24,Cap,,0,0,0,,{\fscx82\fscy82\t(0,90,\fscx100\fscy100)}{\c&H00F5FF&}SHOWING{\c&HFFFFFF&} UP
+Dialogue: 0,0:01:52.24,0:01:52.93,Cap,,0,0,0,,SHOWING {\c&H00F5FF&}UP{\c&HFFFFFF&}
+Dialogue: 0,0:01:53.42,0:01:53.62,Cap,,0,0,0,,{\fscx76\fscy76\t(0,90,\fscx93\fscy93)}{\c&H00F5FF&}WHILE{\c&HFFFFFF&} EVERYONE
+Dialogue: 0,0:01:53.62,0:01:53.94,Cap,,0,0,0,,{\fscx93\fscy93}WHILE {\c&H00F5FF&}EVERYONE{\c&HFFFFFF&}
+Dialogue: 0,0:01:53.94,0:01:54.14,Cap,,0,0,0,,{\fscx82\fscy82\t(0,90,\fscx100\fscy100)}{\c&H00F5FF&}ELSE{\c&HFFFFFF&} WAS
+Dialogue: 0,0:01:54.14,0:01:54.32,Cap,,0,0,0,,ELSE {\c&H00F5FF&}WAS{\c&HFFFFFF&}
+Dialogue: 0,0:01:54.32,0:01:54.68,Cap,,0,0,0,,{\fscx82\fscy82\t(0,90,\fscx100\fscy100)}{\c&H00F5FF&}SCROLLING{\c&HFFFFFF&}
+Dialogue: 0,0:01:54.68,0:01:55.16,Cap,,0,0,0,,{\fscx73\fscy73\t(0,90,\fscx90\fscy90)}{\c&H00F5FF&}HE{\c&HFFFFFF&} WAS LEARNING
+Dialogue: 0,0:01:55.16,0:01:55.30,Cap,,0,0,0,,{\fscx90\fscy90}HE {\c&H00F5FF&}WAS{\c&HFFFFFF&} LEARNING
+Dialogue: 0,0:01:55.30,0:01:55.58,Cap,,0,0,0,,{\fscx90\fscy90}HE WAS {\c&H00F5FF&}LEARNING{\c&HFFFFFF&}
+Dialogue: 0,0:01:55.58,0:01:56.16,Cap,,0,0,0,,{\fscx76\fscy76\t(0,90,\fscx93\fscy93)}{\c&H00F5FF&}WHILE{\c&HFFFFFF&} EVERYONE
+Dialogue: 0,0:01:56.16,0:01:56.46,Cap,,0,0,0,,{\fscx93\fscy93}WHILE {\c&H00F5FF&}EVERYONE{\c&HFFFFFF&}
+Dialogue: 0,0:01:56.46,0:01:56.64,Cap,,0,0,0,,{\fscx73\fscy73\t(0,90,\fscx90\fscy90)}{\c&H00F5FF&}ELSE{\c&HFFFFFF&} WAS MAKING
+Dialogue: 0,0:01:56.64,0:01:56.80,Cap,,0,0,0,,{\fscx90\fscy90}ELSE {\c&H00F5FF&}WAS{\c&HFFFFFF&} MAKING
+Dialogue: 0,0:01:56.80,0:01:57.02,Cap,,0,0,0,,{\fscx90\fscy90}ELSE WAS {\c&H00F5FF&}MAKING{\c&HFFFFFF&}
+Dialogue: 0,0:01:57.02,0:01:57.46,Cap,,0,0,0,,{\fscx82\fscy82\t(0,90,\fscx100\fscy100)}{\c&H00F5FF&}EXCUSES{\c&HFFFFFF&}
+Dialogue: 0,0:01:57.46,0:01:57.96,Cap,,0,0,0,,{\fscx79\fscy79\t(0,90,\fscx97\fscy97)}{\c&H00F5FF&}HE{\c&HFFFFFF&} WAS WORKING
+Dialogue: 0,0:01:57.96,0:01:58.06,Cap,,0,0,0,,{\fscx97\fscy97}HE {\c&H00F5FF&}WAS{\c&HFFFFFF&} WORKING
+Dialogue: 0,0:01:58.06,0:01:58.44,Cap,,0,0,0,,{\fscx97\fscy97}HE WAS {\c&H00F5FF&}WORKING{\c&HFFFFFF&}
+Dialogue: 0,0:01:58.44,0:01:58.98,Cap,,0,0,0,,{\fscx76\fscy76\t(0,90,\fscx93\fscy93)}{\c&H00F5FF&}WHILE{\c&HFFFFFF&} EVERYONE
+Dialogue: 0,0:01:58.98,0:01:59.30,Cap,,0,0,0,,{\fscx93\fscy93}WHILE {\c&H00F5FF&}EVERYONE{\c&HFFFFFF&}
+Dialogue: 0,0:01:59.30,0:01:59.54,Cap,,0,0,0,,{\fscx68\fscy68\t(0,90,\fscx84\fscy84)}{\c&H00F5FF&}ELSE{\c&HFFFFFF&} WAS WAITING
+Dialogue: 0,0:01:59.54,0:01:59.70,Cap,,0,0,0,,{\fscx84\fscy84}ELSE {\c&H00F5FF&}WAS{\c&HFFFFFF&} WAITING
+Dialogue: 0,0:01:59.70,0:01:59.92,Cap,,0,0,0,,{\fscx84\fscy84}ELSE WAS {\c&H00F5FF&}WAITING{\c&HFFFFFF&}
+Dialogue: 0,0:01:59.92,0:02:00.14,Cap,,0,0,0,,{\fscx76\fscy76\t(0,90,\fscx93\fscy93)}{\c&H00F5FF&}FOR{\c&HFFFFFF&} MOTIVATION
+Dialogue: 0,0:02:00.14,0:02:00.54,Cap,,0,0,0,,{\fscx93\fscy93}FOR {\c&H00F5FF&}MOTIVATION{\c&HFFFFFF&}
+Dialogue: 0,0:02:00.54,0:02:01.08,Cap,,0,0,0,,{\fscx73\fscy73\t(0,90,\fscx90\fscy90)}{\c&H00F5FF&}HE{\c&HFFFFFF&} WAS BUILDING
+Dialogue: 0,0:02:01.08,0:02:01.20,Cap,,0,0,0,,{\fscx90\fscy90}HE {\c&H00F5FF&}WAS{\c&HFFFFFF&} BUILDING
+Dialogue: 0,0:02:01.20,0:02:01.48,Cap,,0,0,0,,{\fscx90\fscy90}HE WAS {\c&H00F5FF&}BUILDING{\c&HFFFFFF&}
+Dialogue: 0,0:02:01.48,0:02:01.92,Cap,,0,0,0,,{\fscx76\fscy76\t(0,90,\fscx93\fscy93)}{\c&H00F5FF&}DISCIPLINE{\c&HFFFFFF&} AND
+Dialogue: 0,0:02:01.92,0:02:02.46,Cap,,0,0,0,,{\fscx93\fscy93}DISCIPLINE {\c&H00F5FF&}AND{\c&HFFFFFF&}
+Dialogue: 0,0:02:02.46,0:02:02.64,Cap,,0,0,0,,{\fscx73\fscy73\t(0,90,\fscx90\fscy90)}{\c&H00F5FF&}TEN{\c&HFFFFFF&} YEARS LATER
+Dialogue: 0,0:02:02.64,0:02:02.86,Cap,,0,0,0,,{\fscx90\fscy90}TEN {\c&H00F5FF&}YEARS{\c&HFFFFFF&} LATER
+Dialogue: 0,0:02:02.86,0:02:03.14,Cap,,0,0,0,,{\fscx90\fscy90}TEN YEARS {\c&H00F5FF&}LATER{\c&HFFFFFF&}
+Dialogue: 0,0:02:03.14,0:02:03.52,Cap,,0,0,0,,{\fscx76\fscy76\t(0,90,\fscx93\fscy93)}{\c&H00F5FF&}THE{\c&HFFFFFF&} DIFFERENCE
+Dialogue: 0,0:02:03.52,0:02:03.78,Cap,,0,0,0,,{\fscx93\fscy93}THE {\c&H00F5FF&}DIFFERENCE{\c&HFFFFFF&}
+Dialogue: 0,0:02:03.78,0:02:04.14,Cap,,0,0,0,,{\fscx82\fscy82\t(0,90,\fscx100\fscy100)}{\c&H00F5FF&}BETWEEN{\c&HFFFFFF&} THESE
+Dialogue: 0,0:02:04.14,0:02:04.36,Cap,,0,0,0,,BETWEEN {\c&H00F5FF&}THESE{\c&HFFFFFF&}
+Dialogue: 0,0:02:04.36,0:02:04.60,Cap,,0,0,0,,{\fscx82\fscy82\t(0,90,\fscx100\fscy100)}{\c&H00F5FF&}TWO{\c&HFFFFFF&} PEOPLE IS
+Dialogue: 0,0:02:04.60,0:02:04.92,Cap,,0,0,0,,TWO {\c&H00F5FF&}PEOPLE{\c&HFFFFFF&} IS
+Dialogue: 0,0:02:04.92,0:02:05.20,Cap,,0,0,0,,TWO PEOPLE {\c&H00F5FF&}IS{\c&HFFFFFF&}
+Dialogue: 0,0:02:05.20,0:02:05.56,Cap,,0,0,0,,{\fscx82\fscy82\t(0,90,\fscx100\fscy100)}{\c&H00F5FF&}ENORMOUS{\c&HFFFFFF&} NOT
+Dialogue: 0,0:02:05.56,0:02:06.34,Cap,,0,0,0,,ENORMOUS {\c&H00F5FF&}NOT{\c&HFFFFFF&}
+Dialogue: 0,0:02:06.34,0:02:06.58,Cap,,0,0,0,,{\fscx73\fscy73\t(0,90,\fscx90\fscy90)}{\c&H00F5FF&}BECAUSE{\c&HFFFFFF&} ONE HAD
+Dialogue: 0,0:02:06.58,0:02:06.80,Cap,,0,0,0,,{\fscx90\fscy90}BECAUSE {\c&H00F5FF&}ONE{\c&HFFFFFF&} HAD
+Dialogue: 0,0:02:06.80,0:02:06.94,Cap,,0,0,0,,{\fscx90\fscy90}BECAUSE ONE {\c&H00F5FF&}HAD{\c&HFFFFFF&}
+Dialogue: 0,0:02:06.94,0:02:07.10,Cap,,0,0,0,,{\fscx73\fscy73\t(0,90,\fscx90\fscy90)}{\c&H00F5FF&}MORE{\c&HFFFFFF&} TALENT NOT
+Dialogue: 0,0:02:07.10,0:02:07.40,Cap,,0,0,0,,{\fscx90\fscy90}MORE {\c&H00F5FF&}TALENT{\c&HFFFFFF&} NOT
+Dialogue: 0,0:02:07.40,0:02:08.20,Cap,,0,0,0,,{\fscx90\fscy90}MORE TALENT {\c&H00F5FF&}NOT{\c&HFFFFFF&}
+Dialogue: 0,0:02:08.20,0:02:08.46,Cap,,0,0,0,,{\fscx73\fscy73\t(0,90,\fscx90\fscy90)}{\c&H00F5FF&}BECAUSE{\c&HFFFFFF&} ONE HAD
+Dialogue: 0,0:02:08.46,0:02:08.70,Cap,,0,0,0,,{\fscx90\fscy90}BECAUSE {\c&H00F5FF&}ONE{\c&HFFFFFF&} HAD
+Dialogue: 0,0:02:08.70,0:02:08.86,Cap,,0,0,0,,{\fscx90\fscy90}BECAUSE ONE {\c&H00F5FF&}HAD{\c&HFFFFFF&}
+Dialogue: 0,0:02:08.86,0:02:09.04,Cap,,0,0,0,,{\fscx82\fscy82\t(0,90,\fscx100\fscy100)}{\c&H00F5FF&}MORE{\c&HFFFFFF&}
+Dialogue: 0,0:02:09.04,0:02:09.78,Cap,,0,0,0,,{\fscx78\fscy78\t(0,90,\fscx96\fscy96)}{\c&H00F5FF&}OPPORTUNITIES{\c&HFFFFFF&}
+Dialogue: 0,0:02:09.78,0:02:10.34,Cap,,0,0,0,,{\fscx82\fscy82\t(0,90,\fscx100\fscy100)}{\c&H00F5FF&}SO{\c&HFFFFFF&} HOW DO
+Dialogue: 0,0:02:10.34,0:02:10.50,Cap,,0,0,0,,SO {\c&H00F5FF&}HOW{\c&HFFFFFF&} DO
+Dialogue: 0,0:02:10.50,0:02:10.58,Cap,,0,0,0,,SO HOW {\c&H00F5FF&}DO{\c&HFFFFFF&}
+Dialogue: 0,0:02:10.58,0:02:10.68,Cap,,0,0,0,,{\fscx79\fscy79\t(0,90,\fscx97\fscy97)}{\c&H00F5FF&}YOU{\c&HFFFFFF&} ESCAPE THE
+Dialogue: 0,0:02:10.68,0:02:10.96,Cap,,0,0,0,,{\fscx97\fscy97}YOU {\c&H00F5FF&}ESCAPE{\c&HFFFFFF&} THE
+Dialogue: 0,0:02:10.96,0:02:11.10,Cap,,0,0,0,,{\fscx97\fscy97}YOU ESCAPE {\c&H00F5FF&}THE{\c&HFFFFFF&}
+Dialogue: 0,0:02:11.10,0:02:11.44,Cap,,0,0,0,,{\fscx82\fscy82\t(0,90,\fscx100\fscy100)}{\c&H00F5FF&}DISTRACTION{\c&HFFFFFF&}
+Dialogue: 0,0:02:11.44,0:02:11.80,Cap,,0,0,0,,{\fscx82\fscy82\t(0,90,\fscx100\fscy100)}{\c&H00F5FF&}TRAP?{\c&HFFFFFF&}
+Dialogue: 0,0:02:11.80,0:02:12.36,Cap,,0,0,0,,{\fscx73\fscy73\t(0,90,\fscx90\fscy90)}{\c&H00F5FF&}YOU{\c&HFFFFFF&} START SMALL
+Dialogue: 0,0:02:12.36,0:02:12.54,Cap,,0,0,0,,{\fscx90\fscy90}YOU {\c&H00F5FF&}START{\c&HFFFFFF&} SMALL
+Dialogue: 0,0:02:12.54,0:02:13.31,Cap,,0,0,0,,{\fscx90\fscy90}YOU START {\c&H00F5FF&}SMALL{\c&HFFFFFF&}
+Dialogue: 0,0:02:13.68,0:02:14.24,Cap,,0,0,0,,{\fscx79\fscy79\t(0,90,\fscx97\fscy97)}{\c&H00F5FF&}PUT{\c&HFFFFFF&} YOUR PHONE
+Dialogue: 0,0:02:14.24,0:02:14.36,Cap,,0,0,0,,{\fscx97\fscy97}PUT {\c&H00F5FF&}YOUR{\c&HFFFFFF&} PHONE
+Dialogue: 0,0:02:14.36,0:02:14.56,Cap,,0,0,0,,{\fscx97\fscy97}PUT YOUR {\c&H00F5FF&}PHONE{\c&HFFFFFF&}
+Dialogue: 0,0:02:14.56,0:02:14.80,Cap,,0,0,0,,{\fscx82\fscy82\t(0,90,\fscx100\fscy100)}{\c&H00F5FF&}AWAY{\c&HFFFFFF&} WHEN YOU
+Dialogue: 0,0:02:14.80,0:02:14.98,Cap,,0,0,0,,AWAY {\c&H00F5FF&}WHEN{\c&HFFFFFF&} YOU
+Dialogue: 0,0:02:14.98,0:02:15.08,Cap,,0,0,0,,AWAY WHEN {\c&H00F5FF&}YOU{\c&HFFFFFF&}
+Dialogue: 0,0:02:15.08,0:02:15.24,Cap,,0,0,0,,{\fscx82\fscy82\t(0,90,\fscx100\fscy100)}{\c&H00F5FF&}WAKE{\c&HFFFFFF&} UP STOP
+Dialogue: 0,0:02:15.24,0:02:15.78,Cap,,0,0,0,,WAKE {\c&H00F5FF&}UP{\c&HFFFFFF&} STOP
+Dialogue: 0,0:02:15.78,0:02:16.22,Cap,,0,0,0,,WAKE UP {\c&H00F5FF&}STOP{\c&HFFFFFF&}
+Dialogue: 0,0:02:16.22,0:02:16.52,Cap,,0,0,0,,{\fscx82\fscy82\t(0,90,\fscx100\fscy100)}{\c&H00F5FF&}CHECKING{\c&HFFFFFF&}
+Dialogue: 0,0:02:16.52,0:02:17.12,Cap,,0,0,0,,{\fscx78\fscy78\t(0,90,\fscx96\fscy96)}{\c&H00F5FF&}NOTIFICATIONS{\c&HFFFFFF&}
+Dialogue: 0,0:02:17.12,0:02:17.64,Cap,,0,0,0,,{\fscx82\fscy82\t(0,90,\fscx100\fscy100)}{\c&H00F5FF&}EVERY{\c&HFFFFFF&} FIVE
+Dialogue: 0,0:02:17.64,0:02:17.92,Cap,,0,0,0,,EVERY {\c&H00F5FF&}FIVE{\c&HFFFFFF&}
+Dialogue: 0,0:02:17.92,0:02:18.32,Cap,,0,0,0,,{\fscx82\fscy82\t(0,90,\fscx100\fscy100)}{\c&H00F5FF&}MINUTES{\c&HFFFFFF&} SET
+Dialogue: 0,0:02:18.32,0:02:18.96,Cap,,0,0,0,,MINUTES {\c&H00F5FF&}SET{\c&HFFFFFF&}
+Dialogue: 0,0:02:18.96,0:02:19.18,Cap,,0,0,0,,{\fscx82\fscy82\t(0,90,\fscx100\fscy100)}{\c&H00F5FF&}GOALS{\c&HFFFFFF&} THAT
+Dialogue: 0,0:02:19.18,0:02:19.34,Cap,,0,0,0,,GOALS {\c&H00F5FF&}THAT{\c&HFFFFFF&}
+Dialogue: 0,0:02:19.34,0:02:19.68,Cap,,0,0,0,,{\fscx71\fscy71\t(0,90,\fscx87\fscy87)}{\c&H00F5FF&}ACTUALLY{\c&HFFFFFF&} MATTER
+Dialogue: 0,0:02:19.68,0:02:19.92,Cap,,0,0,0,,{\fscx87\fscy87}ACTUALLY {\c&H00F5FF&}MATTER{\c&HFFFFFF&}
+Dialogue: 0,0:02:19.92,0:02:20.12,Cap,,0,0,0,,{\fscx82\fscy82\t(0,90,\fscx100\fscy100)}{\c&H00F5FF&}TO{\c&HFFFFFF&} YOU SPEND
+Dialogue: 0,0:02:20.12,0:02:20.50,Cap,,0,0,0,,TO {\c&H00F5FF&}YOU{\c&HFFFFFF&} SPEND
+Dialogue: 0,0:02:20.50,0:02:20.92,Cap,,0,0,0,,TO YOU {\c&H00F5FF&}SPEND{\c&HFFFFFF&}
+Dialogue: 0,0:02:20.92,0:02:21.38,Cap,,0,0,0,,{\fscx82\fscy82\t(0,90,\fscx100\fscy100)}{\c&H00F5FF&}30{\c&HFFFFFF&} MINUTES
+Dialogue: 0,0:02:21.38,0:02:21.62,Cap,,0,0,0,,30 {\c&H00F5FF&}MINUTES{\c&HFFFFFF&}
+Dialogue: 0,0:02:21.62,0:02:21.88,Cap,,0,0,0,,{\fscx82\fscy82\t(0,90,\fscx100\fscy100)}{\c&H00F5FF&}LEARNING{\c&HFFFFFF&}
+Dialogue: 0,0:02:21.88,0:02:22.26,Cap,,0,0,0,,{\fscx82\fscy82\t(0,90,\fscx100\fscy100)}{\c&H00F5FF&}SOMETHING{\c&HFFFFFF&}
+Dialogue: 0,0:02:22.26,0:02:22.78,Cap,,0,0,0,,{\fscx82\fscy82\t(0,90,\fscx100\fscy100)}{\c&H00F5FF&}VALUABLE{\c&HFFFFFF&}
+Dialogue: 0,0:02:22.78,0:02:24.78,Cap,,0,0,0,,{\fscx82\fscy82\t(0,90,\fscx100\fscy100)}{\c&H00F5FF&}EXERCISE{\c&HFFFFFF&} READ
+Dialogue: 0,0:02:24.78,0:02:25.64,Cap,,0,0,0,,EXERCISE {\c&H00F5FF&}READ{\c&HFFFFFF&}
+Dialogue: 0,0:02:25.64,0:02:25.84,Cap,,0,0,0,,{\fscx71\fscy71\t(0,90,\fscx87\fscy87)}{\c&H00F5FF&}BUILD{\c&HFFFFFF&} SOMETHING
+Dialogue: 0,0:02:25.84,0:02:26.65,Cap,,0,0,0,,{\fscx87\fscy87}BUILD {\c&H00F5FF&}SOMETHING{\c&HFFFFFF&}
+Dialogue: 0,0:02:27.70,0:02:27.70,Cap,,0,0,0,,{\fscx82\fscy82\t(0,90,\fscx100\fscy100)}{\c&H00F5FF&}AND{\c&HFFFFFF&} MOST
+Dialogue: 0,0:02:27.70,0:02:27.88,Cap,,0,0,0,,AND {\c&H00F5FF&}MOST{\c&HFFFFFF&}
+Dialogue: 0,0:02:27.88,0:02:28.83,Cap,,0,0,0,,{\fscx82\fscy82\t(0,90,\fscx100\fscy100)}{\c&H00F5FF&}IMPORTANTLY{\c&HFFFFFF&}
+Dialogue: 0,0:02:28.84,0:02:28.92,Cap,,0,0,0,,{\fscx82\fscy82\t(0,90,\fscx100\fscy100)}{\c&H00F5FF&}LEARN{\c&HFFFFFF&} HOW TO
+Dialogue: 0,0:02:28.92,0:02:29.08,Cap,,0,0,0,,LEARN {\c&H00F5FF&}HOW{\c&HFFFFFF&} TO
+Dialogue: 0,0:02:29.08,0:02:29.14,Cap,,0,0,0,,LEARN HOW {\c&H00F5FF&}TO{\c&HFFFFFF&}
+Dialogue: 0,0:02:29.14,0:02:29.30,Cap,,0,0,0,,{\fscx76\fscy76\t(0,90,\fscx93\fscy93)}{\c&H00F5FF&}BE{\c&HFFFFFF&} COMFORTABLE
+Dialogue: 0,0:02:29.30,0:02:29.54,Cap,,0,0,0,,{\fscx93\fscy93}BE {\c&H00F5FF&}COMFORTABLE{\c&HFFFFFF&}
+Dialogue: 0,0:02:29.54,0:02:29.86,Cap,,0,0,0,,{\fscx82\fscy82\t(0,90,\fscx100\fscy100)}{\c&H00F5FF&}DOING{\c&HFFFFFF&} THINGS
+Dialogue: 0,0:02:29.86,0:02:30.26,Cap,,0,0,0,,DOING {\c&H00F5FF&}THINGS{\c&HFFFFFF&}
+Dialogue: 0,0:02:30.26,0:02:30.42,Cap,,0,0,0,,{\fscx82\fscy82\t(0,90,\fscx100\fscy100)}{\c&H00F5FF&}THAT{\c&HFFFFFF&} AREN'T
+Dialogue: 0,0:02:30.42,0:02:30.58,Cap,,0,0,0,,THAT {\c&H00F5FF&}AREN'T{\c&HFFFFFF&}
+Dialogue: 0,0:02:30.58,0:02:31.45,Cap,,0,0,0,,{\fscx82\fscy82\t(0,90,\fscx100\fscy100)}{\c&H00F5FF&}ENTERTAINING{\c&HFFFFFF&}
+Dialogue: 0,0:02:31.50,0:02:31.74,Cap,,0,0,0,,{\fscx71\fscy71\t(0,90,\fscx87\fscy87)}{\c&H00F5FF&}BECAUSE{\c&HFFFFFF&} SUCCESS
+Dialogue: 0,0:02:31.74,0:02:32.14,Cap,,0,0,0,,{\fscx87\fscy87}BECAUSE {\c&H00F5FF&}SUCCESS{\c&HFFFFFF&}
+Dialogue: 0,0:02:32.14,0:02:32.58,Cap,,0,0,0,,{\fscx82\fscy82\t(0,90,\fscx100\fscy100)}{\c&H00F5FF&}ISN'T{\c&HFFFFFF&} ALWAYS
+Dialogue: 0,0:02:32.58,0:02:32.82,Cap,,0,0,0,,ISN'T {\c&H00F5FF&}ALWAYS{\c&HFFFFFF&}
+Dialogue: 0,0:02:32.82,0:02:33.69,Cap,,0,0,0,,{\fscx82\fscy82\t(0,90,\fscx100\fscy100)}{\c&H00F5FF&}EXCITING{\c&HFFFFFF&}
+Dialogue: 0,0:02:33.80,0:02:34.06,Cap,,0,0,0,,{\fscx76\fscy76\t(0,90,\fscx93\fscy93)}{\c&H00F5FF&}SOMETIMES{\c&HFFFFFF&} IT'S
+Dialogue: 0,0:02:34.06,0:02:34.30,Cap,,0,0,0,,{\fscx93\fscy93}SOMETIMES {\c&H00F5FF&}IT'S{\c&HFFFFFF&}
+Dialogue: 0,0:02:34.30,0:02:34.44,Cap,,0,0,0,,{\fscx82\fscy82\t(0,90,\fscx100\fscy100)}{\c&H00F5FF&}SITTING{\c&HFFFFFF&} ALONE
+Dialogue: 0,0:02:34.44,0:02:35.16,Cap,,0,0,0,,SITTING {\c&H00F5FF&}ALONE{\c&HFFFFFF&}
+Dialogue: 0,0:02:35.16,0:02:35.38,Cap,,0,0,0,,{\fscx82\fscy82\t(0,90,\fscx100\fscy100)}{\c&H00F5FF&}WORKING{\c&HFFFFFF&} ON
+Dialogue: 0,0:02:35.38,0:02:35.60,Cap,,0,0,0,,WORKING {\c&H00F5FF&}ON{\c&HFFFFFF&}
+Dialogue: 0,0:02:35.60,0:02:35.84,Cap,,0,0,0,,{\fscx66\fscy66\t(0,90,\fscx81\fscy81)}{\c&H00F5FF&}SOMETHING{\c&HFFFFFF&} NOBODY
+Dialogue: 0,0:02:35.84,0:02:36.14,Cap,,0,0,0,,{\fscx81\fscy81}SOMETHING {\c&H00F5FF&}NOBODY{\c&HFFFFFF&}
+Dialogue: 0,0:02:36.14,0:02:36.44,Cap,,0,0,0,,{\fscx73\fscy73\t(0,90,\fscx90\fscy90)}{\c&H00F5FF&}CARES{\c&HFFFFFF&} ABOUT YET
+Dialogue: 0,0:02:36.44,0:02:36.72,Cap,,0,0,0,,{\fscx90\fscy90}CARES {\c&H00F5FF&}ABOUT{\c&HFFFFFF&} YET
+Dialogue: 0,0:02:36.72,0:02:37.43,Cap,,0,0,0,,{\fscx90\fscy90}CARES ABOUT {\c&H00F5FF&}YET{\c&HFFFFFF&}
+Dialogue: 0,0:02:37.56,0:02:37.78,Cap,,0,0,0,,{\fscx76\fscy76\t(0,90,\fscx93\fscy93)}{\c&H00F5FF&}SOMETIMES{\c&HFFFFFF&} IT'S
+Dialogue: 0,0:02:37.78,0:02:38.00,Cap,,0,0,0,,{\fscx93\fscy93}SOMETIMES {\c&H00F5FF&}IT'S{\c&HFFFFFF&}
+Dialogue: 0,0:02:38.00,0:02:38.28,Cap,,0,0,0,,{\fscx82\fscy82\t(0,90,\fscx100\fscy100)}{\c&H00F5FF&}REPEATING{\c&HFFFFFF&} THE
+Dialogue: 0,0:02:38.28,0:02:38.48,Cap,,0,0,0,,REPEATING {\c&H00F5FF&}THE{\c&HFFFFFF&}
+Dialogue: 0,0:02:38.48,0:02:38.70,Cap,,0,0,0,,{\fscx82\fscy82\t(0,90,\fscx100\fscy100)}{\c&H00F5FF&}SAME{\c&HFFFFFF&} TASK
+Dialogue: 0,0:02:38.70,0:02:39.08,Cap,,0,0,0,,SAME {\c&H00F5FF&}TASK{\c&HFFFFFF&}
+Dialogue: 0,0:02:39.08,0:02:39.36,Cap,,0,0,0,,{\fscx82\fscy82\t(0,90,\fscx100\fscy100)}{\c&H00F5FF&}HUNDREDS{\c&HFFFFFF&} OF
+Dialogue: 0,0:02:39.36,0:02:39.56,Cap,,0,0,0,,HUNDREDS {\c&H00F5FF&}OF{\c&HFFFFFF&}
+Dialogue: 0,0:02:39.56,0:02:40.29,Cap,,0,0,0,,{\fscx82\fscy82\t(0,90,\fscx100\fscy100)}{\c&H00F5FF&}TIMES{\c&HFFFFFF&}
+Dialogue: 0,0:02:40.48,0:02:40.72,Cap,,0,0,0,,{\fscx76\fscy76\t(0,90,\fscx93\fscy93)}{\c&H00F5FF&}SOMETIMES{\c&HFFFFFF&} IT'S
+Dialogue: 0,0:02:40.72,0:02:40.96,Cap,,0,0,0,,{\fscx93\fscy93}SOMETIMES {\c&H00F5FF&}IT'S{\c&HFFFFFF&}
+Dialogue: 0,0:02:40.96,0:02:41.14,Cap,,0,0,0,,{\fscx68\fscy68\t(0,90,\fscx84\fscy84)}{\c&H00F5FF&}CHOOSING{\c&HFFFFFF&} TO KEEP
+Dialogue: 0,0:02:41.14,0:02:41.38,Cap,,0,0,0,,{\fscx84\fscy84}CHOOSING {\c&H00F5FF&}TO{\c&HFFFFFF&} KEEP
+Dialogue: 0,0:02:41.38,0:02:41.52,Cap,,0,0,0,,{\fscx84\fscy84}CHOOSING TO {\c&H00F5FF&}KEEP{\c&HFFFFFF&}
+Dialogue: 0,0:02:41.52,0:02:41.80,Cap,,0,0,0,,{\fscx79\fscy79\t(0,90,\fscx97\fscy97)}{\c&H00F5FF&}GOING{\c&HFFFFFF&} WHEN YOU
+Dialogue: 0,0:02:41.80,0:02:42.06,Cap,,0,0,0,,{\fscx97\fscy97}GOING {\c&H00F5FF&}WHEN{\c&HFFFFFF&} YOU
+Dialogue: 0,0:02:42.06,0:02:42.22,Cap,,0,0,0,,{\fscx97\fscy97}GOING WHEN {\c&H00F5FF&}YOU{\c&HFFFFFF&}
+Dialogue: 0,0:02:42.22,0:02:42.44,Cap,,0,0,0,,{\fscx82\fscy82\t(0,90,\fscx100\fscy100)}{\c&H00F5FF&}DON'T{\c&HFFFFFF&} FEEL
+Dialogue: 0,0:02:42.44,0:02:42.62,Cap,,0,0,0,,DON'T {\c&H00F5FF&}FEEL{\c&HFFFFFF&}
+Dialogue: 0,0:02:42.62,0:02:43.48,Cap,,0,0,0,,{\fscx82\fscy82\t(0,90,\fscx100\fscy100)}{\c&H00F5FF&}MOTIVATED{\c&HFFFFFF&}
+Dialogue: 0,0:02:43.48,0:02:43.74,Cap,,0,0,0,,{\fscx73\fscy73\t(0,90,\fscx90\fscy90)}{\c&H00F5FF&}THAT'S{\c&HFFFFFF&} THE PART
+Dialogue: 0,0:02:43.74,0:02:43.86,Cap,,0,0,0,,{\fscx90\fscy90}THAT'S {\c&H00F5FF&}THE{\c&HFFFFFF&} PART
+Dialogue: 0,0:02:43.86,0:02:44.04,Cap,,0,0,0,,{\fscx90\fscy90}THAT'S THE {\c&H00F5FF&}PART{\c&HFFFFFF&}
+Dialogue: 0,0:02:44.04,0:02:44.26,Cap,,0,0,0,,{\fscx82\fscy82\t(0,90,\fscx100\fscy100)}{\c&H00F5FF&}MOST{\c&HFFFFFF&} PEOPLE
+Dialogue: 0,0:02:44.26,0:02:44.52,Cap,,0,0,0,,MOST {\c&H00F5FF&}PEOPLE{\c&HFFFFFF&}
+Dialogue: 0,0:02:44.52,0:02:44.74,Cap,,0,0,0,,{\fscx82\fscy82\t(0,90,\fscx100\fscy100)}{\c&H00F5FF&}NEVER{\c&HFFFFFF&} SEE
+Dialogue: 0,0:02:44.74,0:02:45.46,Cap,,0,0,0,,NEVER {\c&H00F5FF&}SEE{\c&HFFFFFF&}
+Dialogue: 0,0:02:45.46,0:02:45.60,Cap,,0,0,0,,{\fscx82\fscy82\t(0,90,\fscx100\fscy100)}{\c&H00F5FF&}THEY{\c&HFFFFFF&} SEE THE
+Dialogue: 0,0:02:45.60,0:02:45.78,Cap,,0,0,0,,THEY {\c&H00F5FF&}SEE{\c&HFFFFFF&} THE
+Dialogue: 0,0:02:45.78,0:02:45.90,Cap,,0,0,0,,THEY SEE {\c&H00F5FF&}THE{\c&HFFFFFF&}
+Dialogue: 0,0:02:45.90,0:02:46.24,Cap,,0,0,0,,{\fscx82\fscy82\t(0,90,\fscx100\fscy100)}{\c&H00F5FF&}SUCCESSFUL{\c&HFFFFFF&}
+Dialogue: 0,0:02:46.24,0:02:47.09,Cap,,0,0,0,,{\fscx82\fscy82\t(0,90,\fscx100\fscy100)}{\c&H00F5FF&}PERSON{\c&HFFFFFF&}
+Dialogue: 0,0:02:47.30,0:02:47.46,Cap,,0,0,0,,{\fscx82\fscy82\t(0,90,\fscx100\fscy100)}{\c&H00F5FF&}THEY{\c&HFFFFFF&} SEE THE
+Dialogue: 0,0:02:47.46,0:02:47.60,Cap,,0,0,0,,THEY {\c&H00F5FF&}SEE{\c&HFFFFFF&} THE
+Dialogue: 0,0:02:47.60,0:02:47.72,Cap,,0,0,0,,THEY SEE {\c&H00F5FF&}THE{\c&HFFFFFF&}
+Dialogue: 0,0:02:47.72,0:02:48.37,Cap,,0,0,0,,{\fscx82\fscy82\t(0,90,\fscx100\fscy100)}{\c&H00F5FF&}MONEY{\c&HFFFFFF&}
+Dialogue: 0,0:02:49.08,0:02:49.32,Cap,,0,0,0,,{\fscx82\fscy82\t(0,90,\fscx100\fscy100)}{\c&H00F5FF&}THEY{\c&HFFFFFF&} SEE THE
+Dialogue: 0,0:02:49.32,0:02:49.46,Cap,,0,0,0,,THEY {\c&H00F5FF&}SEE{\c&HFFFFFF&} THE
+Dialogue: 0,0:02:49.46,0:02:49.56,Cap,,0,0,0,,THEY SEE {\c&H00F5FF&}THE{\c&HFFFFFF&}
+Dialogue: 0,0:02:49.56,0:02:50.41,Cap,,0,0,0,,{\fscx82\fscy82\t(0,90,\fscx100\fscy100)}{\c&H00F5FF&}LIFESTYLE{\c&HFFFFFF&}
+Dialogue: 0,0:02:50.92,0:02:51.18,Cap,,0,0,0,,{\fscx79\fscy79\t(0,90,\fscx97\fscy97)}{\c&H00F5FF&}BUT{\c&HFFFFFF&} THEY DON'T
+Dialogue: 0,0:02:51.18,0:02:51.28,Cap,,0,0,0,,{\fscx97\fscy97}BUT {\c&H00F5FF&}THEY{\c&HFFFFFF&} DON'T
+Dialogue: 0,0:02:51.28,0:02:51.38,Cap,,0,0,0,,{\fscx97\fscy97}BUT THEY {\c&H00F5FF&}DON'T{\c&HFFFFFF&}
+Dialogue: 0,0:02:51.38,0:02:51.54,Cap,,0,0,0,,{\fscx82\fscy82\t(0,90,\fscx100\fscy100)}{\c&H00F5FF&}SEE{\c&HFFFFFF&} THE
+Dialogue: 0,0:02:51.54,0:02:51.72,Cap,,0,0,0,,SEE {\c&H00F5FF&}THE{\c&HFFFFFF&}
+Dialogue: 0,0:02:51.72,0:02:52.02,Cap,,0,0,0,,{\fscx82\fscy82\t(0,90,\fscx100\fscy100)}{\c&H00F5FF&}THOUSANDS{\c&HFFFFFF&} OF
+Dialogue: 0,0:02:52.02,0:02:52.20,Cap,,0,0,0,,THOUSANDS {\c&H00F5FF&}OF{\c&HFFFFFF&}
+Dialogue: 0,0:02:52.20,0:02:52.44,Cap,,0,0,0,,{\fscx82\fscy82\t(0,90,\fscx100\fscy100)}{\c&H00F5FF&}HOURS{\c&HFFFFFF&} SPENT
+Dialogue: 0,0:02:52.44,0:02:52.70,Cap,,0,0,0,,HOURS {\c&H00F5FF&}SPENT{\c&HFFFFFF&}
+Dialogue: 0,0:02:52.70,0:02:52.98,Cap,,0,0,0,,{\fscx82\fscy82\t(0,90,\fscx100\fscy100)}{\c&H00F5FF&}WORKING{\c&HFFFFFF&} WHEN
+Dialogue: 0,0:02:52.98,0:02:53.22,Cap,,0,0,0,,WORKING {\c&H00F5FF&}WHEN{\c&HFFFFFF&}
+Dialogue: 0,0:02:53.22,0:02:53.46,Cap,,0,0,0,,{\fscx82\fscy82\t(0,90,\fscx100\fscy100)}{\c&H00F5FF&}NOBODY{\c&HFFFFFF&} WAS
+Dialogue: 0,0:02:53.46,0:02:53.66,Cap,,0,0,0,,NOBODY {\c&H00F5FF&}WAS{\c&HFFFFFF&}
+Dialogue: 0,0:02:53.66,0:02:54.02,Cap,,0,0,0,,{\fscx82\fscy82\t(0,90,\fscx100\fscy100)}{\c&H00F5FF&}WATCHING{\c&HFFFFFF&}
+Dialogue: 0,0:02:54.02,0:02:54.68,Cap,,0,0,0,,{\fscx66\fscy66\t(0,90,\fscx81\fscy81)}{\c&H00F5FF&}HERE'S{\c&HFFFFFF&} SOMETHING
+Dialogue: 0,0:02:54.68,0:02:54.82,Cap,,0,0,0,,{\fscx81\fscy81}HERE'S {\c&H00F5FF&}SOMETHING{\c&HFFFFFF&}
+Dialogue: 0,0:02:54.82,0:02:55.02,Cap,,0,0,0,,{\fscx82\fscy82\t(0,90,\fscx100\fscy100)}{\c&H00F5FF&}YOU{\c&HFFFFFF&} NEED TO
+Dialogue: 0,0:02:55.02,0:02:55.16,Cap,,0,0,0,,YOU {\c&H00F5FF&}NEED{\c&HFFFFFF&} TO
+Dialogue: 0,0:02:55.16,0:02:55.28,Cap,,0,0,0,,YOU NEED {\c&H00F5FF&}TO{\c&HFFFFFF&}
+Dialogue: 0,0:02:55.28,0:02:56.11,Cap,,0,0,0,,{\fscx82\fscy82\t(0,90,\fscx100\fscy100)}{\c&H00F5FF&}UNDERSTAND{\c&HFFFFFF&}
+Dialogue: 0,0:02:56.44,0:02:56.46,Cap,,0,0,0,,{\fscx68\fscy68\t(0,90,\fscx84\fscy84)}{\c&H00F5FF&}YOUR{\c&HFFFFFF&} PHONE ISN'T
+Dialogue: 0,0:02:56.46,0:02:56.70,Cap,,0,0,0,,{\fscx84\fscy84}YOUR {\c&H00F5FF&}PHONE{\c&HFFFFFF&} ISN'T
+Dialogue: 0,0:02:56.70,0:02:57.08,Cap,,0,0,0,,{\fscx84\fscy84}YOUR PHONE {\c&H00F5FF&}ISN'T{\c&HFFFFFF&}
+Dialogue: 0,0:02:57.08,0:02:57.46,Cap,,0,0,0,,{\fscx66\fscy66\t(0,90,\fscx81\fscy81)}{\c&H00F5FF&}NECESSARILY{\c&HFFFFFF&} YOUR
+Dialogue: 0,0:02:57.46,0:02:57.74,Cap,,0,0,0,,{\fscx81\fscy81}NECESSARILY {\c&H00F5FF&}YOUR{\c&HFFFFFF&}
+Dialogue: 0,0:02:57.74,0:02:58.47,Cap,,0,0,0,,{\fscx82\fscy82\t(0,90,\fscx100\fscy100)}{\c&H00F5FF&}ENEMY{\c&HFFFFFF&}
+Dialogue: 0,0:02:58.96,0:02:58.96,Cap,,0,0,0,,{\fscx78\fscy78\t(0,90,\fscx96\fscy96)}{\c&H00F5FF&}ENTERTAINMENT{\c&HFFFFFF&}
+Dialogue: 0,0:02:58.96,0:02:59.40,Cap,,0,0,0,,{\fscx82\fscy82\t(0,90,\fscx100\fscy100)}{\c&H00F5FF&}ISN'T{\c&HFFFFFF&} YOUR
+Dialogue: 0,0:02:59.40,0:02:59.50,Cap,,0,0,0,,ISN'T {\c&H00F5FF&}YOUR{\c&HFFFFFF&}
+Dialogue: 0,0:02:59.50,0:03:00.23,Cap,,0,0,0,,{\fscx82\fscy82\t(0,90,\fscx100\fscy100)}{\c&H00F5FF&}ENEMY{\c&HFFFFFF&}
+Dialogue: 0,0:03:00.40,0:03:00.52,Cap,,0,0,0,,{\fscx79\fscy79\t(0,90,\fscx97\fscy97)}{\c&H00F5FF&}TAKING{\c&HFFFFFF&} A BREAK
+Dialogue: 0,0:03:00.52,0:03:00.70,Cap,,0,0,0,,{\fscx97\fscy97}TAKING {\c&H00F5FF&}A{\c&HFFFFFF&} BREAK
+Dialogue: 0,0:03:00.70,0:03:00.96,Cap,,0,0,0,,{\fscx97\fscy97}TAKING A {\c&H00F5FF&}BREAK{\c&HFFFFFF&}
+Dialogue: 0,0:03:00.96,0:03:01.36,Cap,,0,0,0,,{\fscx82\fscy82\t(0,90,\fscx100\fscy100)}{\c&H00F5FF&}ISN'T{\c&HFFFFFF&} YOUR
+Dialogue: 0,0:03:01.36,0:03:01.48,Cap,,0,0,0,,ISN'T {\c&H00F5FF&}YOUR{\c&HFFFFFF&}
+Dialogue: 0,0:03:01.48,0:03:02.21,Cap,,0,0,0,,{\fscx82\fscy82\t(0,90,\fscx100\fscy100)}{\c&H00F5FF&}ENEMY{\c&HFFFFFF&}
+Dialogue: 0,0:03:02.26,0:03:02.32,Cap,,0,0,0,,{\fscx82\fscy82\t(0,90,\fscx100\fscy100)}{\c&H00F5FF&}THE{\c&HFFFFFF&} PROBLEM
+Dialogue: 0,0:03:02.32,0:03:02.62,Cap,,0,0,0,,THE {\c&H00F5FF&}PROBLEM{\c&HFFFFFF&}
+Dialogue: 0,0:03:02.62,0:03:02.96,Cap,,0,0,0,,{\fscx73\fscy73\t(0,90,\fscx90\fscy90)}{\c&H00F5FF&}BEGINS{\c&HFFFFFF&} WHEN YOU
+Dialogue: 0,0:03:02.96,0:03:03.18,Cap,,0,0,0,,{\fscx90\fscy90}BEGINS {\c&H00F5FF&}WHEN{\c&HFFFFFF&} YOU
+Dialogue: 0,0:03:03.18,0:03:03.34,Cap,,0,0,0,,{\fscx90\fscy90}BEGINS WHEN {\c&H00F5FF&}YOU{\c&HFFFFFF&}
+Dialogue: 0,0:03:03.34,0:03:03.50,Cap,,0,0,0,,{\fscx82\fscy82\t(0,90,\fscx100\fscy100)}{\c&H00F5FF&}LOSE{\c&HFFFFFF&} CONTROL
+Dialogue: 0,0:03:03.50,0:03:04.35,Cap,,0,0,0,,LOSE {\c&H00F5FF&}CONTROL{\c&HFFFFFF&}
+Dialogue: 0,0:03:04.38,0:03:04.50,Cap,,0,0,0,,{\fscx82\fscy82\t(0,90,\fscx100\fscy100)}{\c&H00F5FF&}WHEN{\c&HFFFFFF&} YOU CAN
+Dialogue: 0,0:03:04.50,0:03:04.60,Cap,,0,0,0,,WHEN {\c&H00F5FF&}YOU{\c&HFFFFFF&} CAN
+Dialogue: 0,0:03:04.60,0:03:04.72,Cap,,0,0,0,,WHEN YOU {\c&H00F5FF&}CAN{\c&HFFFFFF&}
+Dialogue: 0,0:03:04.72,0:03:04.86,Cap,,0,0,0,,{\fscx82\fscy82\t(0,90,\fscx100\fscy100)}{\c&H00F5FF&}NO{\c&HFFFFFF&} LONGER SIT
+Dialogue: 0,0:03:04.86,0:03:05.12,Cap,,0,0,0,,NO {\c&H00F5FF&}LONGER{\c&HFFFFFF&} SIT
+Dialogue: 0,0:03:05.12,0:03:05.32,Cap,,0,0,0,,NO LONGER {\c&H00F5FF&}SIT{\c&HFFFFFF&}
+Dialogue: 0,0:03:05.32,0:03:05.46,Cap,,0,0,0,,{\fscx82\fscy82\t(0,90,\fscx100\fscy100)}{\c&H00F5FF&}IN{\c&HFFFFFF&} SILENCE
+Dialogue: 0,0:03:05.46,0:03:06.21,Cap,,0,0,0,,IN {\c&H00F5FF&}SILENCE{\c&HFFFFFF&}
+Dialogue: 0,0:03:06.28,0:03:06.48,Cap,,0,0,0,,{\fscx79\fscy79\t(0,90,\fscx97\fscy97)}{\c&H00F5FF&}WHEN{\c&HFFFFFF&} YOU CAN'T
+Dialogue: 0,0:03:06.48,0:03:06.60,Cap,,0,0,0,,{\fscx97\fscy97}WHEN {\c&H00F5FF&}YOU{\c&HFFFFFF&} CAN'T
+Dialogue: 0,0:03:06.60,0:03:06.88,Cap,,0,0,0,,{\fscx97\fscy97}WHEN YOU {\c&H00F5FF&}CAN'T{\c&HFFFFFF&}
+Dialogue: 0,0:03:06.88,0:03:07.04,Cap,,0,0,0,,{\fscx82\fscy82\t(0,90,\fscx100\fscy100)}{\c&H00F5FF&}FOCUS{\c&HFFFFFF&} FOR 10
+Dialogue: 0,0:03:07.04,0:03:07.28,Cap,,0,0,0,,FOCUS {\c&H00F5FF&}FOR{\c&HFFFFFF&} 10
+Dialogue: 0,0:03:07.28,0:03:07.46,Cap,,0,0,0,,FOCUS FOR {\c&H00F5FF&}10{\c&HFFFFFF&}
+Dialogue: 0,0:03:07.46,0:03:07.72,Cap,,0,0,0,,{\fscx71\fscy71\t(0,90,\fscx87\fscy87)}{\c&H00F5FF&}MINUTES{\c&HFFFFFF&} WITHOUT
+Dialogue: 0,0:03:07.72,0:03:08.14,Cap,,0,0,0,,{\fscx87\fscy87}MINUTES {\c&H00F5FF&}WITHOUT{\c&HFFFFFF&}
+Dialogue: 0,0:03:08.14,0:03:08.42,Cap,,0,0,0,,{\fscx82\fscy82\t(0,90,\fscx100\fscy100)}{\c&H00F5FF&}CHECKING{\c&HFFFFFF&} YOUR
+Dialogue: 0,0:03:08.42,0:03:08.60,Cap,,0,0,0,,CHECKING {\c&H00F5FF&}YOUR{\c&HFFFFFF&}
+Dialogue: 0,0:03:08.60,0:03:09.24,Cap,,0,0,0,,{\fscx82\fscy82\t(0,90,\fscx100\fscy100)}{\c&H00F5FF&}PHONE{\c&HFFFFFF&}
+Dialogue: 0,0:03:09.24,0:03:09.38,Cap,,0,0,0,,{\fscx79\fscy79\t(0,90,\fscx97\fscy97)}{\c&H00F5FF&}WHEN{\c&HFFFFFF&} YOU SPEND
+Dialogue: 0,0:03:09.38,0:03:09.52,Cap,,0,0,0,,{\fscx97\fscy97}WHEN {\c&H00F5FF&}YOU{\c&HFFFFFF&} SPEND
+Dialogue: 0,0:03:09.52,0:03:09.66,Cap,,0,0,0,,{\fscx97\fscy97}WHEN YOU {\c&H00F5FF&}SPEND{\c&HFFFFFF&}
+Dialogue: 0,0:03:09.66,0:03:09.90,Cap,,0,0,0,,{\fscx82\fscy82\t(0,90,\fscx100\fscy100)}{\c&H00F5FF&}MORE{\c&HFFFFFF&} TIME
+Dialogue: 0,0:03:09.90,0:03:10.14,Cap,,0,0,0,,MORE {\c&H00F5FF&}TIME{\c&HFFFFFF&}
+Dialogue: 0,0:03:10.14,0:03:10.42,Cap,,0,0,0,,{\fscx76\fscy76\t(0,90,\fscx93\fscy93)}{\c&H00F5FF&}WATCHING{\c&HFFFFFF&} OTHER
+Dialogue: 0,0:03:10.42,0:03:10.74,Cap,,0,0,0,,{\fscx93\fscy93}WATCHING {\c&H00F5FF&}OTHER{\c&HFFFFFF&}
+Dialogue: 0,0:03:10.74,0:03:11.02,Cap,,0,0,0,,{\fscx82\fscy82\t(0,90,\fscx100\fscy100)}{\c&H00F5FF&}PEOPLE{\c&HFFFFFF&} CHASE
+Dialogue: 0,0:03:11.02,0:03:11.24,Cap,,0,0,0,,PEOPLE {\c&H00F5FF&}CHASE{\c&HFFFFFF&}
+Dialogue: 0,0:03:11.24,0:03:11.50,Cap,,0,0,0,,{\fscx82\fscy82\t(0,90,\fscx100\fscy100)}{\c&H00F5FF&}THEIR{\c&HFFFFFF&} DREAMS
+Dialogue: 0,0:03:11.50,0:03:11.80,Cap,,0,0,0,,THEIR {\c&H00F5FF&}DREAMS{\c&HFFFFFF&}
+Dialogue: 0,0:03:11.80,0:03:12.20,Cap,,0,0,0,,{\fscx82\fscy82\t(0,90,\fscx100\fscy100)}{\c&H00F5FF&}THAN{\c&HFFFFFF&} ACTUALLY
+Dialogue: 0,0:03:12.20,0:03:12.58,Cap,,0,0,0,,THAN {\c&H00F5FF&}ACTUALLY{\c&HFFFFFF&}
+Dialogue: 0,0:03:12.58,0:03:12.86,Cap,,0,0,0,,{\fscx68\fscy68\t(0,90,\fscx84\fscy84)}{\c&H00F5FF&}CHASING{\c&HFFFFFF&} YOUR OWN
+Dialogue: 0,0:03:12.86,0:03:13.08,Cap,,0,0,0,,{\fscx84\fscy84}CHASING {\c&H00F5FF&}YOUR{\c&HFFFFFF&} OWN
+Dialogue: 0,0:03:13.08,0:03:13.70,Cap,,0,0,0,,{\fscx84\fscy84}CHASING YOUR {\c&H00F5FF&}OWN{\c&HFFFFFF&}
+Dialogue: 0,0:03:13.70,0:03:13.94,Cap,,0,0,0,,{\fscx73\fscy73\t(0,90,\fscx90\fscy90)}{\c&H00F5FF&}THAT'S{\c&HFFFFFF&} WHEN YOU
+Dialogue: 0,0:03:13.94,0:03:14.02,Cap,,0,0,0,,{\fscx90\fscy90}THAT'S {\c&H00F5FF&}WHEN{\c&HFFFFFF&} YOU
+Dialogue: 0,0:03:14.02,0:03:14.12,Cap,,0,0,0,,{\fscx90\fscy90}THAT'S WHEN {\c&H00F5FF&}YOU{\c&HFFFFFF&}
+Dialogue: 0,0:03:14.12,0:03:14.22,Cap,,0,0,0,,{\fscx82\fscy82\t(0,90,\fscx100\fscy100)}{\c&H00F5FF&}NEED{\c&HFFFFFF&} TO MAKE
+Dialogue: 0,0:03:14.22,0:03:14.32,Cap,,0,0,0,,NEED {\c&H00F5FF&}TO{\c&HFFFFFF&} MAKE
+Dialogue: 0,0:03:14.32,0:03:14.42,Cap,,0,0,0,,NEED TO {\c&H00F5FF&}MAKE{\c&HFFFFFF&}
+Dialogue: 0,0:03:14.42,0:03:14.54,Cap,,0,0,0,,{\fscx82\fscy82\t(0,90,\fscx100\fscy100)}{\c&H00F5FF&}A{\c&HFFFFFF&} CHANGE
+Dialogue: 0,0:03:14.54,0:03:15.29,Cap,,0,0,0,,A {\c&H00F5FF&}CHANGE{\c&HFFFFFF&}
+Dialogue: 0,0:03:15.60,0:03:15.86,Cap,,0,0,0,,{\fscx82\fscy82\t(0,90,\fscx100\fscy100)}{\c&H00F5FF&}BECAUSE{\c&HFFFFFF&} YOUR
+Dialogue: 0,0:03:15.86,0:03:16.06,Cap,,0,0,0,,BECAUSE {\c&H00F5FF&}YOUR{\c&HFFFFFF&}
+Dialogue: 0,0:03:16.06,0:03:16.42,Cap,,0,0,0,,{\fscx68\fscy68\t(0,90,\fscx84\fscy84)}{\c&H00F5FF&}ATTENTION{\c&HFFFFFF&} IS ONE
+Dialogue: 0,0:03:16.42,0:03:16.78,Cap,,0,0,0,,{\fscx84\fscy84}ATTENTION {\c&H00F5FF&}IS{\c&HFFFFFF&} ONE
+Dialogue: 0,0:03:16.78,0:03:16.92,Cap,,0,0,0,,{\fscx84\fscy84}ATTENTION IS {\c&H00F5FF&}ONE{\c&HFFFFFF&}
+Dialogue: 0,0:03:16.92,0:03:17.00,Cap,,0,0,0,,{\fscx82\fscy82\t(0,90,\fscx100\fscy100)}{\c&H00F5FF&}OF{\c&HFFFFFF&} THE MOST
+Dialogue: 0,0:03:17.00,0:03:17.08,Cap,,0,0,0,,OF {\c&H00F5FF&}THE{\c&HFFFFFF&} MOST
+Dialogue: 0,0:03:17.08,0:03:17.32,Cap,,0,0,0,,OF THE {\c&H00F5FF&}MOST{\c&HFFFFFF&}
+Dialogue: 0,0:03:17.32,0:03:17.64,Cap,,0,0,0,,{\fscx71\fscy71\t(0,90,\fscx87\fscy87)}{\c&H00F5FF&}VALUABLE{\c&HFFFFFF&} THINGS
+Dialogue: 0,0:03:17.64,0:03:17.96,Cap,,0,0,0,,{\fscx87\fscy87}VALUABLE {\c&H00F5FF&}THINGS{\c&HFFFFFF&}
+Dialogue: 0,0:03:17.96,0:03:18.14,Cap,,0,0,0,,{\fscx82\fscy82\t(0,90,\fscx100\fscy100)}{\c&H00F5FF&}YOU{\c&HFFFFFF&} OWN
+Dialogue: 0,0:03:18.14,0:03:18.80,Cap,,0,0,0,,YOU {\c&H00F5FF&}OWN{\c&HFFFFFF&}
+Dialogue: 0,0:03:18.80,0:03:18.92,Cap,,0,0,0,,{\fscx82\fscy82\t(0,90,\fscx100\fscy100)}{\c&H00F5FF&}AND{\c&HFFFFFF&} WHERE YOU
+Dialogue: 0,0:03:18.92,0:03:19.02,Cap,,0,0,0,,AND {\c&H00F5FF&}WHERE{\c&HFFFFFF&} YOU
+Dialogue: 0,0:03:19.02,0:03:19.18,Cap,,0,0,0,,AND WHERE {\c&H00F5FF&}YOU{\c&HFFFFFF&}
+Dialogue: 0,0:03:19.18,0:03:19.40,Cap,,0,0,0,,{\fscx82\fscy82\t(0,90,\fscx100\fscy100)}{\c&H00F5FF&}SPEND{\c&HFFFFFF&} YOUR
+Dialogue: 0,0:03:19.40,0:03:19.56,Cap,,0,0,0,,SPEND {\c&H00F5FF&}YOUR{\c&HFFFFFF&}
+Dialogue: 0,0:03:19.56,0:03:19.96,Cap,,0,0,0,,{\fscx82\fscy82\t(0,90,\fscx100\fscy100)}{\c&H00F5FF&}ATTENTION{\c&HFFFFFF&} IS
+Dialogue: 0,0:03:19.96,0:03:20.32,Cap,,0,0,0,,ATTENTION {\c&H00F5FF&}IS{\c&HFFFFFF&}
+Dialogue: 0,0:03:20.32,0:03:20.46,Cap,,0,0,0,,{\fscx73\fscy73\t(0,90,\fscx90\fscy90)}{\c&H00F5FF&}WHERE{\c&HFFFFFF&} YOU SPEND
+Dialogue: 0,0:03:20.46,0:03:20.58,Cap,,0,0,0,,{\fscx90\fscy90}WHERE {\c&H00F5FF&}YOU{\c&HFFFFFF&} SPEND
+Dialogue: 0,0:03:20.58,0:03:20.78,Cap,,0,0,0,,{\fscx90\fscy90}WHERE YOU {\c&H00F5FF&}SPEND{\c&HFFFFFF&}
+Dialogue: 0,0:03:20.78,0:03:20.94,Cap,,0,0,0,,{\fscx82\fscy82\t(0,90,\fscx100\fscy100)}{\c&H00F5FF&}YOUR{\c&HFFFFFF&} LIFE
+Dialogue: 0,0:03:20.94,0:03:21.14,Cap,,0,0,0,,YOUR {\c&H00F5FF&}LIFE{\c&HFFFFFF&}
+Dialogue: 0,0:03:21.14,0:03:21.76,Cap,,0,0,0,,{\fscx82\fscy82\t(0,90,\fscx100\fscy100)}{\c&H00F5FF&}SO{\c&HFFFFFF&} THE NEXT
+Dialogue: 0,0:03:21.76,0:03:21.88,Cap,,0,0,0,,SO {\c&H00F5FF&}THE{\c&HFFFFFF&} NEXT
+Dialogue: 0,0:03:21.88,0:03:22.02,Cap,,0,0,0,,SO THE {\c&H00F5FF&}NEXT{\c&HFFFFFF&}
+Dialogue: 0,0:03:22.02,0:03:22.18,Cap,,0,0,0,,{\fscx82\fscy82\t(0,90,\fscx100\fscy100)}{\c&H00F5FF&}TIME{\c&HFFFFFF&} YOU PICK
+Dialogue: 0,0:03:22.18,0:03:22.32,Cap,,0,0,0,,TIME {\c&H00F5FF&}YOU{\c&HFFFFFF&} PICK
+Dialogue: 0,0:03:22.32,0:03:22.44,Cap,,0,0,0,,TIME YOU {\c&H00F5FF&}PICK{\c&HFFFFFF&}
+Dialogue: 0,0:03:22.44,0:03:22.56,Cap,,0,0,0,,{\fscx82\fscy82\t(0,90,\fscx100\fscy100)}{\c&H00F5FF&}UP{\c&HFFFFFF&} YOUR PHONE
+Dialogue: 0,0:03:22.56,0:03:22.72,Cap,,0,0,0,,UP {\c&H00F5FF&}YOUR{\c&HFFFFFF&} PHONE
+Dialogue: 0,0:03:22.72,0:03:23.40,Cap,,0,0,0,,UP YOUR {\c&H00F5FF&}PHONE{\c&HFFFFFF&}
+Dialogue: 0,0:03:23.40,0:03:23.54,Cap,,0,0,0,,{\fscx68\fscy68\t(0,90,\fscx84\fscy84)}{\c&H00F5FF&}ASK{\c&HFFFFFF&} YOURSELF ONE
+Dialogue: 0,0:03:23.54,0:03:23.86,Cap,,0,0,0,,{\fscx84\fscy84}ASK {\c&H00F5FF&}YOURSELF{\c&HFFFFFF&} ONE
+Dialogue: 0,0:03:23.86,0:03:24.12,Cap,,0,0,0,,{\fscx84\fscy84}ASK YOURSELF {\c&H00F5FF&}ONE{\c&HFFFFFF&}
+Dialogue: 0,0:03:24.12,0:03:24.87,Cap,,0,0,0,,{\fscx82\fscy82\t(0,90,\fscx100\fscy100)}{\c&H00F5FF&}QUESTION{\c&HFFFFFF&}
+Dialogue: 0,0:03:24.98,0:03:25.06,Cap,,0,0,0,,{\fscx82\fscy82\t(0,90,\fscx100\fscy100)}{\c&H00F5FF&}AM{\c&HFFFFFF&} I USING
+Dialogue: 0,0:03:25.06,0:03:25.16,Cap,,0,0,0,,AM {\c&H00F5FF&}I{\c&HFFFFFF&} USING
+Dialogue: 0,0:03:25.16,0:03:25.34,Cap,,0,0,0,,AM I {\c&H00F5FF&}USING{\c&HFFFFFF&}
+Dialogue: 0,0:03:25.34,0:03:25.54,Cap,,0,0,0,,{\fscx82\fscy82\t(0,90,\fscx100\fscy100)}{\c&H00F5FF&}THIS{\c&HFFFFFF&} DEVICE?
+Dialogue: 0,0:03:25.54,0:03:26.29,Cap,,0,0,0,,THIS {\c&H00F5FF&}DEVICE?{\c&HFFFFFF&}
+Dialogue: 0,0:03:26.68,0:03:26.92,Cap,,0,0,0,,{\fscx82\fscy82\t(0,90,\fscx100\fscy100)}{\c&H00F5FF&}OR{\c&HFFFFFF&} IS THIS
+Dialogue: 0,0:03:26.92,0:03:27.02,Cap,,0,0,0,,OR {\c&H00F5FF&}IS{\c&HFFFFFF&} THIS
+Dialogue: 0,0:03:27.02,0:03:27.16,Cap,,0,0,0,,OR IS {\c&H00F5FF&}THIS{\c&HFFFFFF&}
+Dialogue: 0,0:03:27.16,0:03:27.42,Cap,,0,0,0,,{\fscx68\fscy68\t(0,90,\fscx84\fscy84)}{\c&H00F5FF&}DEVICE{\c&HFFFFFF&} USING ME?
+Dialogue: 0,0:03:27.42,0:03:27.66,Cap,,0,0,0,,{\fscx84\fscy84}DEVICE {\c&H00F5FF&}USING{\c&HFFFFFF&} ME?
+Dialogue: 0,0:03:27.66,0:03:28.37,Cap,,0,0,0,,{\fscx84\fscy84}DEVICE USING {\c&H00F5FF&}ME?{\c&HFFFFFF&}
+Dialogue: 0,0:03:28.60,0:03:28.80,Cap,,0,0,0,,{\fscx82\fscy82\t(0,90,\fscx100\fscy100)}{\c&H00F5FF&}YOU{\c&HFFFFFF&} ONLY GET
+Dialogue: 0,0:03:28.80,0:03:28.96,Cap,,0,0,0,,YOU {\c&H00F5FF&}ONLY{\c&HFFFFFF&} GET
+Dialogue: 0,0:03:28.96,0:03:29.12,Cap,,0,0,0,,YOU ONLY {\c&H00F5FF&}GET{\c&HFFFFFF&}
+Dialogue: 0,0:03:29.12,0:03:29.28,Cap,,0,0,0,,{\fscx82\fscy82\t(0,90,\fscx100\fscy100)}{\c&H00F5FF&}ONE{\c&HFFFFFF&} LIFE
+Dialogue: 0,0:03:29.28,0:03:30.03,Cap,,0,0,0,,ONE {\c&H00F5FF&}LIFE{\c&HFFFFFF&}
+Dialogue: 0,0:03:30.52,0:03:30.68,Cap,,0,0,0,,{\fscx79\fscy79\t(0,90,\fscx97\fscy97)}{\c&H00F5FF&}DON'T{\c&HFFFFFF&} SPEND IT
+Dialogue: 0,0:03:30.68,0:03:30.86,Cap,,0,0,0,,{\fscx97\fscy97}DON'T {\c&H00F5FF&}SPEND{\c&HFFFFFF&} IT
+Dialogue: 0,0:03:30.86,0:03:31.02,Cap,,0,0,0,,{\fscx97\fscy97}DON'T SPEND {\c&H00F5FF&}IT{\c&HFFFFFF&}
+Dialogue: 0,0:03:31.02,0:03:31.26,Cap,,0,0,0,,{\fscx82\fscy82\t(0,90,\fscx100\fscy100)}{\c&H00F5FF&}WATCHING{\c&HFFFFFF&}
+Dialogue: 0,0:03:31.26,0:03:31.78,Cap,,0,0,0,,{\fscx76\fscy76\t(0,90,\fscx93\fscy93)}{\c&H00F5FF&}EVERYBODY{\c&HFFFFFF&} ELSE
+Dialogue: 0,0:03:31.78,0:03:32.04,Cap,,0,0,0,,{\fscx93\fscy93}EVERYBODY {\c&H00F5FF&}ELSE{\c&HFFFFFF&}
+Dialogue: 0,0:03:32.04,0:03:32.26,Cap,,0,0,0,,{\fscx82\fscy82\t(0,90,\fscx100\fscy100)}{\c&H00F5FF&}LIVE{\c&HFFFFFF&} THEIRS
+Dialogue: 0,0:03:32.26,0:03:32.97,Cap,,0,0,0,,LIVE {\c&H00F5FF&}THEIRS{\c&HFFFFFF&}
+Dialogue: 0,0:03:33.06,0:03:33.16,Cap,,0,0,0,,{\fscx82\fscy82\t(0,90,\fscx100\fscy100)}{\c&H00F5FF&}PUT{\c&HFFFFFF&} THE PHONE
+Dialogue: 0,0:03:33.16,0:03:33.28,Cap,,0,0,0,,PUT {\c&H00F5FF&}THE{\c&HFFFFFF&} PHONE
+Dialogue: 0,0:03:33.28,0:03:33.46,Cap,,0,0,0,,PUT THE {\c&H00F5FF&}PHONE{\c&HFFFFFF&}
+Dialogue: 0,0:03:33.46,0:03:34.17,Cap,,0,0,0,,{\fscx82\fscy82\t(0,90,\fscx100\fscy100)}{\c&H00F5FF&}DOWN{\c&HFFFFFF&}
+Dialogue: 0,0:03:34.86,0:03:35.16,Cap,,0,0,0,,{\fscx82\fscy82\t(0,90,\fscx100\fscy100)}{\c&H00F5FF&}STOP{\c&HFFFFFF&} WAITING
+Dialogue: 0,0:03:35.16,0:03:35.87,Cap,,0,0,0,,STOP {\c&H00F5FF&}WAITING{\c&HFFFFFF&}
+Dialogue: 0,0:03:36.74,0:03:37.02,Cap,,0,0,0,,{\fscx82\fscy82\t(0,90,\fscx100\fscy100)}{\c&H00F5FF&}STOP{\c&HFFFFFF&} MAKING
+Dialogue: 0,0:03:37.02,0:03:37.28,Cap,,0,0,0,,STOP {\c&H00F5FF&}MAKING{\c&HFFFFFF&}
+Dialogue: 0,0:03:37.28,0:03:38.11,Cap,,0,0,0,,{\fscx82\fscy82\t(0,90,\fscx100\fscy100)}{\c&H00F5FF&}EXCUSES{\c&HFFFFFF&}
+Dialogue: 0,0:03:38.52,0:03:38.80,Cap,,0,0,0,,{\fscx82\fscy82\t(0,90,\fscx100\fscy100)}{\c&H00F5FF&}AND{\c&HFFFFFF&} START
+Dialogue: 0,0:03:38.80,0:03:39.00,Cap,,0,0,0,,AND {\c&H00F5FF&}START{\c&HFFFFFF&}
+Dialogue: 0,0:03:39.00,0:03:39.73,Cap,,0,0,0,,{\fscx82\fscy82\t(0,90,\fscx100\fscy100)}{\c&H00F5FF&}BUILDING{\c&HFFFFFF&}
+Dialogue: 0,0:03:40.48,0:03:40.78,Cap,,0,0,0,,{\fscx82\fscy82\t(0,90,\fscx100\fscy100)}{\c&H00F5FF&}BECAUSE{\c&HFFFFFF&} FIVE
+Dialogue: 0,0:03:40.78,0:03:41.04,Cap,,0,0,0,,BECAUSE {\c&H00F5FF&}FIVE{\c&HFFFFFF&}
+Dialogue: 0,0:03:41.04,0:03:41.26,Cap,,0,0,0,,{\fscx79\fscy79\t(0,90,\fscx97\fscy97)}{\c&H00F5FF&}YEARS{\c&HFFFFFF&} FROM NOW
+Dialogue: 0,0:03:41.26,0:03:41.48,Cap,,0,0,0,,{\fscx97\fscy97}YEARS {\c&H00F5FF&}FROM{\c&HFFFFFF&} NOW
+Dialogue: 0,0:03:41.48,0:03:42.06,Cap,,0,0,0,,{\fscx97\fscy97}YEARS FROM {\c&H00F5FF&}NOW{\c&HFFFFFF&}
+Dialogue: 0,0:03:42.06,0:03:42.22,Cap,,0,0,0,,{\fscx68\fscy68\t(0,90,\fscx84\fscy84)}{\c&H00F5FF&}YOU'LL{\c&HFFFFFF&} EITHER BE
+Dialogue: 0,0:03:42.22,0:03:42.46,Cap,,0,0,0,,{\fscx84\fscy84}YOU'LL {\c&H00F5FF&}EITHER{\c&HFFFFFF&} BE
+Dialogue: 0,0:03:42.46,0:03:42.66,Cap,,0,0,0,,{\fscx84\fscy84}YOU'LL EITHER {\c&H00F5FF&}BE{\c&HFFFFFF&}
+Dialogue: 0,0:03:42.66,0:03:42.92,Cap,,0,0,0,,{\fscx82\fscy82\t(0,90,\fscx100\fscy100)}{\c&H00F5FF&}PROUD{\c&HFFFFFF&} OF THE
+Dialogue: 0,0:03:42.92,0:03:43.06,Cap,,0,0,0,,PROUD {\c&H00F5FF&}OF{\c&HFFFFFF&} THE
+Dialogue: 0,0:03:43.06,0:03:43.18,Cap,,0,0,0,,PROUD OF {\c&H00F5FF&}THE{\c&HFFFFFF&}
+Dialogue: 0,0:03:43.18,0:03:43.50,Cap,,0,0,0,,{\fscx66\fscy66\t(0,90,\fscx81\fscy81)}{\c&H00F5FF&}DECISIONS{\c&HFFFFFF&} YOU'RE
+Dialogue: 0,0:03:43.50,0:03:43.74,Cap,,0,0,0,,{\fscx81\fscy81}DECISIONS {\c&H00F5FF&}YOU'RE{\c&HFFFFFF&}
+Dialogue: 0,0:03:43.74,0:03:43.94,Cap,,0,0,0,,{\fscx82\fscy82\t(0,90,\fscx100\fscy100)}{\c&H00F5FF&}MAKING{\c&HFFFFFF&} TODAY
+Dialogue: 0,0:03:43.94,0:03:44.66,Cap,,0,0,0,,MAKING {\c&H00F5FF&}TODAY{\c&HFFFFFF&}
+Dialogue: 0,0:03:44.66,0:03:44.88,Cap,,0,0,0,,{\fscx79\fscy79\t(0,90,\fscx97\fscy97)}{\c&H00F5FF&}OR{\c&HFFFFFF&} YOU'LL WISH
+Dialogue: 0,0:03:44.88,0:03:45.06,Cap,,0,0,0,,{\fscx97\fscy97}OR {\c&H00F5FF&}YOU'LL{\c&HFFFFFF&} WISH
+Dialogue: 0,0:03:45.06,0:03:45.16,Cap,,0,0,0,,{\fscx97\fscy97}OR YOU'LL {\c&H00F5FF&}WISH{\c&HFFFFFF&}
+Dialogue: 0,0:03:45.16,0:03:45.26,Cap,,0,0,0,,{\fscx82\fscy82\t(0,90,\fscx100\fscy100)}{\c&H00F5FF&}YOU{\c&HFFFFFF&} HAD MADE
+Dialogue: 0,0:03:45.26,0:03:45.36,Cap,,0,0,0,,YOU {\c&H00F5FF&}HAD{\c&HFFFFFF&} MADE
+Dialogue: 0,0:03:45.36,0:03:45.52,Cap,,0,0,0,,YOU HAD {\c&H00F5FF&}MADE{\c&HFFFFFF&}
+Dialogue: 0,0:03:45.52,0:03:46.19,Cap,,0,0,0,,{\fscx82\fscy82\t(0,90,\fscx100\fscy100)}{\c&H00F5FF&}THEM{\c&HFFFFFF&}
+Dialogue: 0,0:03:46.56,0:03:46.74,Cap,,0,0,0,,{\fscx82\fscy82\t(0,90,\fscx100\fscy100)}{\c&H00F5FF&}THE{\c&HFFFFFF&} CHOICE IS
+Dialogue: 0,0:03:46.74,0:03:46.92,Cap,,0,0,0,,THE {\c&H00F5FF&}CHOICE{\c&HFFFFFF&} IS
+Dialogue: 0,0:03:46.92,0:03:47.18,Cap,,0,0,0,,THE CHOICE {\c&H00F5FF&}IS{\c&HFFFFFF&}
+Dialogue: 0,0:03:47.18,0:03:47.94,Cap,,0,0,0,,{\fscx82\fscy82\t(0,90,\fscx100\fscy100)}{\c&H00F5FF&}YOURS{\c&HFFFFFF&}

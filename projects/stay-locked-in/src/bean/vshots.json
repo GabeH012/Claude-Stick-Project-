@@ -1,0 +1,4180 @@
+[
+{
+"type": "stage",
+"set": "paper",
+"v": "dark",
+"cam": {
+"z": [
+1.0,
+1.14
+],
+"f": [
+0.5,
+0.45
+]
+},
+"chars": [
+{
+"c": "scroller",
+"x": 960,
+"y": 960,
+"s": 1.05,
+"expr": "neutral",
+"armR": "phone",
+"armL": "down",
+"holdR": {
+"kind": "mobile",
+"x": 0,
+"y": 0
+},
+"lookY": 1
+}
+],
+"props": [
+{
+"kind": "puppet",
+"x": 960,
+"y": 290,
+"s": 1.0,
+"len": 360,
+"to": [
+-150,
+0,
+150
+]
+},
+{
+"kind": "label",
+"x": 960,
+"y": 150,
+"text": "PROGRAMMED",
+"size": 70,
+"c": "#ffd21f",
+"at": 0.62,
+"front": true
+}
+],
+"t0": 0.0,
+"_match": "The world is programmed to distract you.  (1.00)",
+"t1": 2.35
+},
+{
+"type": "stage",
+"set": "paper",
+"cam": {
+"z": [
+1.0,
+1.08
+],
+"f": [
+0.5,
+0.5
+]
+},
+"chars": [
+{
+"c": "scroller",
+"x": 960,
+"s": 0.9,
+"expr": "think",
+"armR": "chin",
+"look": -0.6
+}
+],
+"props": [
+{
+"kind": "label",
+"x": 960,
+"y": 250,
+"text": "FAIL?",
+"size": 120,
+"c": "#d1262e",
+"at": 2.75
+},
+{
+"kind": "stamp",
+"x": 960,
+"y": 400,
+"text": "NOT THE GOAL",
+"size": 50,
+"a": 3.38
+}
+],
+"t0": 2.35,
+"_match": "The world doesn't want you to fail.  (1.00)",
+"t1": 4.17
+},
+{
+"type": "stage",
+"set": "paper",
+"v": "dark",
+"cam": {
+"z": [
+1.0,
+1.15
+],
+"f": [
+0.5,
+0.42
+]
+},
+"chars": [
+{
+"c": "scroller",
+"x": 960,
+"s": 2.3,
+"y": 1137.0,
+"expr": "worried",
+"look": 0.6
+}
+],
+"props": [
+{
+"kind": "q",
+"x": 1110,
+"y": 130,
+"s": 0.6,
+"at": 4.78,
+"c": "#d1262e"
+}
+],
+"t0": 4.17,
+"_match": "It wants something even worse.  (1.00)",
+"t1": 6.05
+},
+{
+"type": "card",
+"text": "It wants you *distracted.*",
+"a": 6.15,
+"b": 6.84,
+"t0": 6.05,
+"_match": "It wants you distracted.  (1.00)",
+"t1": 7.95
+},
+{
+"type": "stage",
+"set": "paper",
+"cam": {
+"z": [
+1.05,
+1.12
+],
+"f": [
+0.5,
+0.4
+]
+},
+"chars": [
+{
+"c": "scroller",
+"x": 960,
+"s": 2.3,
+"y": 1137.0,
+"expr": "think",
+"armR": "chin",
+"look": 0.3,
+"lookY": -1
+}
+],
+"t0": 7.95,
+"_match": "Think about it.  (1.00)",
+"t1": 9.81
+},
+{
+"type": "stage",
+"set": "skyline",
+"cam": {
+"z": [
+1.0,
+1.1
+],
+"f": [
+0.5,
+0.6
+]
+},
+"props": [
+{
+"kind": "crowd",
+"x": 960,
+"y": 980,
+"n": 9,
+"w": 1600,
+"s": 0.62,
+"expr": "calm"
+},
+{
+"kind": "label",
+"x": 960,
+"y": 300,
+"text": "MILLIONS",
+"size": 95,
+"c": "#ffd21f",
+"at": 11.02
+}
+],
+"t0": 9.81,
+"_match": "Every single day, millions of people wake up,  (1.00)",
+"t1": 12.41
+},
+{
+"type": "stage",
+"set": "room",
+"place": "7:00 AM",
+"cam": {
+"z": [
+1.0,
+1.1
+],
+"f": [
+0.45,
+0.6
+]
+},
+"props": [
+{
+"kind": "clock",
+"x": 790,
+"y": 190,
+"s": 0.38,
+"ring": true
+},
+{
+"kind": "phone",
+"x": 1090,
+"y": 330,
+"s": 0.52,
+"head": "12 NEW",
+"sub": "WAKE UP",
+"at": 12.46
+}
+],
+"chars": [
+{
+"c": "scroller",
+"x": 880,
+"s": 0.9,
+"expr": "neutral",
+"look": 1,
+"armR": "reach"
+}
+],
+"t0": 12.41,
+"_match": "grab their phones,  (1.00)",
+"t1": 13.41
+},
+{
+"type": "stage",
+"set": "room",
+"v": "dim",
+"cam": {
+"z": [
+1.0,
+1.12
+],
+"f": [
+0.5,
+0.42
+]
+},
+"chars": [
+{
+"c": "scroller",
+"x": 960,
+"s": 2.3,
+"y": 1137.0,
+"expr": "neutral",
+"armR": "phone",
+"holdR": {
+"kind": "mobile",
+"x": 0,
+"y": 0
+},
+"lookY": 1,
+"look": 0.4
+}
+],
+"props": [
+{
+"kind": "label",
+"x": 960,
+"y": 130,
+"text": "SCROLL",
+"size": 90,
+"c": "#7ac8ff",
+"at": 14.36,
+"rot": -6
+}
+],
+"t0": 13.41,
+"_match": "and immediately begin scrolling.  (1.00)",
+"t1": 15.15
+},
+{
+"type": "stage",
+"set": "room",
+"v": "dim",
+"cam": {
+"z": [
+1.0,
+1.08
+],
+"f": [
+0.5,
+0.5
+]
+},
+"chars": [
+{
+"c": "scroller",
+"x": 960,
+"s": 0.95,
+"expr": "smile",
+"armR": "phone",
+"holdR": {
+"kind": "mobile",
+"x": 0,
+"y": 0
+},
+"lookY": 1
+}
+],
+"props": [
+{
+"kind": "phone",
+"x": 960,
+"y": 300,
+"s": 0.58,
+"head": "FOR YOU",
+"sub": "VIDEOS",
+"posts": [
+"funny cat",
+"prank #7",
+"top 10 fails"
+],
+"a": 15.25
+}
+],
+"t0": 15.15,
+"_match": "They watch videos.  (1.00)",
+"t1": 16.31
+},
+{
+"type": "stage",
+"set": "paper",
+"cam": {
+"z": [
+1.0,
+1.08
+],
+"f": [
+0.5,
+0.5
+]
+},
+"chars": [
+{
+"c": "scroller",
+"x": 960,
+"s": 0.95,
+"expr": "shock",
+"armR": "phone",
+"holdR": {
+"kind": "mobile",
+"x": 0,
+"y": 0
+},
+"look": 1
+}
+],
+"props": [
+{
+"kind": "notif",
+"x": 960,
+"y": 110,
+"items": [
+"12 new likes",
+"You were tagged",
+"Sale ends!",
+"Live now"
+],
+"a": 16.41,
+"gap": 0.25,
+"s": 0.85
+}
+],
+"t0": 16.31,
+"_match": "They check notifications.  (1.00)",
+"t1": 17.75
+},
+{
+"type": "stage",
+"set": "room",
+"v": "dim",
+"cam": {
+"z": [
+1.0,
+1.1
+],
+"f": [
+0.5,
+0.5
+]
+},
+"chars": [
+{
+"c": "scroller",
+"x": 960,
+"s": 0.95,
+"expr": "sad",
+"armR": "phone",
+"holdR": {
+"kind": "mobile",
+"x": 0,
+"y": 0
+},
+"look": 1
+}
+],
+"props": [
+{
+"kind": "phone",
+"x": 960,
+"y": 300,
+"s": 0.58,
+"head": "THEIR LIFE",
+"sub": "FEED",
+"posts": [
+"beach trip",
+"new car",
+"dream job"
+],
+"a": 17.85
+}
+],
+"t0": 17.75,
+"_match": "They look at other people's lives.  (1.00)",
+"t1": 19.45
+},
+{
+"type": "stage",
+"set": "paper",
+"v": "dark",
+"cam": {
+"z": [
+1.0,
+1.1
+],
+"f": [
+0.5,
+0.45
+]
+},
+"props": [
+{
+"kind": "clock",
+"x": 960,
+"y": 260,
+"s": 0.7,
+"a": 19.65,
+"b": 22.14,
+"turns": 1,
+"label": "1 HOUR"
+},
+{
+"kind": "stamp",
+"x": 960,
+"y": 260,
+"text": "GONE",
+"size": 70,
+"a": 21.66,
+"front": true
+}
+],
+"chars": [
+{
+"c": "scroller",
+"x": 960,
+"s": 0.95,
+"expr": "neutral",
+"armR": "phone",
+"holdR": {
+"kind": "mobile",
+"x": 0,
+"y": 0
+},
+"lookY": 1
+}
+],
+"t0": 19.45,
+"_match": "And before they even realize it, an hour has disappeared.  (1.00)",
+"t1": 22.65
+},
+{
+"type": "stage",
+"set": "paper",
+"v": "dark",
+"cam": {
+"z": [
+1.0,
+1.2
+],
+"f": [
+0.5,
+0.4
+]
+},
+"chars": [
+{
+"c": "scroller",
+"x": 960,
+"s": 2.3,
+"y": 1137.0,
+"expr": "shock"
+}
+],
+"t0": 22.65,
+"_match": "But here's the scary part.  (1.00)",
+"t1": 24.51
+},
+{
+"type": "stage",
+"set": "paper",
+"cam": {
+"z": [
+1.0,
+1.08
+],
+"f": [
+0.5,
+0.5
+]
+},
+"props": [
+{
+"kind": "calendar",
+"x": 960,
+"y": 520,
+"s": 1.3,
+"month": "DAY",
+"from": 1,
+"to": 2,
+"a": 24.71,
+"b": 25.41
+}
+],
+"t0": 24.51,
+"_match": "And the next day.  (1.00)",
+"t1": 26.23
+},
+{
+"type": "stage",
+"set": "paper",
+"cam": {
+"z": [
+1.0,
+1.12
+],
+"f": [
+0.5,
+0.5
+]
+},
+"props": [
+{
+"kind": "calendar",
+"x": 960,
+"y": 520,
+"s": 1.3,
+"month": "DAY",
+"from": 2,
+"to": 999,
+"a": 26.33,
+"b": 27.73
+}
+],
+"t0": 26.23,
+"_match": "And the next. Until  (1.00)",
+"t1": 27.99
+},
+{
+"type": "stage",
+"set": "bedroom",
+"cam": {
+"z": [
+1.0,
+1.12
+],
+"f": [
+0.5,
+0.5
+]
+},
+"chars": [
+{
+"c": "scrollerOld",
+"x": 960,
+"s": 1.05,
+"expr": "worried",
+"look": -1,
+"armR": "phone",
+"holdR": {
+"kind": "mobile",
+"x": 0,
+"y": 0
+}
+}
+],
+"props": [
+{
+"kind": "label",
+"x": 960,
+"y": 260,
+"text": "YEARS LATER",
+"size": 70,
+"c": "#cfd3da",
+"at": 28.19
+}
+],
+"t0": 27.99,
+"_match": "Until one day, they look back  (1.00)",
+"t1": 29.81
+},
+{
+"type": "stage",
+"set": "bedroom",
+"cam": {
+"z": [
+1.0,
+1.08
+],
+"f": [
+0.5,
+0.5
+]
+},
+"chars": [
+{
+"c": "scrollerOld",
+"x": 960,
+"s": 0.95,
+"expr": "sad",
+"look": 1,
+"armR": "phone",
+"holdR": {
+"kind": "mobile",
+"x": 0,
+"y": 0
+}
+}
+],
+"props": [
+{
+"kind": "phone",
+"x": 960,
+"y": 300,
+"s": 0.58,
+"head": "THEY DID IT",
+"sub": "FEED",
+"posts": [
+"built a business",
+"ran a marathon",
+"saw the world"
+],
+"a": 29.91
+}
+],
+"t0": 29.81,
+"_match": "and realize they've spent years watching other people  (1.00)",
+"t1": 32.21
+},
+{
+"type": "stage",
+"set": "bedroom",
+"cam": {
+"z": [
+1.0,
+1.15
+],
+"f": [
+0.45,
+0.42
+]
+},
+"chars": [
+{
+"c": "scrollerOld",
+"x": 960,
+"s": 2.3,
+"y": 1237,
+"expr": "sad",
+"look": 0.6
+}
+],
+"props": [
+{
+"kind": "label",
+"x": 960,
+"y": 150,
+"text": "MY DREAMS",
+"size": 75,
+"c": "#ffd21f",
+"at": 33.82
+},
+{
+"kind": "stamp",
+"x": 960,
+"y": 270,
+"text": "NEVER STARTED",
+"size": 46,
+"a": 34.36
+}
+],
+"t0": 32.21,
+"_match": "accomplish the things they always dreamed of doing.  (1.00)",
+"t1": 35.21
+},
+{
+"type": "card",
+"text": "Two People",
+"chapter": true,
+"num": "1",
+"t0": 35.21,
+"_match": "Imagine two people.  (1.00)",
+"t1": 37.61
+},
+{
+"type": "split",
+"panels": [
+{
+"set": "room",
+"v": "dim",
+"chars": [
+{
+"c": "scroller",
+"x": 960,
+"s": 0.95,
+"expr": "neutral"
+}
+],
+"props": [
+{
+"kind": "clock",
+"x": 960,
+"y": 300,
+"s": 0.45,
+"ring": true,
+"label": "7:00"
+}
+]
+},
+{
+"set": "room",
+"chars": [
+{
+"c": "builder",
+"x": 960,
+"s": 0.95,
+"expr": "smile"
+}
+],
+"props": [
+{
+"kind": "clock",
+"x": 960,
+"y": 300,
+"s": 0.45,
+"ring": true,
+"label": "7:00"
+}
+]
+}
+],
+"t0": 37.61,
+"_match": "They both wake up at 7am.  (1.00)",
+"t1": 38.73
+},
+{
+"type": "stage",
+"set": "paper",
+"cam": {
+"z": [
+1.0,
+1.08
+],
+"f": [
+0.5,
+0.5
+]
+},
+"chars": [
+{
+"c": "scroller",
+"x": 790,
+"s": 0.8,
+"expr": "calm",
+"look": 1
+},
+{
+"c": "builder",
+"x": 1130,
+"s": 0.8,
+"expr": "calm",
+"look": -1
+}
+],
+"props": [
+{
+"kind": "clock",
+"x": 960,
+"y": 300,
+"s": 0.75,
+"a": 38.93,
+"b": 40.73,
+"turns": 2,
+"label": "24 HOURS"
+}
+],
+"t0": 38.73,
+"_match": "They both have the same 24 hours.  (1.00)",
+"t1": 40.99
+},
+{
+"type": "stage",
+"set": "paper",
+"cam": {
+"z": [
+1.0,
+1.08
+],
+"f": [
+0.5,
+0.45
+]
+},
+"props": [
+{
+"kind": "mountain",
+"x": 960,
+"y": 900,
+"s": 0.5,
+"at": 41.09
+},
+{
+"kind": "label",
+"x": 960,
+"y": 300,
+"text": "SUCCESS",
+"size": 90,
+"c": "#ffd21f",
+"at": 42.3
+}
+],
+"chars": [
+{
+"c": "scroller",
+"x": 790,
+"s": 0.7,
+"expr": "smile",
+"look": 1,
+"lookY": -1
+},
+{
+"c": "builder",
+"x": 1130,
+"s": 0.7,
+"expr": "smile",
+"look": -1,
+"lookY": -1
+}
+],
+"t0": 40.99,
+"_match": "They both have dreams of becoming successful.  (1.00)",
+"t1": 43.21
+},
+{
+"type": "split",
+"panels": [
+{
+"set": "room",
+"v": "dim",
+"chars": [
+{
+"c": "scroller",
+"x": 960,
+"s": 1.0,
+"expr": "neutral",
+"armR": "phone",
+"holdR": {
+"kind": "mobile",
+"x": 0,
+"y": 0
+}
+}
+],
+"props": [
+{
+"kind": "label",
+"x": 960,
+"y": 200,
+"text": "PHONE",
+"size": 100,
+"c": "#7ac8ff",
+"at": 44.42
+}
+]
+},
+{
+"set": "room",
+"chars": [
+{
+"c": "builder",
+"x": 960,
+"s": 1.0,
+"expr": "happy",
+"armR": "hold",
+"holdR": {
+"kind": "handbook",
+"x": 0,
+"y": 0
+}
+}
+],
+"props": [
+{
+"kind": "label",
+"x": 960,
+"y": 200,
+"text": "WORK",
+"size": 100,
+"c": "#2f9a4a",
+"at": 44.78
+}
+]
+}
+],
+"t0": 43.21,
+"_match": "But they make two completely different decisions.  (1.00)",
+"t1": 45.67
+},
+{
+"type": "stage",
+"set": "room",
+"v": "dim",
+"place": "PERSON 1",
+"cam": {
+"z": [
+1.0,
+1.12
+],
+"f": [
+0.45,
+0.55
+]
+},
+"props": [
+{
+"kind": "bed",
+"x": 760,
+"y": 900,
+"s": 1.0,
+"messy": true
+}
+],
+"chars": [
+{
+"c": "scroller",
+"x": 1100,
+"s": 1.0,
+"expr": "neutral",
+"armR": "reach",
+"look": 1,
+"k": [
+{
+"t": 46.84,
+"armR": "phone",
+"lookY": 1,
+"holdR": {
+"kind": "mobile",
+"x": 0,
+"y": 0
+}
+}
+]
+}
+],
+"t0": 45.67,
+"_match": "The first person grabs his phone.  (1.00)",
+"t1": 47.57
+},
+{
+"type": "stage",
+"set": "room",
+"v": "dim",
+"cam": {
+"z": [
+1.0,
+1.08
+],
+"f": [
+0.5,
+0.5
+]
+},
+"chars": [
+{
+"c": "scroller",
+"x": 960,
+"s": 0.95,
+"expr": "smile",
+"armR": "phone",
+"holdR": {
+"kind": "mobile",
+"x": 0,
+"y": 0
+},
+"lookY": 1
+}
+],
+"props": [
+{
+"kind": "phone",
+"x": 960,
+"y": 300,
+"s": 0.58,
+"head": "VIDEO 1",
+"sub": "PLAYING",
+"posts": [
+"just one..."
+],
+"a": 47.67
+}
+],
+"t0": 47.57,
+"_match": "He watches one video.  (1.00)",
+"t1": 49.49
+},
+{
+"type": "stage",
+"set": "room",
+"v": "dim",
+"cam": {
+"z": [
+1.0,
+1.1
+],
+"f": [
+0.5,
+0.5
+]
+},
+"props": [
+{
+"kind": "phone",
+"x": 830,
+"y": 560,
+"s": 0.5,
+"head": "VIDEO 1",
+"rot": -8
+},
+{
+"kind": "phone",
+"x": 1090,
+"y": 560,
+"s": 0.5,
+"head": "VIDEO 2",
+"at": 49.62,
+"rot": 6
+}
+],
+"t0": 49.49,
+"_match": "Then another.  (1.00)",
+"t1": 51.11
+},
+{
+"type": "stage",
+"set": "room",
+"v": "dim",
+"cam": {
+"z": [
+1.0,
+1.14
+],
+"f": [
+0.5,
+0.5
+]
+},
+"props": [
+{
+"kind": "phone",
+"x": 760,
+"y": 600,
+"s": 0.45,
+"head": "VIDEO 2",
+"rot": -10
+},
+{
+"kind": "phone",
+"x": 960,
+"y": 560,
+"s": 0.48,
+"head": "VIDEO 3",
+"at": 51.31
+},
+{
+"kind": "phone",
+"x": 1160,
+"y": 600,
+"s": 0.45,
+"head": "VIDEO 4",
+"at": 51.71,
+"rot": 10
+},
+{
+"kind": "label",
+"x": 960,
+"y": 140,
+"text": "AUTOPLAY",
+"size": 80,
+"c": "#d1262e",
+"at": 52.01
+}
+],
+"t0": 51.11,
+"_match": "Then another. He tells  (1.00)",
+"t1": 52.97
+},
+{
+"type": "stage",
+"set": "room",
+"v": "dim",
+"cam": {
+"z": [
+1.0,
+1.1
+],
+"f": [
+0.45,
+0.42
+]
+},
+"chars": [
+{
+"c": "scroller",
+"x": 960,
+"s": 2.3,
+"y": 1137.0,
+"expr": "smug",
+"armR": "phone",
+"holdR": {
+"kind": "mobile",
+"x": 0,
+"y": 0
+},
+"look": 0.5
+}
+],
+"props": [
+{
+"kind": "bubble",
+"x": 960,
+"y": 120,
+"text": "JUST 5 MIN",
+"w": 420,
+"at": 55.14
+}
+],
+"t0": 52.97,
+"_match": "He tells himself he's only going to scroll  (1.00)",
+"t1": 56.01
+},
+{
+"type": "stage",
+"set": "paper",
+"cam": {
+"z": [
+1.0,
+1.1
+],
+"f": [
+0.5,
+0.48
+]
+},
+"props": [
+{
+"kind": "clock",
+"x": 960,
+"y": 470,
+"s": 1.1,
+"a": 56.9,
+"b": 57.61,
+"turns": 0.5,
+"label": "30 MIN"
+}
+],
+"t0": 56.01,
+"_match": "But five minutes turns into 30.  (1.00)",
+"t1": 58.45
+},
+{
+"type": "stage",
+"set": "paper",
+"cam": {
+"z": [
+1.05,
+1.18
+],
+"f": [
+0.5,
+0.48
+]
+},
+"props": [
+{
+"kind": "clock",
+"x": 960,
+"y": 470,
+"s": 1.1,
+"a": 58.55,
+"b": 59.85,
+"turns": 1,
+"h0": 7.5,
+"label": "1 HOUR",
+"ring": true
+}
+],
+"t0": 58.45,
+"_match": "30 turns into an hour.  (1.00)",
+"t1": 60.09
+},
+{
+"type": "stage",
+"set": "room",
+"v": "dim",
+"cam": {
+"z": [
+1.0,
+1.1
+],
+"f": [
+0.5,
+0.5
+],
+"shake": 61.64
+},
+"chars": [
+{
+"c": "scroller",
+"x": 960,
+"s": 0.95,
+"expr": "shock",
+"armR": "phone",
+"holdR": {
+"kind": "mobile",
+"x": 0,
+"y": 0
+},
+"look": 1
+}
+],
+"props": [
+{
+"kind": "meter",
+"x": 960,
+"y": 250,
+"label": "MORNING",
+"from": 1,
+"to": 0.5,
+"a": 60.98,
+"b": 61.84,
+"c": "#d1262e",
+"w": 520
+},
+{
+"kind": "stamp",
+"x": 960,
+"y": 420,
+"text": "HALF GONE",
+"size": 54,
+"a": 61.64
+}
+],
+"t0": 60.09,
+"_match": "And suddenly, half his morning is gone.  (1.00)",
+"t1": 62.25
+},
+{
+"type": "stage",
+"set": "room",
+"place": "PERSON 2",
+"cam": {
+"z": [
+1.0,
+1.08
+],
+"f": [
+0.5,
+0.55
+]
+},
+"props": [
+{
+"kind": "label",
+"x": 960,
+"y": 420,
+"text": "LET'S GO",
+"size": 90,
+"c": "#2f9a4a",
+"at": 63.8
+}
+],
+"chars": [
+{
+"c": "builder",
+"x": 760,
+"s": 1.0,
+"expr": "happy",
+"walk": {
+"x0": 860,
+"x1": 1060,
+"a": 63.64,
+"b": 64.25
+}
+}
+],
+"t0": 62.25,
+"_match": "The second person wakes up and gets straight to work.  (1.00)",
+"t1": 64.85
+},
+{
+"type": "stage",
+"set": "room",
+"cam": {
+"z": [
+1.0,
+1.12
+],
+"f": [
+0.5,
+0.42
+]
+},
+"chars": [
+{
+"c": "builder",
+"x": 960,
+"s": 2.3,
+"y": 1137.0,
+"expr": "smile",
+"armR": "hold",
+"holdR": {
+"kind": "handbook",
+"x": 0,
+"y": 0
+},
+"lookY": 1
+}
+],
+"t0": 64.85,
+"_match": "He reads a few pages of a book.  (1.00)",
+"t1": 66.73
+},
+{
+"type": "stage",
+"set": "room",
+"cam": {
+"z": [
+1.0,
+1.1
+],
+"f": [
+0.5,
+0.5
+]
+},
+"chars": [
+{
+"c": "builder",
+"x": 960,
+"s": 1.1,
+"expr": "angry",
+"armL": "up",
+"armR": "up",
+"holdL": {
+"kind": "dumbbell",
+"x": 0,
+"y": 0,
+"s": 0.8
+},
+"holdR": {
+"kind": "dumbbell",
+"x": 0,
+"y": 0,
+"s": 0.8
+}
+}
+],
+"props": [
+{
+"kind": "meter",
+"x": 960,
+"y": 200,
+"label": "ENERGY",
+"from": 0.3,
+"to": 0.9,
+"a": 66.93,
+"b": 68.03,
+"w": 500
+}
+],
+"t0": 66.73,
+"_match": "He exercises.  (1.00)",
+"t1": 68.39
+},
+{
+"type": "stage",
+"set": "room",
+"cam": {
+"z": [
+1.0,
+1.1
+],
+"f": [
+0.5,
+0.5
+]
+},
+"chars": [
+{
+"c": "builder",
+"x": 800,
+"s": 0.9,
+"expr": "think",
+"look": 1,
+"armR": "point"
+}
+],
+"props": [
+{
+"kind": "laptop",
+"x": 1120,
+"y": 720,
+"s": 0.8,
+"a": 68.49
+},
+{
+"kind": "meter",
+"x": 960,
+"y": 200,
+"label": "NEW SKILL",
+"from": 0.05,
+"to": 0.6,
+"a": 69.22,
+"b": 70.19,
+"w": 500
+}
+],
+"t0": 68.39,
+"_match": "He learns a new skill.  (1.00)",
+"t1": 70.47
+},
+{
+"type": "split",
+"panels": [
+{
+"set": "room",
+"v": "dim",
+"chars": [
+{
+"c": "scroller",
+"x": 960,
+"s": 1.0,
+"expr": "smile",
+"armR": "phone",
+"holdR": {
+"kind": "mobile",
+"x": 0,
+"y": 0
+},
+"lookY": 1
+}
+]
+},
+{
+"set": "room",
+"chars": [
+{
+"c": "builder",
+"x": 960,
+"s": 1.0,
+"expr": "smile",
+"armR": "hold",
+"holdR": {
+"kind": "handbook",
+"x": 0,
+"y": 0
+},
+"lookY": 1
+}
+]
+}
+],
+"t0": 70.47,
+"_match": "Neither person realizes it yet,  (1.00)",
+"t1": 72.23
+},
+{
+"type": "stage",
+"set": "paper",
+"cam": {
+"z": [
+1.0,
+1.1
+],
+"f": [
+0.5,
+0.5
+]
+},
+"props": [
+{
+"kind": "road",
+"x": 960,
+"y": 940,
+"s": 0.4,
+"a": 72.88,
+"b": 75.54,
+"left": "STUCK",
+"right": "FREEDOM"
+}
+],
+"chars": [
+{
+"c": "scroller",
+"x": 890,
+"y": 920,
+"s": 0.35,
+"expr": "neutral",
+"armR": "phone",
+"holdR": {
+"kind": "mobile",
+"x": 0,
+"y": 0
+}
+},
+{
+"c": "builder",
+"x": 1030,
+"y": 920,
+"s": 0.35,
+"expr": "happy"
+}
+],
+"t0": 72.23,
+"_match": "but their small decisions are creating two completely different futures.  (1.00)",
+"t1": 76.07
+},
+{
+"type": "stage",
+"set": "room",
+"v": "dim",
+"cam": {
+"z": [
+1.0,
+1.12
+],
+"f": [
+0.45,
+0.42
+]
+},
+"chars": [
+{
+"c": "scroller",
+"x": 960,
+"s": 2.3,
+"y": 1137.0,
+"expr": "smug",
+"armR": "phone",
+"holdR": {
+"kind": "mobile",
+"x": 0,
+"y": 0
+},
+"look": 0.5
+}
+],
+"props": [
+{
+"kind": "bubble",
+"x": 960,
+"y": 120,
+"text": "LATER...",
+"w": 360,
+"at": 76.27
+}
+],
+"t0": 76.07,
+"_match": "I'll learn that skill when things slow down.  (1.00)",
+"t1": 78.11
+},
+{
+"type": "stage",
+"set": "room",
+"v": "dim",
+"cam": {
+"z": [
+1.0,
+1.2
+],
+"f": [
+0.5,
+0.5
+]
+},
+"props": [
+{
+"kind": "phone",
+"x": 960,
+"y": 560,
+"s": 0.95,
+"head": "VIDEO 47",
+"sub": "AUTOPLAY",
+"posts": [
+"one more",
+"one more"
+],
+"a": 78.11
+}
+],
+"t0": 78.11,
+"_match": "Another video.  (1.00)",
+"t1": 79.81
+},
+{
+"type": "stage",
+"set": "paper",
+"place": "YOU",
+"cam": {
+"z": [
+1.0,
+1.1
+],
+"f": [
+0.5,
+0.5
+]
+},
+"chars": [
+{
+"c": "scroller",
+"x": 830,
+"s": 0.9,
+"expr": "worried",
+"armR": "reach",
+"look": 1
+}
+],
+"props": [
+{
+"kind": "money",
+"x": 1100,
+"y": 760,
+"s": 0.7,
+"n": 5,
+"move": {
+"x": 1300,
+"y": 100,
+"a": 80.56,
+"b": 82.01
+}
+},
+{
+"kind": "label",
+"x": 960,
+"y": 300,
+"text": "YOUR TIME",
+"size": 80,
+"c": "#ffd21f",
+"at": 81.06
+}
+],
+"t0": 79.81,
+"_match": "You need to stop giving away the time you already have.  (1.00)",
+"t1": 82.39
+},
+{
+"type": "card",
+"text": "Every minute doing nothing is a minute you can *never* get *back.*",
+"a": 82.49,
+"b": 85.76,
+"t0": 82.39,
+"_match": "Because every minute  (1.00)",
+"t1": 86.23
+},
+{
+"type": "card",
+"text": "Ten Years Later",
+"chapter": true,
+"num": "2",
+"t0": 86.23,
+"_match": "Imagine looking 10 years  (1.00)",
+"t1": 88.65
+},
+{
+"type": "split",
+"panels": [
+{
+"set": "bedroom",
+"chars": [
+{
+"c": "scrollerOld",
+"x": 960,
+"s": 1.0,
+"expr": "sad",
+"armR": "phone",
+"holdR": {
+"kind": "mobile",
+"x": 0,
+"y": 0
+}
+}
+],
+"props": [
+{
+"kind": "label",
+"x": 960,
+"y": 200,
+"text": "VERSION A",
+"size": 80,
+"c": "#cfd3da"
+}
+]
+},
+{
+"set": "office",
+"chars": [
+{
+"c": "builderOld",
+"x": 960,
+"s": 1.0,
+"expr": "happy"
+}
+],
+"props": [
+{
+"kind": "label",
+"x": 960,
+"y": 200,
+"text": "VERSION B",
+"size": 80,
+"c": "#ffd21f",
+"at": 89.14
+}
+]
+}
+],
+"t0": 88.65,
+"_match": "You see two versions of yourself.  (1.00)",
+"t1": 90.55
+},
+{
+"type": "stage",
+"set": "bedroom",
+"cam": {
+"z": [
+1.0,
+1.1
+],
+"f": [
+0.5,
+0.5
+]
+},
+"chars": [
+{
+"c": "scrollerOld",
+"x": 960,
+"s": 0.95,
+"expr": "smile",
+"armR": "phone",
+"holdR": {
+"kind": "mobile",
+"x": 0,
+"y": 0
+},
+"lookY": 1
+}
+],
+"props": [
+{
+"kind": "calendar",
+"x": 960,
+"y": 270,
+"s": 0.75,
+"month": "YEARS",
+"from": 1,
+"to": 10,
+"a": 90.75,
+"b": 92.76
+}
+],
+"t0": 90.55,
+"_match": "One version spent every day chasing entertainment.  (1.00)",
+"t1": 93.25
+},
+{
+"type": "stage",
+"set": "bedroom",
+"cam": {
+"z": [
+1.0,
+1.08
+],
+"f": [
+0.5,
+0.5
+]
+},
+"chars": [
+{
+"c": "scrollerOld",
+"x": 960,
+"s": 0.95,
+"expr": "sad",
+"armR": "phone",
+"holdR": {
+"kind": "mobile",
+"x": 0,
+"y": 0
+},
+"look": 1
+}
+],
+"props": [
+{
+"kind": "phone",
+"x": 960,
+"y": 300,
+"s": 0.58,
+"head": "TRAVEL VLOG",
+"sub": "FEED",
+"posts": [
+"Paris, day 3",
+"Bali sunset"
+],
+"a": 93.35
+}
+],
+"t0": 93.25,
+"_match": "He watched other people travel.  (1.00)",
+"t1": 95.07
+},
+{
+"type": "stage",
+"set": "bedroom",
+"cam": {
+"z": [
+1.0,
+1.08
+],
+"f": [
+0.5,
+0.5
+]
+},
+"chars": [
+{
+"c": "scrollerOld",
+"x": 960,
+"s": 0.95,
+"expr": "worried",
+"armR": "phone",
+"holdR": {
+"kind": "mobile",
+"x": 0,
+"y": 0
+},
+"look": 1
+}
+],
+"props": [
+{
+"kind": "phone",
+"x": 960,
+"y": 300,
+"s": 0.58,
+"head": "MY STARTUP",
+"sub": "FEED",
+"posts": [
+"first sale!",
+"new office"
+],
+"a": 95.17
+}
+],
+"t0": 95.07,
+"_match": "He watched other people build businesses.  (1.00)",
+"t1": 97.09
+},
+{
+"type": "stage",
+"set": "bedroom",
+"cam": {
+"z": [
+1.0,
+1.12
+],
+"f": [
+0.45,
+0.42
+]
+},
+"chars": [
+{
+"c": "scrollerOld",
+"x": 960,
+"s": 2.3,
+"y": 1137.0,
+"expr": "think",
+"look": 0.5,
+"lookY": -1
+}
+],
+"props": [
+{
+"kind": "bubble",
+"x": 960,
+"y": 120,
+"text": "ONE DAY...",
+"w": 400,
+"at": 98.44
+}
+],
+"t0": 97.09,
+"_match": "He constantly told himself that one day  (1.00)",
+"t1": 100.25
+},
+{
+"type": "stage",
+"set": "paper",
+"v": "dark",
+"cam": {
+"z": [
+1.0,
+1.12
+],
+"f": [
+0.5,
+0.5
+]
+},
+"props": [
+{
+"kind": "calendar",
+"x": 960,
+"y": 520,
+"s": 1.3,
+"month": "ONE DAY",
+"to": "?"
+},
+{
+"kind": "stamp",
+"x": 960,
+"y": 520,
+"text": "NEVER CAME",
+"size": 70,
+"a": 100.84,
+"front": true
+}
+],
+"t0": 100.25,
+"_match": "But that day never came.  (1.00)",
+"t1": 102.25
+},
+{
+"type": "stage",
+"set": "office",
+"place": "10 YEARS LATER",
+"cam": {
+"z": [
+1.0,
+1.08
+],
+"f": [
+0.5,
+0.55
+]
+},
+"chars": [
+{
+"c": "builderOld",
+"x": 1500,
+"s": 1.0,
+"expr": "smile",
+"walk": {
+"x0": 1250,
+"x1": 960,
+"a": 102.35,
+"b": 103.85
+},
+"flip": true
+}
+],
+"t0": 102.25,
+"_match": "Now look at the other version.  (1.00)",
+"t1": 104.03
+},
+{
+"type": "stage",
+"set": "office",
+"cam": {
+"z": [
+1.0,
+1.12
+],
+"f": [
+0.5,
+0.45
+]
+},
+"chars": [
+{
+"c": "builderOld",
+"x": 960,
+"s": 1.1,
+"expr": "neutral",
+"armL": "shrug",
+"armR": "shrug"
+}
+],
+"props": [
+{
+"kind": "label",
+"x": 960,
+"y": 330,
+"text": "NOT PERFECT",
+"size": 70,
+"c": "#ffd21f",
+"at": 104.48,
+"rot": -5
+}
+],
+"t0": 104.03,
+"_match": "He wasn't perfect.  (1.00)",
+"t1": 105.75
+},
+{
+"type": "stage",
+"set": "office",
+"v": "night",
+"cam": {
+"z": [
+1.0,
+1.1
+],
+"f": [
+0.5,
+0.5
+]
+},
+"chars": [
+{
+"c": "builderOld",
+"x": 960,
+"s": 0.95,
+"expr": "sad"
+}
+],
+"props": [
+{
+"kind": "chart",
+"x": 960,
+"y": 270,
+"s": 0.5,
+"crash": true,
+"a": 105.85,
+"b": 107.15,
+"label": "BAD DAY"
+}
+],
+"t0": 105.75,
+"_match": "He still had bad days.  (1.00)",
+"t1": 107.69
+},
+{
+"type": "stage",
+"set": "office",
+"v": "night",
+"cam": {
+"z": [
+1.0,
+1.14
+],
+"f": [
+0.5,
+0.42
+]
+},
+"chars": [
+{
+"c": "builderOld",
+"x": 960,
+"s": 2.3,
+"y": 1137.0,
+"expr": "worried",
+"lookY": 1
+}
+],
+"props": [
+{
+"kind": "clock",
+"x": 1150,
+"y": 110,
+"s": 0.3,
+"label": "2 AM",
+"h0": 2
+}
+],
+"t0": 107.69,
+"_match": "He still got tired.  (1.00)",
+"t1": 109.71
+},
+{
+"type": "stage",
+"set": "office",
+"v": "night",
+"cam": {
+"z": [
+1.0,
+1.1
+],
+"f": [
+0.55,
+0.55
+]
+},
+"props": [
+{
+"kind": "door",
+"x": 1120,
+"y": 900,
+"s": 0.8,
+"label": "QUIT"
+}
+],
+"chars": [
+{
+"c": "builderOld",
+"x": 820,
+"s": 0.9,
+"expr": "worried",
+"look": 1
+}
+],
+"t0": 109.71,
+"_match": "Sometimes he wanted to quit.  (1.00)",
+"t1": 111.43
+},
+{
+"type": "stage",
+"set": "paper",
+"cam": {
+"z": [
+1.0,
+1.06
+],
+"f": [
+0.5,
+0.55
+],
+"pan": [
+0,
+-40
+]
+},
+"props": [
+{
+"kind": "stairs",
+"x": 700,
+"y": 880,
+"n": 4,
+"w": 140,
+"h": 95
+},
+{
+"kind": "label",
+"x": 960,
+"y": 250,
+"text": "EVERY DAY",
+"size": 80,
+"c": "#2f9a4a",
+"at": 111.96
+}
+],
+"chars": [
+{
+"c": "builder",
+"x": 1380,
+"y": 880,
+"s": 0.5,
+"expr": "angry",
+"walk": {
+"x0": 1240,
+"x1": 910,
+"a": 111.53,
+"b": 113.33,
+"y0": 880,
+"y1": 595,
+"steps": 3
+}
+}
+],
+"t0": 111.43,
+"_match": "But he kept showing up.  (1.00)",
+"t1": 113.37
+},
+{
+"type": "split",
+"panels": [
+{
+"set": "room",
+"v": "dim",
+"props": [
+{
+"kind": "crowd",
+"x": 960,
+"y": 900,
+"n": 4,
+"w": 520,
+"s": 0.55,
+"expr": "neutral"
+},
+{
+"kind": "label",
+"x": 960,
+"y": 200,
+"text": "SCROLLING",
+"size": 80,
+"c": "#7ac8ff"
+}
+]
+},
+{
+"set": "room",
+"chars": [
+{
+"c": "builder",
+"x": 960,
+"s": 1.0,
+"expr": "smile",
+"armR": "hold",
+"holdR": {
+"kind": "handbook",
+"x": 0,
+"y": 0
+},
+"lookY": 1
+}
+],
+"props": [
+{
+"kind": "label",
+"x": 960,
+"y": 200,
+"text": "LEARNING",
+"size": 80,
+"c": "#2f9a4a",
+"at": 113.87
+}
+]
+}
+],
+"t0": 113.37,
+"_match": "While everyone else was scrolling,  (1.00)",
+"t1": 115.53
+},
+{
+"type": "split",
+"panels": [
+{
+"set": "paper",
+"v": "dark",
+"props": [
+{
+"kind": "crowd",
+"x": 960,
+"y": 900,
+"n": 4,
+"w": 520,
+"s": 0.55,
+"expr": "smug"
+},
+{
+"kind": "bubble",
+"x": 960,
+"y": 330,
+"text": "TOO BUSY",
+"w": 340
+}
+]
+},
+{
+"set": "office",
+"chars": [
+{
+"c": "builder",
+"x": 820,
+"s": 1.0,
+"expr": "think",
+"look": 1
+}
+],
+"props": [
+{
+"kind": "laptop",
+"x": 1130,
+"y": 720,
+"s": 0.9
+},
+{
+"kind": "label",
+"x": 960,
+"y": 200,
+"text": "WORKING",
+"size": 80,
+"c": "#2f9a4a",
+"at": 116.13
+}
+]
+}
+],
+"t0": 115.53,
+"_match": "while everyone else was making excuses.  (1.00)",
+"t1": 118.39
+},
+{
+"type": "split",
+"panels": [
+{
+"set": "paper",
+"v": "dark",
+"props": [
+{
+"kind": "crowd",
+"x": 960,
+"y": 900,
+"n": 4,
+"w": 520,
+"s": 0.55,
+"expr": "sad"
+},
+{
+"kind": "clock",
+"x": 960,
+"y": 330,
+"s": 0.45,
+"a": 118.39,
+"b": 120.89,
+"turns": 3
+}
+]
+},
+{
+"set": "paper",
+"chars": [
+{
+"c": "builder",
+"x": 960,
+"s": 1.0,
+"expr": "angry",
+"armL": "up",
+"armR": "up",
+"holdL": {
+"kind": "dumbbell",
+"x": 0,
+"y": 0,
+"s": 0.8
+},
+"holdR": {
+"kind": "dumbbell",
+"x": 0,
+"y": 0,
+"s": 0.8
+}
+}
+],
+"props": [
+{
+"kind": "meter",
+"x": 960,
+"y": 200,
+"label": "DISCIPLINE",
+"from": 0.2,
+"to": 0.95,
+"a": 121.2,
+"b": 119.79,
+"w": 480
+}
+]
+}
+],
+"t0": 118.39,
+"_match": "while everyone else was waiting for motivation  (1.00)",
+"t1": 121.87
+},
+{
+"type": "stage",
+"set": "paper",
+"cam": {
+"z": [
+1.0,
+1.08
+],
+"f": [
+0.5,
+0.5
+]
+},
+"props": [
+{
+"kind": "scale",
+"x": 960,
+"y": 420,
+"s": 0.65,
+"left": "SCROLLED",
+"right": "BUILT",
+"lItem": "scrollerOld",
+"rItem": "builderOld",
+"tilt": [
+0,
+22
+],
+"tAt": [
+123.07
+]
+},
+{
+"kind": "label",
+"x": 960,
+"y": 140,
+"text": "ENORMOUS",
+"size": 85,
+"c": "#ffd21f",
+"at": 123.27
+}
+],
+"t0": 121.87,
+"_match": "and ten years later the difference  (1.00)",
+"t1": 125.51
+},
+{
+"type": "stage",
+"set": "paper",
+"cam": {
+"z": [
+1.0,
+1.1
+],
+"f": [
+0.5,
+0.5
+]
+},
+"props": [
+{
+"kind": "brain",
+"x": 960,
+"y": 480,
+"s": 1.2,
+"label": "TALENT"
+},
+{
+"kind": "stamp",
+"x": 960,
+"y": 480,
+"text": "NOT IT",
+"size": 90,
+"a": 127.1,
+"front": true
+}
+],
+"t0": 125.51,
+"_match": "not because one had more talent  (1.00)",
+"t1": 127.35
+},
+{
+"type": "stage",
+"set": "paper",
+"cam": {
+"z": [
+1.0,
+1.1
+],
+"f": [
+0.5,
+0.55
+]
+},
+"props": [
+{
+"kind": "door",
+"x": 960,
+"y": 880,
+"s": 1.1,
+"label": "LUCK"
+},
+{
+"kind": "stamp",
+"x": 960,
+"y": 520,
+"text": "NOT IT",
+"size": 90,
+"a": 129.04,
+"front": true
+}
+],
+"t0": 127.35,
+"_match": "Not because one had more opportunities.  (1.00)",
+"t1": 129.73
+},
+{
+"type": "card",
+"text": "Escape the Trap",
+"chapter": true,
+"num": "3",
+"t0": 129.73,
+"_match": "So how do you escape  (1.00)",
+"t1": 132.13
+},
+{
+"type": "stage",
+"set": "paper",
+"place": "YOU",
+"cam": {
+"z": [
+1.0,
+1.08
+],
+"f": [
+0.5,
+0.55
+]
+},
+"props": [
+{
+"kind": "stairs",
+"x": 840,
+"y": 900,
+"n": 1,
+"w": 240,
+"h": 70
+},
+{
+"kind": "label",
+"x": 960,
+"y": 320,
+"text": "START SMALL",
+"size": 75,
+"c": "#ffd21f",
+"at": 132.54
+}
+],
+"chars": [
+{
+"c": "scroller",
+"x": 560,
+"s": 0.9,
+"expr": "smile",
+"walk": {
+"x0": 780,
+"x1": 960,
+"a": 131.75,
+"b": 132.75,
+"y0": 900,
+"y1": 830,
+"steps": 1
+}
+}
+],
+"t0": 132.13,
+"_match": "You start small  (1.00)",
+"t1": 133.63
+},
+{
+"type": "stage",
+"set": "room",
+"place": "STEP 1",
+"cam": {
+"z": [
+1.0,
+1.08
+],
+"f": [
+0.5,
+0.55
+]
+},
+"chars": [
+{
+"c": "scroller",
+"x": 820,
+"s": 0.9,
+"expr": "smile",
+"look": 1,
+"armR": "point"
+}
+],
+"props": [
+{
+"kind": "box",
+"x": 1110,
+"y": 900,
+"s": 0.7,
+"label": "LATER"
+},
+{
+"kind": "mobile",
+"x": 1110,
+"y": 380,
+"s": 1.8,
+"glow": false,
+"move": {
+"x": 1110,
+"y": 830,
+"a": 134.56,
+"b": 134.83
+},
+"out": 134.93
+}
+],
+"t0": 133.63,
+"_match": "Put your phone away when you wake up  (1.00)",
+"t1": 135.73
+},
+{
+"type": "stage",
+"set": "paper",
+"place": "STEP 2",
+"cam": {
+"z": [
+1.0,
+1.08
+],
+"f": [
+0.5,
+0.5
+]
+},
+"props": [
+{
+"kind": "notif",
+"x": 960,
+"y": 300,
+"items": [
+"New like",
+"New follow",
+"Live now"
+],
+"gap": 0.2,
+"a": 135.73
+},
+{
+"kind": "stamp",
+"x": 960,
+"y": 450,
+"text": "MUTED",
+"size": 110,
+"a": 136.52,
+"color": "#2f9a4a",
+"front": true
+}
+],
+"t0": 135.73,
+"_match": "stop checking notifications every five minutes  (1.00)",
+"t1": 138.27
+},
+{
+"type": "stage",
+"set": "office",
+"place": "STEP 3",
+"cam": {
+"z": [
+1.0,
+1.08
+],
+"f": [
+0.5,
+0.5
+]
+},
+"chars": [
+{
+"c": "scroller",
+"x": 790,
+"s": 0.9,
+"expr": "happy",
+"armR": "point",
+"look": 1
+}
+],
+"props": [
+{
+"kind": "note",
+"x": 1080,
+"y": 160,
+"text": "LEARN",
+"at": 138.96,
+"s": 0.75
+},
+{
+"kind": "note",
+"x": 1080,
+"y": 330,
+"text": "BUILD",
+"at": 138.87,
+"c": "#9be7a5",
+"s": 0.75
+},
+{
+"kind": "note",
+"x": 1080,
+"y": 500,
+"text": "GROW",
+"at": 139.68,
+"c": "#9fd3ea",
+"s": 0.75
+}
+],
+"t0": 138.27,
+"_match": "set goals that actually matter to you  (1.00)",
+"t1": 140.45
+},
+{
+"type": "stage",
+"set": "room",
+"place": "STEP 4",
+"cam": {
+"z": [
+1.0,
+1.1
+],
+"f": [
+0.5,
+0.5
+]
+},
+"chars": [
+{
+"c": "scroller",
+"x": 960,
+"s": 0.95,
+"expr": "smile",
+"armR": "hold",
+"holdR": {
+"kind": "handbook",
+"x": 0,
+"y": 0
+},
+"lookY": 1
+}
+],
+"props": [
+{
+"kind": "clock",
+"x": 960,
+"y": 260,
+"s": 0.6,
+"a": 140.92,
+"b": 142.05,
+"turns": 0.5,
+"label": "30 MIN"
+}
+],
+"t0": 140.45,
+"_match": "Spend 30 minutes learning something valuable  (1.00)",
+"t1": 142.73
+},
+{
+"type": "stage",
+"set": "room",
+"place": "STEP 5",
+"cam": {
+"z": [
+1.0,
+1.1
+],
+"f": [
+0.5,
+0.5
+]
+},
+"chars": [
+{
+"c": "scroller",
+"x": 960,
+"s": 1.1,
+"expr": "angry",
+"armL": "up",
+"armR": "up",
+"holdL": {
+"kind": "dumbbell",
+"x": 0,
+"y": 0,
+"s": 0.8
+},
+"holdR": {
+"kind": "dumbbell",
+"x": 0,
+"y": 0,
+"s": 0.8
+}
+}
+],
+"t0": 142.73,
+"_match": "exercise  (1.00)",
+"t1": 144.73
+},
+{
+"type": "stage",
+"set": "office",
+"place": "STEP 6",
+"cam": {
+"z": [
+1.0,
+1.1
+],
+"f": [
+0.5,
+0.5
+]
+},
+"chars": [
+{
+"c": "scroller",
+"x": 800,
+"s": 0.9,
+"expr": "happy",
+"armR": "hold",
+"holdR": {
+"kind": "handbook",
+"x": 0,
+"y": 0
+},
+"look": 1
+}
+],
+"props": [
+{
+"kind": "laptop",
+"x": 1110,
+"y": 720,
+"s": 0.8,
+"text": "BUILDING...",
+"a": 145.64
+}
+],
+"t0": 144.73,
+"_match": "Read, build something.  (1.00)",
+"t1": 147.65
+},
+{
+"type": "stage",
+"set": "paper",
+"cam": {
+"z": [
+1.0,
+1.15
+],
+"f": [
+0.45,
+0.42
+]
+},
+"chars": [
+{
+"c": "scroller",
+"x": 960,
+"s": 2.3,
+"y": 1237,
+"expr": "calm",
+"look": 0.4
+}
+],
+"props": [
+{
+"kind": "label",
+"x": 960,
+"y": 150,
+"text": "NOT FUN?",
+"size": 60,
+"c": "#cfd3da",
+"at": 150.58
+},
+{
+"kind": "label",
+"x": 960,
+"y": 260,
+"text": "DO IT ANYWAY",
+"size": 60,
+"c": "#ffd21f",
+"at": 150.05
+}
+],
+"t0": 147.65,
+"_match": "And most importantly, learn how to be comfortable  (1.00)",
+"t1": 151.45
+},
+{
+"type": "card",
+"text": "Success isn't always *exciting.*",
+"a": 151.55,
+"b": 153.24,
+"t0": 151.45,
+"_match": "Because success isn't always exciting.  (1.00)",
+"t1": 153.75
+},
+{
+"type": "stage",
+"set": "office",
+"v": "night",
+"cam": {
+"z": [
+1.0,
+1.1
+],
+"f": [
+0.5,
+0.5
+]
+},
+"chars": [
+{
+"c": "builder",
+"x": 800,
+"s": 0.9,
+"expr": "think",
+"look": 1
+}
+],
+"props": [
+{
+"kind": "laptop",
+"x": 1110,
+"y": 720,
+"s": 0.8
+},
+{
+"kind": "label",
+"x": 960,
+"y": 250,
+"text": "0 LIKES",
+"size": 80,
+"c": "#cfd3da",
+"at": 155.84
+}
+],
+"t0": 153.75,
+"_match": "Sometimes it's sitting alone,  (1.00)",
+"t1": 157.51
+},
+{
+"type": "stage",
+"set": "paper",
+"cam": {
+"z": [
+1.0,
+1.1
+],
+"f": [
+0.5,
+0.5
+]
+},
+"chars": [
+{
+"c": "builder",
+"x": 960,
+"s": 0.95,
+"expr": "angry",
+"armL": "up",
+"armR": "up",
+"holdL": {
+"kind": "dumbbell",
+"x": 0,
+"y": 0,
+"s": 0.8
+},
+"holdR": {
+"kind": "dumbbell",
+"x": 0,
+"y": 0,
+"s": 0.8
+}
+}
+],
+"props": [
+{
+"kind": "calendar",
+"x": 960,
+"y": 270,
+"s": 0.75,
+"month": "REPS",
+"from": 1,
+"to": 500,
+"a": 158.0,
+"b": 159.84
+}
+],
+"t0": 157.51,
+"_match": "Sometimes it's repeating the same task  (1.00)",
+"t1": 160.43
+},
+{
+"type": "stage",
+"set": "paper",
+"v": "dark",
+"cam": {
+"z": [
+1.0,
+1.08
+],
+"f": [
+0.5,
+0.55
+],
+"pan": [
+0,
+-40
+]
+},
+"chars": [
+{
+"c": "builder",
+"x": 1500,
+"s": 0.95,
+"expr": "angry",
+"flip": true,
+"walk": {
+"x0": 1100,
+"x1": 860,
+"a": 160.53,
+"b": 163.03
+}
+}
+],
+"props": [
+{
+"kind": "meter",
+"x": 960,
+"y": 220,
+"label": "MOTIVATION",
+"from": 0.25,
+"to": 0.08,
+"a": 162.62,
+"b": 161.23,
+"c": "#d1262e",
+"w": 440
+}
+],
+"t0": 160.43,
+"_match": "Sometimes it's choosing to keep going  (1.00)",
+"t1": 163.43
+},
+{
+"type": "stage",
+"set": "paper",
+"cam": {
+"z": [
+1.0,
+1.08
+],
+"f": [
+0.5,
+0.45
+]
+},
+"props": [
+{
+"kind": "iceberg",
+"x": 960,
+"y": 560,
+"tip": "SUCCESS",
+"s": 0.85
+}
+],
+"t0": 163.43,
+"_match": "That's the part most people never see.  (1.00)",
+"t1": 165.41
+},
+{
+"type": "stage",
+"set": "keynote",
+"cam": {
+"z": [
+1.0,
+1.1
+],
+"f": [
+0.5,
+0.5
+]
+},
+"chars": [
+{
+"c": "builderOld",
+"x": 960,
+"s": 1.0,
+"expr": "happy",
+"armL": "wave",
+"armR": "up"
+}
+],
+"props": [
+{
+"kind": "audience",
+"x": 960,
+"y": 1060
+},
+{
+"kind": "label",
+"x": 960,
+"y": 300,
+"text": "SUCCESS STORY",
+"size": 70,
+"c": "#ffd21f",
+"at": 165.61
+}
+],
+"t0": 165.41,
+"_match": "They see the successful person.  (1.00)",
+"t1": 167.25
+},
+{
+"type": "stage",
+"set": "paper",
+"cam": {
+"z": [
+1.0,
+1.1
+],
+"f": [
+0.5,
+0.5
+]
+},
+"chars": [
+{
+"c": "builderOld",
+"x": 800,
+"s": 0.9,
+"expr": "smug",
+"armR": "hips"
+}
+],
+"props": [
+{
+"kind": "money",
+"x": 1040,
+"y": 860,
+"s": 0.7,
+"n": 6,
+"at": 167.72
+},
+{
+"kind": "money",
+"x": 1140,
+"y": 860,
+"s": 0.7,
+"n": 8,
+"at": 167.65
+}
+],
+"t0": 167.25,
+"_match": "They see the money.  (1.00)",
+"t1": 169.03
+},
+{
+"type": "stage",
+"set": "hq",
+"v": "dusk",
+"label": "HIS OWN CO.",
+"cam": {
+"z": [
+1.0,
+1.08
+],
+"f": [
+0.5,
+0.55
+]
+},
+"chars": [
+{
+"c": "builderOld",
+"x": 1100,
+"y": 930,
+"s": 0.9,
+"expr": "happy",
+"armL": "hips",
+"armR": "wave"
+}
+],
+"t0": 169.03,
+"_match": "They see the lifestyle.  (1.00)",
+"t1": 170.87
+},
+{
+"type": "stage",
+"set": "paper",
+"cam": {
+"z": [
+1.0,
+1.06
+],
+"f": [
+0.5,
+0.6
+]
+},
+"props": [
+{
+"kind": "iceberg",
+"x": 1010,
+"y": 420,
+"tip": "SUCCESS",
+"deep": [
+"THOUSANDS OF HOURS",
+"LATE NIGHTS",
+"NO ONE WATCHING"
+],
+"reveal": 172.2,
+"s": 0.65
+}
+],
+"t0": 170.87,
+"_match": "But they don't see the thousands of hours  (1.00)",
+"t1": 173.97
+},
+{
+"type": "card",
+"text": "The Real Enemy",
+"chapter": true,
+"num": "4",
+"t0": 173.97,
+"_match": "Here's something you need to understand.  (1.00)",
+"t1": 176.39
+},
+{
+"type": "stage",
+"set": "paper",
+"place": "YOU",
+"cam": {
+"z": [
+1.0,
+1.1
+],
+"f": [
+0.5,
+0.5
+]
+},
+"props": [
+{
+"kind": "mobile",
+"x": 960,
+"y": 640,
+"s": 3.4,
+"glow": false
+},
+{
+"kind": "stamp",
+"x": 960,
+"y": 460,
+"text": "NOT THE ENEMY",
+"size": 56,
+"a": 176.7,
+"color": "#2f9a4a",
+"front": true
+}
+],
+"t0": 176.39,
+"_match": "Your phone isn't necessarily your enemy.  (1.00)",
+"t1": 178.91
+},
+{
+"type": "stage",
+"set": "paper",
+"cam": {
+"z": [
+1.0,
+1.1
+],
+"f": [
+0.5,
+0.5
+]
+},
+"props": [
+{
+"kind": "crt",
+"x": 960,
+"y": 560,
+"s": 1.0,
+"mode": "game"
+},
+{
+"kind": "stamp",
+"x": 960,
+"y": 380,
+"text": "NOT THE ENEMY",
+"size": 56,
+"a": 176.7,
+"color": "#2f9a4a",
+"front": true
+}
+],
+"t0": 178.91,
+"_match": "Entertainment isn't your enemy.  (1.00)",
+"t1": 180.35
+},
+{
+"type": "stage",
+"set": "room",
+"cam": {
+"z": [
+1.0,
+1.1
+],
+"f": [
+0.5,
+0.5
+]
+},
+"chars": [
+{
+"c": "scroller",
+"x": 960,
+"s": 0.95,
+"expr": "happy",
+"armL": "up",
+"armR": "up"
+}
+],
+"props": [
+{
+"kind": "sign",
+"x": 960,
+"y": 280,
+"text": "BREAK",
+"text2": "it's okay",
+"w": 380,
+"a": 180.45,
+"b": 180.95,
+"a2": 176.7,
+"b2": 181.55,
+"band": "#2f9a4a",
+"s": 0.8
+}
+],
+"t0": 180.35,
+"_match": "Taking a break isn't your enemy.  (1.00)",
+"t1": 182.21
+},
+{
+"type": "stage",
+"set": "paper",
+"v": "dark",
+"cam": {
+"z": [
+1.0,
+1.12
+],
+"f": [
+0.5,
+0.45
+],
+"shake": 183.34
+},
+"chars": [
+{
+"c": "scroller",
+"x": 960,
+"y": 960,
+"s": 1.05,
+"expr": "panic",
+"armR": "phone",
+"armL": "up",
+"holdR": {
+"kind": "mobile",
+"x": 0,
+"y": 0
+},
+"lookY": -1
+}
+],
+"props": [
+{
+"kind": "puppet",
+"x": 960,
+"y": 290,
+"s": 1.0,
+"len": 360,
+"to": [
+-150,
+0,
+150
+],
+"at": 182.41
+},
+{
+"kind": "label",
+"x": 960,
+"y": 150,
+"text": "LOST CONTROL",
+"size": 70,
+"c": "#d1262e",
+"at": 183.34,
+"front": true
+}
+],
+"t0": 182.21,
+"_match": "The problem begins when you lose control.  (1.00)",
+"t1": 184.33
+},
+{
+"type": "stage",
+"set": "paper",
+"v": "dark",
+"dark": 0.25,
+"cam": {
+"z": [
+1.0,
+1.14
+],
+"f": [
+0.5,
+0.5
+]
+},
+"chars": [
+{
+"c": "scroller",
+"x": 960,
+"s": 0.9,
+"expr": "worried",
+"look": -0.5
+}
+],
+"props": [
+{
+"kind": "label",
+"x": 960,
+"y": 260,
+"text": "silence...",
+"size": 70,
+"c": "#cfd3da",
+"at": 185.46
+}
+],
+"t0": 184.33,
+"_match": "When you can no longer sit in silence.  (1.00)",
+"t1": 186.23
+},
+{
+"type": "stage",
+"set": "paper",
+"cam": {
+"z": [
+1.0,
+1.1
+],
+"f": [
+0.5,
+0.5
+]
+},
+"chars": [
+{
+"c": "scroller",
+"x": 960,
+"s": 0.95,
+"expr": "worried",
+"armR": "reach",
+"look": 1,
+"k": [
+{
+"t": 188.14,
+"armR": "phone",
+"holdR": {
+"kind": "mobile",
+"x": 0,
+"y": 0
+},
+"lookY": 1,
+"expr": "neutral"
+}
+]
+}
+],
+"props": [
+{
+"kind": "clock",
+"x": 960,
+"y": 260,
+"s": 0.6,
+"a": 186.88,
+"b": 187.43,
+"turns": 0.17,
+"label": "10 MIN"
+}
+],
+"t0": 186.23,
+"_match": "When you can't focus for 10 minutes  (1.00)",
+"t1": 189.19
+},
+{
+"type": "split",
+"panels": [
+{
+"set": "room",
+"v": "dim",
+"chars": [
+{
+"c": "scroller",
+"x": 960,
+"s": 1.0,
+"expr": "sad",
+"armR": "phone",
+"holdR": {
+"kind": "mobile",
+"x": 0,
+"y": 0
+},
+"lookY": 1
+}
+],
+"props": [
+{
+"kind": "label",
+"x": 960,
+"y": 200,
+"text": "WATCHING",
+"size": 80,
+"c": "#7ac8ff"
+}
+]
+},
+{
+"set": "paper",
+"props": [
+{
+"kind": "mountain",
+"x": 960,
+"y": 900,
+"s": 0.8
+},
+{
+"kind": "label",
+"x": 960,
+"y": 200,
+"text": "CHASING",
+"size": 80,
+"c": "#2f9a4a",
+"at": 192.58
+}
+],
+"chars": [
+{
+"c": "builder",
+"x": 1080,
+"y": 720,
+"s": 0.5,
+"expr": "angry",
+"walk": {
+"x0": 1180,
+"x1": 980,
+"a": 189.49,
+"b": 192.69,
+"y0": 860,
+"y1": 560,
+"steps": 4
+}
+}
+]
+}
+],
+"t0": 189.19,
+"_match": "When you spend more time watching other people chase  (1.00)",
+"t1": 193.65
+},
+{
+"type": "stage",
+"set": "paper",
+"place": "YOU",
+"cam": {
+"z": [
+1.0,
+1.15
+],
+"f": [
+0.45,
+0.42
+]
+},
+"chars": [
+{
+"c": "scroller",
+"x": 960,
+"s": 2.3,
+"y": 1237,
+"expr": "angry",
+"look": 0.4
+}
+],
+"props": [
+{
+"kind": "label",
+"x": 960,
+"y": 250,
+"text": "CHANGE",
+"size": 110,
+"c": "#ffd21f",
+"at": 194.54,
+"rot": -5
+}
+],
+"t0": 193.65,
+"_match": "That's when you need to make a change.  (1.00)",
+"t1": 195.55
+},
+{
+"type": "stage",
+"set": "paper",
+"v": "dark",
+"cam": {
+"z": [
+1.0,
+1.1
+],
+"f": [
+0.5,
+0.48
+]
+},
+"props": [
+{
+"kind": "gem",
+"x": 960,
+"y": 470,
+"s": 0.85,
+"label": "YOUR ATTENTION",
+"at": 195.65
+}
+],
+"t0": 195.55,
+"_match": "Because your attention is one of the most valuable  (1.00)",
+"t1": 198.75
+},
+{
+"type": "card",
+"text": "Where you spend your attention is where you spend your *life.*",
+"a": 198.85,
+"b": 201.14,
+"t0": 198.75,
+"_match": "And where you spend your attention  (1.00)",
+"t1": 201.09
+},
+{
+"type": "stage",
+"set": "room",
+"v": "dim",
+"place": "YOU",
+"cam": {
+"z": [
+1.0,
+1.12
+],
+"f": [
+0.5,
+0.42
+]
+},
+"chars": [
+{
+"c": "scroller",
+"x": 960,
+"s": 2.3,
+"y": 1137.0,
+"expr": "neutral",
+"armR": "phone",
+"holdR": {
+"kind": "mobile",
+"x": 0,
+"y": 0
+},
+"lookY": 1,
+"look": 0.4
+}
+],
+"t0": 201.09,
+"_match": "So the next time you pick up your phone,  (1.00)",
+"t1": 203.35
+},
+{
+"type": "stage",
+"set": "room",
+"v": "dim",
+"cam": {
+"z": [
+1.0,
+1.12
+],
+"f": [
+0.45,
+0.42
+]
+},
+"chars": [
+{
+"c": "scroller",
+"x": 960,
+"s": 2.3,
+"y": 1137.0,
+"expr": "think",
+"armR": "chin",
+"lookY": -1,
+"look": 0.5
+}
+],
+"props": [
+{
+"kind": "q",
+"x": 1130,
+"y": 150,
+"s": 0.6,
+"at": 204.12
+}
+],
+"t0": 203.35,
+"_match": "ask yourself one question.  (1.00)",
+"t1": 204.93
+},
+{
+"type": "card",
+"text": "Am I using this device... or is this device *using* *me?*",
+"a": 205.03,
+"b": 207.92,
+"t0": 204.93,
+"_match": "Am I using this device?  (1.00)",
+"t1": 208.55
+},
+{
+"type": "stage",
+"set": "paper",
+"cam": {
+"z": [
+1.0,
+1.1
+],
+"f": [
+0.5,
+0.5
+]
+},
+"props": [
+{
+"kind": "mountain",
+"x": 960,
+"y": 940,
+"s": 0.5
+},
+{
+"kind": "label",
+"x": 960,
+"y": 300,
+"text": "ONE LIFE",
+"size": 120,
+"c": "#ffd21f",
+"at": 209.12
+}
+],
+"chars": [
+{
+"c": "scroller",
+"x": 780,
+"s": 0.7,
+"expr": "calm",
+"look": 1,
+"lookY": -1
+}
+],
+"t0": 208.55,
+"_match": "You only get one life.  (1.00)",
+"t1": 210.47
+},
+{
+"type": "stage",
+"set": "room",
+"v": "dim",
+"cam": {
+"z": [
+1.0,
+1.08
+],
+"f": [
+0.5,
+0.5
+]
+},
+"chars": [
+{
+"c": "scroller",
+"x": 960,
+"s": 0.95,
+"expr": "sad",
+"armR": "phone",
+"holdR": {
+"kind": "mobile",
+"x": 0,
+"y": 0
+},
+"look": 1
+}
+],
+"props": [
+{
+"kind": "phone",
+"x": 960,
+"y": 300,
+"s": 0.58,
+"head": "THEIR LIFE",
+"sub": "FEED",
+"posts": [
+"living it",
+"loving it"
+],
+"a": 210.57
+}
+],
+"t0": 210.47,
+"_match": "Don't spend it watching everybody else  (1.00)",
+"t1": 213.01
+},
+{
+"type": "stage",
+"set": "paper",
+"cam": {
+"z": [
+1.0,
+1.12
+],
+"f": [
+0.5,
+0.5
+]
+},
+"chars": [
+{
+"c": "scroller",
+"x": 900,
+"s": 1.0,
+"expr": "calm",
+"look": 0.6,
+"lookY": 1
+}
+],
+"props": [
+{
+"kind": "mobile",
+"x": 1090,
+"y": 320,
+"s": 1.6,
+"glow": false,
+"move": {
+"x": 1090,
+"y": 860,
+"a": 213.28,
+"b": 214.01
+}
+},
+{
+"kind": "label",
+"x": 960,
+"y": 140,
+"text": "DOWN.",
+"size": 110,
+"c": "#ffd21f",
+"at": 213.46
+}
+],
+"t0": 213.01,
+"_match": "Put the phone down.  (1.00)",
+"t1": 214.81
+},
+{
+"type": "stage",
+"set": "paper",
+"cam": {
+"z": [
+1.0,
+1.12
+],
+"f": [
+0.5,
+0.5
+]
+},
+"props": [
+{
+"kind": "clock",
+"x": 960,
+"y": 470,
+"s": 1.0,
+"a": 214.81,
+"b": 216.31,
+"turns": 2
+},
+{
+"kind": "stamp",
+"x": 960,
+"y": 470,
+"text": "STOP WAITING",
+"size": 60,
+"a": 215.16,
+"front": true
+}
+],
+"t0": 214.81,
+"_match": "Stop waiting.  (1.00)",
+"t1": 216.69
+},
+{
+"type": "stage",
+"set": "paper",
+"cam": {
+"z": [
+1.0,
+1.1
+],
+"f": [
+0.5,
+0.5
+]
+},
+"props": [
+{
+"kind": "bubble",
+"x": 960,
+"y": 150,
+"text": "TOO TIRED",
+"w": 380
+},
+{
+"kind": "bubble",
+"x": 960,
+"y": 330,
+"text": "TOMORROW",
+"w": 380,
+"at": 216.89
+},
+{
+"kind": "bubble",
+"x": 960,
+"y": 510,
+"text": "NOT NOW",
+"w": 360,
+"at": 217.09
+},
+{
+"kind": "stamp",
+"x": 960,
+"y": 480,
+"text": "NO EXCUSES",
+"size": 70,
+"a": 217.28,
+"front": true
+}
+],
+"t0": 216.69,
+"_match": "Stop making excuses.  (1.00)",
+"t1": 218.47
+},
+{
+"type": "stage",
+"set": "skyline",
+"place": "YOU",
+"cam": {
+"z": [
+1.0,
+1.12
+],
+"f": [
+0.5,
+0.6
+]
+},
+"props": [
+{
+"kind": "speed",
+"x": 820,
+"y": 640,
+"s": 0.7,
+"at": 219.0
+},
+{
+"kind": "building",
+"x": 1120,
+"y": 905,
+"label": "YOURS",
+"a": 218.8,
+"b": 220.47,
+"s": 0.7
+}
+],
+"chars": [
+{
+"c": "scroller",
+"x": 820,
+"s": 1.0,
+"expr": "happy",
+"armL": "up",
+"armR": "pointUp"
+}
+],
+"t0": 218.47,
+"_match": "And start building.  (1.00)",
+"t1": 220.43
+},
+{
+"type": "stage",
+"set": "paper",
+"cam": {
+"z": [
+1.0,
+1.1
+],
+"f": [
+0.5,
+0.5
+]
+},
+"props": [
+{
+"kind": "calendar",
+"x": 960,
+"y": 520,
+"s": 1.3,
+"month": "YEARS",
+"from": 0,
+"to": 5,
+"a": 220.78,
+"b": 221.76
+}
+],
+"t0": 220.43,
+"_match": "Because five years from now,  (1.00)",
+"t1": 222.01
+},
+{
+"type": "stage",
+"set": "skyline",
+"cam": {
+"z": [
+1.0,
+1.1
+],
+"f": [
+0.5,
+0.45
+]
+},
+"props": [
+{
+"kind": "mountain",
+"x": 960,
+"y": 980,
+"s": 1.0
+},
+{
+"kind": "label",
+"x": 960,
+"y": 200,
+"text": "PROUD",
+"size": 120,
+"c": "#ffd21f",
+"at": 222.66
+}
+],
+"chars": [
+{
+"c": "scroller",
+"x": 960,
+"y": 478,
+"s": 0.55,
+"expr": "happy",
+"armL": "up",
+"armR": "up"
+}
+],
+"t0": 222.01,
+"_match": "you'll either be proud  (1.00)",
+"t1": 224.61
+},
+{
+"type": "stage",
+"set": "bedroom",
+"dark": 0.2,
+"cam": {
+"z": [
+1.0,
+1.12
+],
+"f": [
+0.5,
+0.42
+]
+},
+"chars": [
+{
+"c": "scrollerOld",
+"x": 960,
+"s": 2.3,
+"y": 1137.0,
+"expr": "sad",
+"armR": "phone",
+"holdR": {
+"kind": "mobile",
+"x": 0,
+"y": 0
+},
+"lookY": 1
+}
+],
+"props": [
+{
+"kind": "label",
+"x": 960,
+"y": 120,
+"text": "REGRET",
+"size": 100,
+"c": "#cfd3da",
+"at": 225.06
+}
+],
+"t0": 224.61,
+"_match": "or you'll wish you had made them.  (1.00)",
+"t1": 226.51
+},
+{
+"type": "card",
+"text": "The choice is *yours.*",
+"a": 226.61,
+"b": 227.34,
+"t0": 226.51,
+"_match": "The choice is yours.  (1.00)",
+"t1": 228.408
+}
+]
