@@ -6,7 +6,7 @@ WrapStyle: 2
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
-Style: Cap,Lilita One,104,&H00FFFFFF,&H00FFFFFF,&H00180F14,&H96000000,0,0,0,0,100,100,1,0,1,7,4,2,60,60,430,1
+Style: Cap,Lilita One,104,&H00FFFFFF,&H00FFFFFF,&H00180F14,&H96000000,0,0,0,0,100,100,1,0,1,7,4,2,60,60,350,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
