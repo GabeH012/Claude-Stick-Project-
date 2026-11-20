@@ -3,3 +3,4 @@ work/sample/
 work/*.mp4
 audio/*.wav
 __pycache__/
+work/render.log
