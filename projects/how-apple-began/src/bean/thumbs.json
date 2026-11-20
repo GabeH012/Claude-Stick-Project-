@@ -1,0 +1,20 @@
+{
+  "A": {
+    "stage": {
+      "set": "garage",
+      "chars": [{ "c": "visionary", "x": 1380, "y": 1300, "s": 2.4, "expr": "shock", "look": -0.5 },
+                { "c": "engineer", "x": 1780, "y": 1150, "s": 1.6, "expr": "happy", "look": -0.6 }],
+      "props": [{ "kind": "board", "x": 540, "y": 800, "s": 1.0 }, { "kind": "bulb", "x": 1060, "y": 300, "s": 0.8 }]
+    },
+    "line1": "$0 AND", "line2": "A GARAGE?", "x": 70, "y": 190, "size": 160
+  },
+  "B": {
+    "stage": {
+      "set": "paper",
+      "props": [{ "kind": "van", "x": 1250, "y": 900, "s": 1.6, "label": "VAN" },
+                { "kind": "stamp", "x": 1250, "y": 560, "text": "SOLD", "size": 150, "front": true }],
+      "chars": [{ "c": "visionary", "x": 520, "y": 1250, "s": 2.0, "expr": "worried", "look": 0.6 }]
+    },
+    "line1": "THEY SOLD", "line2": "THEIR VAN?!", "x": 70, "y": 190, "size": 160
+  }
+}
