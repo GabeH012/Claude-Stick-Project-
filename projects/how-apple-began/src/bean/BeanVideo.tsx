@@ -14,6 +14,7 @@ export type Shot = {
   text?: string; a?: number; b?: number; chapter?: boolean; panels?: Shot[];
   label?: string; // building sign text for sets that have one (hq)
   cx?: number;   // vertical mode: centre of the visible stage window (stage units, default 960)
+  vert?: Partial<Shot>; // vertical mode: fields that replace the 16:9 layout (chars, props, cam, ...)
 };
 
 /* Frame: 16:9 (1920x1080) or vertical 9:16 (1080x1920). In vertical mode the 1920x1080 stage is seen through a
@@ -151,16 +152,19 @@ export const ShotStill: React.FC<{ sh: Partial<Shot>; T: number; zoom?: number; 
 };
 
 /* QA: frame i shows shot floor(i/3) at 20% / 55% / 90% of its length */
-export const BeanSampler: React.FC<{ shots: Shot[]; lips: number[]; vertical?: boolean }> = ({ shots, lips, vertical = false }) => {
+const forMode = (shots: Shot[], vertical: boolean) => (vertical ? shots.map((s) => (s.vert ? { ...s, ...s.vert } : s)) : shots);
+export const BeanSampler: React.FC<{ shots: Shot[]; lips: number[]; vertical?: boolean }> = ({ shots: all, lips, vertical = false }) => {
   const f = useCurrentFrame();
+  const shots = forMode(all, vertical);
   const sh = shots[Math.min(shots.length - 1, Math.floor(f / 3))];
   const T = sh.t0 + (sh.t1 - sh.t0) * [0.2, 0.55, 0.9][f % 3];
   return (<Ctx.Provider value={{ lips, vertical }}><AbsoluteFill style={{ background: "#000" }}><ShotView sh={sh} Tover={T} />
     <AbsoluteFill style={{ background: "radial-gradient(ellipse at center, rgba(0,0,0,0) 55%, rgba(0,0,0,0.38) 100%)" }} /></AbsoluteFill></Ctx.Provider>);
 };
 
-export const BeanVideo: React.FC<{ shots: Shot[]; lips: number[]; audio?: string; total: number; vertical?: boolean }> = ({ shots, lips, audio, vertical = false }) => {
+export const BeanVideo: React.FC<{ shots: Shot[]; lips: number[]; audio?: string; total: number; vertical?: boolean }> = ({ shots: all, lips, audio, vertical = false }) => {
   const f = useCurrentFrame();
+  const shots = forMode(all, vertical);
   return (
     <Ctx.Provider value={{ lips, vertical }}>
       <AbsoluteFill style={{ background: "#000" }}>

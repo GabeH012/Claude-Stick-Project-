@@ -1,0 +1,246 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 2
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Cap,Lilita One,104,&H00FFFFFF,&H00FFFFFF,&H00180F14,&H96000000,0,0,0,0,100,100,1,0,1,7,4,2,60,60,430,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:00.24,Cap,,0,0,0,,{\fscx82\fscy82\t(0,90,\fscx100\fscy100)}{\c&H00F5FF&}IN{\c&HFFFFFF&} 1976
+Dialogue: 0,0:00:00.24,0:00:01.35,Cap,,0,0,0,,IN {\c&H00F5FF&}1976{\c&HFFFFFF&}
+Dialogue: 0,0:00:01.76,0:00:01.96,Cap,,0,0,0,,{\fscx82\fscy82\t(0,90,\fscx100\fscy100)}{\c&H00F5FF&}TWO{\c&HFFFFFF&} YOUNG MEN
+Dialogue: 0,0:00:01.96,0:00:02.20,Cap,,0,0,0,,TWO {\c&H00F5FF&}YOUNG{\c&HFFFFFF&} MEN
+Dialogue: 0,0:00:02.20,0:00:02.46,Cap,,0,0,0,,TWO YOUNG {\c&H00F5FF&}MEN{\c&HFFFFFF&}
+Dialogue: 0,0:00:02.46,0:00:02.76,Cap,,0,0,0,,{\fscx82\fscy82\t(0,90,\fscx100\fscy100)}{\c&H00F5FF&}HAD{\c&HFFFFFF&} AN IDEA
+Dialogue: 0,0:00:02.76,0:00:02.90,Cap,,0,0,0,,HAD {\c&H00F5FF&}AN{\c&HFFFFFF&} IDEA
+Dialogue: 0,0:00:02.90,0:00:03.28,Cap,,0,0,0,,HAD AN {\c&H00F5FF&}IDEA{\c&HFFFFFF&}
+Dialogue: 0,0:00:03.28,0:00:03.52,Cap,,0,0,0,,{\fscx82\fscy82\t(0,90,\fscx100\fscy100)}{\c&H00F5FF&}THAT{\c&HFFFFFF&} WOULD
+Dialogue: 0,0:00:03.52,0:00:03.64,Cap,,0,0,0,,THAT {\c&H00F5FF&}WOULD{\c&HFFFFFF&}
+Dialogue: 0,0:00:03.64,0:00:04.08,Cap,,0,0,0,,{\fscx82\fscy82\t(0,90,\fscx100\fscy100)}{\c&H00F5FF&}EVENTUALLY{\c&HFFFFFF&}
+Dialogue: 0,0:00:04.08,0:00:04.52,Cap,,0,0,0,,{\fscx82\fscy82\t(0,90,\fscx100\fscy100)}{\c&H00F5FF&}CHANGE{\c&HFFFFFF&} THE
+Dialogue: 0,0:00:04.52,0:00:04.72,Cap,,0,0,0,,CHANGE {\c&H00F5FF&}THE{\c&HFFFFFF&}
+Dialogue: 0,0:00:04.72,0:00:05.14,Cap,,0,0,0,,{\fscx82\fscy82\t(0,90,\fscx100\fscy100)}{\c&H00F5FF&}ENTIRE{\c&HFFFFFF&} WORLD
+Dialogue: 0,0:00:05.14,0:00:05.95,Cap,,0,0,0,,ENTIRE {\c&H00F5FF&}WORLD{\c&HFFFFFF&}
+Dialogue: 0,0:00:06.02,0:00:06.12,Cap,,0,0,0,,{\fscx68\fscy68\t(0,90,\fscx84\fscy84)}{\c&H00F5FF&}THEIR{\c&HFFFFFF&} NAMES WERE
+Dialogue: 0,0:00:06.12,0:00:06.36,Cap,,0,0,0,,{\fscx84\fscy84}THEIR {\c&H00F5FF&}NAMES{\c&HFFFFFF&} WERE
+Dialogue: 0,0:00:06.36,0:00:06.52,Cap,,0,0,0,,{\fscx84\fscy84}THEIR NAMES {\c&H00F5FF&}WERE{\c&HFFFFFF&}
+Dialogue: 0,0:00:06.52,0:00:06.82,Cap,,0,0,0,,{\fscx79\fscy79\t(0,90,\fscx97\fscy97)}{\c&H00F5FF&}STEVE{\c&HFFFFFF&} JOBS AND
+Dialogue: 0,0:00:06.82,0:00:07.14,Cap,,0,0,0,,{\fscx97\fscy97}STEVE {\c&H00F5FF&}JOBS{\c&HFFFFFF&} AND
+Dialogue: 0,0:00:07.14,0:00:07.64,Cap,,0,0,0,,{\fscx97\fscy97}STEVE JOBS {\c&H00F5FF&}AND{\c&HFFFFFF&}
+Dialogue: 0,0:00:07.64,0:00:07.98,Cap,,0,0,0,,{\fscx82\fscy82\t(0,90,\fscx100\fscy100)}{\c&H00F5FF&}STEVE{\c&HFFFFFF&} WOZNIAK
+Dialogue: 0,0:00:07.98,0:00:08.97,Cap,,0,0,0,,STEVE {\c&H00F5FF&}WOZNIAK{\c&HFFFFFF&}
+Dialogue: 0,0:00:09.08,0:00:09.18,Cap,,0,0,0,,{\fscx82\fscy82\t(0,90,\fscx100\fscy100)}{\c&H00F5FF&}THEY{\c&HFFFFFF&} WEREN'T
+Dialogue: 0,0:00:09.18,0:00:09.44,Cap,,0,0,0,,THEY {\c&H00F5FF&}WEREN'T{\c&HFFFFFF&}
+Dialogue: 0,0:00:09.44,0:00:10.49,Cap,,0,0,0,,{\fscx82\fscy82\t(0,90,\fscx100\fscy100)}{\c&H00F5FF&}BILLIONAIRES{\c&HFFFFFF&}
+Dialogue: 0,0:00:10.58,0:00:10.72,Cap,,0,0,0,,{\fscx68\fscy68\t(0,90,\fscx84\fscy84)}{\c&H00F5FF&}THEY{\c&HFFFFFF&} DIDN'T HAVE
+Dialogue: 0,0:00:10.72,0:00:10.88,Cap,,0,0,0,,{\fscx84\fscy84}THEY {\c&H00F5FF&}DIDN'T{\c&HFFFFFF&} HAVE
+Dialogue: 0,0:00:10.88,0:00:11.06,Cap,,0,0,0,,{\fscx84\fscy84}THEY DIDN'T {\c&H00F5FF&}HAVE{\c&HFFFFFF&}
+Dialogue: 0,0:00:11.06,0:00:11.14,Cap,,0,0,0,,{\fscx82\fscy82\t(0,90,\fscx100\fscy100)}{\c&H00F5FF&}A{\c&HFFFFFF&} HUGE OFFICE
+Dialogue: 0,0:00:11.14,0:00:11.42,Cap,,0,0,0,,A {\c&H00F5FF&}HUGE{\c&HFFFFFF&} OFFICE
+Dialogue: 0,0:00:11.42,0:00:11.84,Cap,,0,0,0,,A HUGE {\c&H00F5FF&}OFFICE{\c&HFFFFFF&}
+Dialogue: 0,0:00:11.84,0:00:12.18,Cap,,0,0,0,,{\fscx82\fscy82\t(0,90,\fscx100\fscy100)}{\c&H00F5FF&}OR{\c&HFFFFFF&} A POWERFUL
+Dialogue: 0,0:00:12.18,0:00:12.30,Cap,,0,0,0,,OR {\c&H00F5FF&}A{\c&HFFFFFF&} POWERFUL
+Dialogue: 0,0:00:12.30,0:00:12.68,Cap,,0,0,0,,OR A {\c&H00F5FF&}POWERFUL{\c&HFFFFFF&}
+Dialogue: 0,0:00:12.68,0:00:13.16,Cap,,0,0,0,,{\fscx76\fscy76\t(0,90,\fscx93\fscy93)}{\c&H00F5FF&}COMPANY{\c&HFFFFFF&} BEHIND
+Dialogue: 0,0:00:13.16,0:00:13.46,Cap,,0,0,0,,{\fscx93\fscy93}COMPANY {\c&H00F5FF&}BEHIND{\c&HFFFFFF&}
+Dialogue: 0,0:00:13.46,0:00:14.10,Cap,,0,0,0,,{\fscx82\fscy82\t(0,90,\fscx100\fscy100)}{\c&H00F5FF&}THEM{\c&HFFFFFF&}
+Dialogue: 0,0:00:14.10,0:00:14.26,Cap,,0,0,0,,{\fscx82\fscy82\t(0,90,\fscx100\fscy100)}{\c&H00F5FF&}JUST{\c&HFFFFFF&} AN IDEA
+Dialogue: 0,0:00:14.26,0:00:14.44,Cap,,0,0,0,,JUST {\c&H00F5FF&}AN{\c&HFFFFFF&} IDEA
+Dialogue: 0,0:00:14.44,0:00:15.23,Cap,,0,0,0,,JUST AN {\c&H00F5FF&}IDEA{\c&HFFFFFF&}
+Dialogue: 0,0:00:15.26,0:00:15.40,Cap,,0,0,0,,{\fscx82\fscy82\t(0,90,\fscx100\fscy100)}{\c&H00F5FF&}A{\c&HFFFFFF&} GARAGE
+Dialogue: 0,0:00:15.40,0:00:16.10,Cap,,0,0,0,,A {\c&H00F5FF&}GARAGE{\c&HFFFFFF&}
+Dialogue: 0,0:00:16.10,0:00:16.28,Cap,,0,0,0,,{\fscx82\fscy82\t(0,90,\fscx100\fscy100)}{\c&H00F5FF&}AND{\c&HFFFFFF&} A DREAM
+Dialogue: 0,0:00:16.28,0:00:16.38,Cap,,0,0,0,,AND {\c&H00F5FF&}A{\c&HFFFFFF&} DREAM
+Dialogue: 0,0:00:16.38,0:00:17.09,Cap,,0,0,0,,AND A {\c&H00F5FF&}DREAM{\c&HFFFFFF&}
+Dialogue: 0,0:00:17.36,0:00:17.66,Cap,,0,0,0,,{\fscx82\fscy82\t(0,90,\fscx100\fscy100)}{\c&H00F5FF&}STEVE{\c&HFFFFFF&} WOZNIAK
+Dialogue: 0,0:00:17.66,0:00:18.34,Cap,,0,0,0,,STEVE {\c&H00F5FF&}WOZNIAK{\c&HFFFFFF&}
+Dialogue: 0,0:00:18.34,0:00:18.54,Cap,,0,0,0,,{\fscx82\fscy82\t(0,90,\fscx100\fscy100)}{\c&H00F5FF&}WAS{\c&HFFFFFF&} THE
+Dialogue: 0,0:00:18.54,0:00:18.70,Cap,,0,0,0,,WAS {\c&H00F5FF&}THE{\c&HFFFFFF&}
+Dialogue: 0,0:00:18.70,0:00:19.20,Cap,,0,0,0,,{\fscx82\fscy82\t(0,90,\fscx100\fscy100)}{\c&H00F5FF&}ENGINEERING{\c&HFFFFFF&}
+Dialogue: 0,0:00:19.20,0:00:20.07,Cap,,0,0,0,,{\fscx82\fscy82\t(0,90,\fscx100\fscy100)}{\c&H00F5FF&}GENIUS{\c&HFFFFFF&}
+Dialogue: 0,0:00:20.30,0:00:20.40,Cap,,0,0,0,,{\fscx82\fscy82\t(0,90,\fscx100\fscy100)}{\c&H00F5FF&}HE{\c&HFFFFFF&} DESIGNED A
+Dialogue: 0,0:00:20.40,0:00:20.68,Cap,,0,0,0,,HE {\c&H00F5FF&}DESIGNED{\c&HFFFFFF&} A
+Dialogue: 0,0:00:20.68,0:00:20.84,Cap,,0,0,0,,HE DESIGNED {\c&H00F5FF&}A{\c&HFFFFFF&}
+Dialogue: 0,0:00:20.84,0:00:21.20,Cap,,0,0,0,,{\fscx82\fscy82\t(0,90,\fscx100\fscy100)}{\c&H00F5FF&}PERSONAL{\c&HFFFFFF&}
+Dialogue: 0,0:00:21.20,0:00:21.66,Cap,,0,0,0,,{\fscx71\fscy71\t(0,90,\fscx87\fscy87)}{\c&H00F5FF&}COMPUTER{\c&HFFFFFF&} CALLED
+Dialogue: 0,0:00:21.66,0:00:21.98,Cap,,0,0,0,,{\fscx87\fscy87}COMPUTER {\c&H00F5FF&}CALLED{\c&HFFFFFF&}
+Dialogue: 0,0:00:21.98,0:00:22.18,Cap,,0,0,0,,{\fscx82\fscy82\t(0,90,\fscx100\fscy100)}{\c&H00F5FF&}THE{\c&HFFFFFF&} APPLE I
+Dialogue: 0,0:00:22.18,0:00:22.52,Cap,,0,0,0,,THE {\c&H00F5FF&}APPLE{\c&HFFFFFF&} I
+Dialogue: 0,0:00:22.52,0:00:23.24,Cap,,0,0,0,,THE APPLE {\c&H00F5FF&}I{\c&HFFFFFF&}
+Dialogue: 0,0:00:23.24,0:00:23.52,Cap,,0,0,0,,{\fscx79\fscy79\t(0,90,\fscx97\fscy97)}{\c&H00F5FF&}STEVE{\c&HFFFFFF&} JOBS SAW
+Dialogue: 0,0:00:23.52,0:00:23.92,Cap,,0,0,0,,{\fscx97\fscy97}STEVE {\c&H00F5FF&}JOBS{\c&HFFFFFF&} SAW
+Dialogue: 0,0:00:23.92,0:00:24.36,Cap,,0,0,0,,{\fscx97\fscy97}STEVE JOBS {\c&H00F5FF&}SAW{\c&HFFFFFF&}
+Dialogue: 0,0:00:24.36,0:00:24.68,Cap,,0,0,0,,{\fscx82\fscy82\t(0,90,\fscx100\fscy100)}{\c&H00F5FF&}SOMETHING{\c&HFFFFFF&}
+Dialogue: 0,0:00:24.68,0:00:25.41,Cap,,0,0,0,,{\fscx82\fscy82\t(0,90,\fscx100\fscy100)}{\c&H00F5FF&}BIGGER{\c&HFFFFFF&}
+Dialogue: 0,0:00:25.52,0:00:25.64,Cap,,0,0,0,,{\fscx82\fscy82\t(0,90,\fscx100\fscy100)}{\c&H00F5FF&}HE{\c&HFFFFFF&} BELIEVED
+Dialogue: 0,0:00:25.64,0:00:25.90,Cap,,0,0,0,,HE {\c&H00F5FF&}BELIEVED{\c&HFFFFFF&}
+Dialogue: 0,0:00:25.90,0:00:26.44,Cap,,0,0,0,,{\fscx82\fscy82\t(0,90,\fscx100\fscy100)}{\c&H00F5FF&}COMPUTERS{\c&HFFFFFF&}
+Dialogue: 0,0:00:26.44,0:00:27.08,Cap,,0,0,0,,{\fscx76\fscy76\t(0,90,\fscx93\fscy93)}{\c&H00F5FF&}SHOULDN'T{\c&HFFFFFF&} JUST
+Dialogue: 0,0:00:27.08,0:00:27.32,Cap,,0,0,0,,{\fscx93\fscy93}SHOULDN'T {\c&H00F5FF&}JUST{\c&HFFFFFF&}
+Dialogue: 0,0:00:27.32,0:00:27.50,Cap,,0,0,0,,{\fscx82\fscy82\t(0,90,\fscx100\fscy100)}{\c&H00F5FF&}BE{\c&HFFFFFF&} FOR
+Dialogue: 0,0:00:27.50,0:00:27.66,Cap,,0,0,0,,BE {\c&H00F5FF&}FOR{\c&HFFFFFF&}
+Dialogue: 0,0:00:27.66,0:00:28.08,Cap,,0,0,0,,{\fscx76\fscy76\t(0,90,\fscx93\fscy93)}{\c&H00F5FF&}SCIENTISTS{\c&HFFFFFF&} AND
+Dialogue: 0,0:00:28.08,0:00:28.48,Cap,,0,0,0,,{\fscx93\fscy93}SCIENTISTS {\c&H00F5FF&}AND{\c&HFFFFFF&}
+Dialogue: 0,0:00:28.48,0:00:29.27,Cap,,0,0,0,,{\fscx82\fscy82\t(0,90,\fscx100\fscy100)}{\c&H00F5FF&}BUSINESSES{\c&HFFFFFF&}
+Dialogue: 0,0:00:29.54,0:00:29.70,Cap,,0,0,0,,{\fscx79\fscy79\t(0,90,\fscx97\fscy97)}{\c&H00F5FF&}THEY{\c&HFFFFFF&} SHOULD BE
+Dialogue: 0,0:00:29.70,0:00:29.84,Cap,,0,0,0,,{\fscx97\fscy97}THEY {\c&H00F5FF&}SHOULD{\c&HFFFFFF&} BE
+Dialogue: 0,0:00:29.84,0:00:30.00,Cap,,0,0,0,,{\fscx97\fscy97}THEY SHOULD {\c&H00F5FF&}BE{\c&HFFFFFF&}
+Dialogue: 0,0:00:30.00,0:00:30.26,Cap,,0,0,0,,{\fscx82\fscy82\t(0,90,\fscx100\fscy100)}{\c&H00F5FF&}SOMETHING{\c&HFFFFFF&}
+Dialogue: 0,0:00:30.26,0:00:30.94,Cap,,0,0,0,,{\fscx71\fscy71\t(0,90,\fscx87\fscy87)}{\c&H00F5FF&}ORDINARY{\c&HFFFFFF&} PEOPLE
+Dialogue: 0,0:00:30.94,0:00:31.32,Cap,,0,0,0,,{\fscx87\fscy87}ORDINARY {\c&H00F5FF&}PEOPLE{\c&HFFFFFF&}
+Dialogue: 0,0:00:31.32,0:00:31.54,Cap,,0,0,0,,{\fscx82\fscy82\t(0,90,\fscx100\fscy100)}{\c&H00F5FF&}COULD{\c&HFFFFFF&} USE IN
+Dialogue: 0,0:00:31.54,0:00:31.94,Cap,,0,0,0,,COULD {\c&H00F5FF&}USE{\c&HFFFFFF&} IN
+Dialogue: 0,0:00:31.94,0:00:32.10,Cap,,0,0,0,,COULD USE {\c&H00F5FF&}IN{\c&HFFFFFF&}
+Dialogue: 0,0:00:32.10,0:00:32.24,Cap,,0,0,0,,{\fscx73\fscy73\t(0,90,\fscx90\fscy90)}{\c&H00F5FF&}THEIR{\c&HFFFFFF&} OWN HOMES
+Dialogue: 0,0:00:32.24,0:00:32.42,Cap,,0,0,0,,{\fscx90\fscy90}THEIR {\c&H00F5FF&}OWN{\c&HFFFFFF&} HOMES
+Dialogue: 0,0:00:32.42,0:00:33.25,Cap,,0,0,0,,{\fscx90\fscy90}THEIR OWN {\c&H00F5FF&}HOMES{\c&HFFFFFF&}
+Dialogue: 0,0:00:33.36,0:00:33.62,Cap,,0,0,0,,{\fscx79\fscy79\t(0,90,\fscx97\fscy97)}{\c&H00F5FF&}BUT{\c&HFFFFFF&} TURNING AN
+Dialogue: 0,0:00:33.62,0:00:33.94,Cap,,0,0,0,,{\fscx97\fscy97}BUT {\c&H00F5FF&}TURNING{\c&HFFFFFF&} AN
+Dialogue: 0,0:00:33.94,0:00:34.10,Cap,,0,0,0,,{\fscx97\fscy97}BUT TURNING {\c&H00F5FF&}AN{\c&HFFFFFF&}
+Dialogue: 0,0:00:34.10,0:00:34.50,Cap,,0,0,0,,{\fscx68\fscy68\t(0,90,\fscx84\fscy84)}{\c&H00F5FF&}INVENTION{\c&HFFFFFF&} INTO A
+Dialogue: 0,0:00:34.50,0:00:35.02,Cap,,0,0,0,,{\fscx84\fscy84}INVENTION {\c&H00F5FF&}INTO{\c&HFFFFFF&} A
+Dialogue: 0,0:00:35.02,0:00:35.20,Cap,,0,0,0,,{\fscx84\fscy84}INVENTION INTO {\c&H00F5FF&}A{\c&HFFFFFF&}
+Dialogue: 0,0:00:35.20,0:00:35.52,Cap,,0,0,0,,{\fscx71\fscy71\t(0,90,\fscx87\fscy87)}{\c&H00F5FF&}BUSINESS{\c&HFFFFFF&} WASN'T
+Dialogue: 0,0:00:35.52,0:00:36.06,Cap,,0,0,0,,{\fscx87\fscy87}BUSINESS {\c&H00F5FF&}WASN'T{\c&HFFFFFF&}
+Dialogue: 0,0:00:36.06,0:00:36.81,Cap,,0,0,0,,{\fscx82\fscy82\t(0,90,\fscx100\fscy100)}{\c&H00F5FF&}EASY{\c&HFFFFFF&}
+Dialogue: 0,0:00:36.86,0:00:36.96,Cap,,0,0,0,,{\fscx82\fscy82\t(0,90,\fscx100\fscy100)}{\c&H00F5FF&}THEY{\c&HFFFFFF&} NEEDED
+Dialogue: 0,0:00:36.96,0:00:37.22,Cap,,0,0,0,,THEY {\c&H00F5FF&}NEEDED{\c&HFFFFFF&}
+Dialogue: 0,0:00:37.22,0:00:37.94,Cap,,0,0,0,,{\fscx82\fscy82\t(0,90,\fscx100\fscy100)}{\c&H00F5FF&}MONEY{\c&HFFFFFF&}
+Dialogue: 0,0:00:37.94,0:00:38.73,Cap,,0,0,0,,{\fscx82\fscy82\t(0,90,\fscx100\fscy100)}{\c&H00F5FF&}CUSTOMERS{\c&HFFFFFF&}
+Dialogue: 0,0:00:38.80,0:00:38.86,Cap,,0,0,0,,{\fscx82\fscy82\t(0,90,\fscx100\fscy100)}{\c&H00F5FF&}AND{\c&HFFFFFF&} SOMEONE
+Dialogue: 0,0:00:38.86,0:00:39.12,Cap,,0,0,0,,AND {\c&H00F5FF&}SOMEONE{\c&HFFFFFF&}
+Dialogue: 0,0:00:39.12,0:00:39.40,Cap,,0,0,0,,{\fscx82\fscy82\t(0,90,\fscx100\fscy100)}{\c&H00F5FF&}WILLING{\c&HFFFFFF&} TO
+Dialogue: 0,0:00:39.40,0:00:39.58,Cap,,0,0,0,,WILLING {\c&H00F5FF&}TO{\c&HFFFFFF&}
+Dialogue: 0,0:00:39.58,0:00:39.86,Cap,,0,0,0,,{\fscx73\fscy73\t(0,90,\fscx90\fscy90)}{\c&H00F5FF&}BELIEVE{\c&HFFFFFF&} IN THEM
+Dialogue: 0,0:00:39.86,0:00:40.06,Cap,,0,0,0,,{\fscx90\fscy90}BELIEVE {\c&H00F5FF&}IN{\c&HFFFFFF&} THEM
+Dialogue: 0,0:00:40.06,0:00:40.56,Cap,,0,0,0,,{\fscx90\fscy90}BELIEVE IN {\c&H00F5FF&}THEM{\c&HFFFFFF&}
+Dialogue: 0,0:00:40.56,0:00:40.74,Cap,,0,0,0,,{\fscx82\fscy82\t(0,90,\fscx100\fscy100)}{\c&H00F5FF&}SO{\c&HFFFFFF&} THEY TOOK
+Dialogue: 0,0:00:40.74,0:00:40.86,Cap,,0,0,0,,SO {\c&H00F5FF&}THEY{\c&HFFFFFF&} TOOK
+Dialogue: 0,0:00:40.86,0:00:41.02,Cap,,0,0,0,,SO THEY {\c&H00F5FF&}TOOK{\c&HFFFFFF&}
+Dialogue: 0,0:00:41.02,0:00:41.14,Cap,,0,0,0,,{\fscx82\fscy82\t(0,90,\fscx100\fscy100)}{\c&H00F5FF&}A{\c&HFFFFFF&} HUGE RISK
+Dialogue: 0,0:00:41.14,0:00:41.38,Cap,,0,0,0,,A {\c&H00F5FF&}HUGE{\c&HFFFFFF&} RISK
+Dialogue: 0,0:00:41.38,0:00:42.14,Cap,,0,0,0,,A HUGE {\c&H00F5FF&}RISK{\c&HFFFFFF&}
+Dialogue: 0,0:00:42.14,0:00:42.38,Cap,,0,0,0,,{\fscx79\fscy79\t(0,90,\fscx97\fscy97)}{\c&H00F5FF&}SOLD{\c&HFFFFFF&} WHAT THEY
+Dialogue: 0,0:00:42.38,0:00:42.54,Cap,,0,0,0,,{\fscx97\fscy97}SOLD {\c&H00F5FF&}WHAT{\c&HFFFFFF&} THEY
+Dialogue: 0,0:00:42.54,0:00:42.68,Cap,,0,0,0,,{\fscx97\fscy97}SOLD WHAT {\c&H00F5FF&}THEY{\c&HFFFFFF&}
+Dialogue: 0,0:00:42.68,0:00:43.32,Cap,,0,0,0,,{\fscx82\fscy82\t(0,90,\fscx100\fscy100)}{\c&H00F5FF&}COULD{\c&HFFFFFF&}
+Dialogue: 0,0:00:43.32,0:00:43.54,Cap,,0,0,0,,{\fscx82\fscy82\t(0,90,\fscx100\fscy100)}{\c&H00F5FF&}AND{\c&HFFFFFF&} STARTED
+Dialogue: 0,0:00:43.54,0:00:43.82,Cap,,0,0,0,,AND {\c&H00F5FF&}STARTED{\c&HFFFFFF&}
+Dialogue: 0,0:00:43.82,0:00:44.10,Cap,,0,0,0,,{\fscx76\fscy76\t(0,90,\fscx93\fscy93)}{\c&H00F5FF&}BUILDING{\c&HFFFFFF&} THEIR
+Dialogue: 0,0:00:44.10,0:00:44.32,Cap,,0,0,0,,{\fscx93\fscy93}BUILDING {\c&H00F5FF&}THEIR{\c&HFFFFFF&}
+Dialogue: 0,0:00:44.32,0:00:45.09,Cap,,0,0,0,,{\fscx82\fscy82\t(0,90,\fscx100\fscy100)}{\c&H00F5FF&}COMPANY{\c&HFFFFFF&}
+Dialogue: 0,0:00:45.14,0:00:45.24,Cap,,0,0,0,,{\fscx82\fscy82\t(0,90,\fscx100\fscy100)}{\c&H00F5FF&}THEY{\c&HFFFFFF&} EVEN
+Dialogue: 0,0:00:45.24,0:00:45.50,Cap,,0,0,0,,THEY {\c&H00F5FF&}EVEN{\c&HFFFFFF&}
+Dialogue: 0,0:00:45.50,0:00:45.84,Cap,,0,0,0,,{\fscx82\fscy82\t(0,90,\fscx100\fscy100)}{\c&H00F5FF&}BROUGHT{\c&HFFFFFF&} IN A
+Dialogue: 0,0:00:45.84,0:00:46.04,Cap,,0,0,0,,BROUGHT {\c&H00F5FF&}IN{\c&HFFFFFF&} A
+Dialogue: 0,0:00:46.04,0:00:46.14,Cap,,0,0,0,,BROUGHT IN {\c&H00F5FF&}A{\c&HFFFFFF&}
+Dialogue: 0,0:00:46.14,0:00:46.46,Cap,,0,0,0,,{\fscx82\fscy82\t(0,90,\fscx100\fscy100)}{\c&H00F5FF&}THIRD{\c&HFFFFFF&}
+Dialogue: 0,0:00:46.46,0:00:47.58,Cap,,0,0,0,,{\fscx82\fscy82\t(0,90,\fscx100\fscy100)}{\c&H00F5FF&}CO-FOUNDER{\c&HFFFFFF&}
+Dialogue: 0,0:00:47.58,0:00:47.74,Cap,,0,0,0,,{\fscx82\fscy82\t(0,90,\fscx100\fscy100)}{\c&H00F5FF&}RONALD{\c&HFFFFFF&} WAYNE
+Dialogue: 0,0:00:47.74,0:00:48.51,Cap,,0,0,0,,RONALD {\c&H00F5FF&}WAYNE{\c&HFFFFFF&}
+Dialogue: 0,0:00:48.58,0:00:48.86,Cap,,0,0,0,,{\fscx82\fscy82\t(0,90,\fscx100\fscy100)}{\c&H00F5FF&}THEN{\c&HFFFFFF&} CAME THE
+Dialogue: 0,0:00:48.86,0:00:49.06,Cap,,0,0,0,,THEN {\c&H00F5FF&}CAME{\c&HFFFFFF&} THE
+Dialogue: 0,0:00:49.06,0:00:49.26,Cap,,0,0,0,,THEN CAME {\c&H00F5FF&}THE{\c&HFFFFFF&}
+Dialogue: 0,0:00:49.26,0:00:49.50,Cap,,0,0,0,,{\fscx82\fscy82\t(0,90,\fscx100\fscy100)}{\c&H00F5FF&}APPLE{\c&HFFFFFF&} II IN
+Dialogue: 0,0:00:49.50,0:00:49.84,Cap,,0,0,0,,APPLE {\c&H00F5FF&}II{\c&HFFFFFF&} IN
+Dialogue: 0,0:00:49.84,0:00:50.12,Cap,,0,0,0,,APPLE II {\c&H00F5FF&}IN{\c&HFFFFFF&}
+Dialogue: 0,0:00:50.12,0:00:51.29,Cap,,0,0,0,,{\fscx82\fscy82\t(0,90,\fscx100\fscy100)}{\c&H00F5FF&}1977{\c&HFFFFFF&}
+Dialogue: 0,0:00:51.68,0:00:51.80,Cap,,0,0,0,,{\fscx82\fscy82\t(0,90,\fscx100\fscy100)}{\c&H00F5FF&}IT{\c&HFFFFFF&} BECAME A
+Dialogue: 0,0:00:51.80,0:00:52.08,Cap,,0,0,0,,IT {\c&H00F5FF&}BECAME{\c&HFFFFFF&} A
+Dialogue: 0,0:00:52.08,0:00:52.30,Cap,,0,0,0,,IT BECAME {\c&H00F5FF&}A{\c&HFFFFFF&}
+Dialogue: 0,0:00:52.30,0:00:52.60,Cap,,0,0,0,,{\fscx82\fscy82\t(0,90,\fscx100\fscy100)}{\c&H00F5FF&}MAJOR{\c&HFFFFFF&} SUCCESS
+Dialogue: 0,0:00:52.60,0:00:53.12,Cap,,0,0,0,,MAJOR {\c&H00F5FF&}SUCCESS{\c&HFFFFFF&}
+Dialogue: 0,0:00:53.12,0:00:53.54,Cap,,0,0,0,,{\fscx82\fscy82\t(0,90,\fscx100\fscy100)}{\c&H00F5FF&}AND{\c&HFFFFFF&} HELPED
+Dialogue: 0,0:00:53.54,0:00:53.76,Cap,,0,0,0,,AND {\c&H00F5FF&}HELPED{\c&HFFFFFF&}
+Dialogue: 0,0:00:53.76,0:00:54.36,Cap,,0,0,0,,{\fscx71\fscy71\t(0,90,\fscx87\fscy87)}{\c&H00F5FF&}TRANSFORM{\c&HFFFFFF&} APPLE
+Dialogue: 0,0:00:54.36,0:00:54.76,Cap,,0,0,0,,{\fscx87\fscy87}TRANSFORM {\c&H00F5FF&}APPLE{\c&HFFFFFF&}
+Dialogue: 0,0:00:54.76,0:00:54.94,Cap,,0,0,0,,{\fscx82\fscy82\t(0,90,\fscx100\fscy100)}{\c&H00F5FF&}FROM{\c&HFFFFFF&} A SMALL
+Dialogue: 0,0:00:54.94,0:00:55.10,Cap,,0,0,0,,FROM {\c&H00F5FF&}A{\c&HFFFFFF&} SMALL
+Dialogue: 0,0:00:55.10,0:00:55.36,Cap,,0,0,0,,FROM A {\c&H00F5FF&}SMALL{\c&HFFFFFF&}
+Dialogue: 0,0:00:55.36,0:00:55.80,Cap,,0,0,0,,{\fscx68\fscy68\t(0,90,\fscx84\fscy84)}{\c&H00F5FF&}STARTUP{\c&HFFFFFF&} INTO ONE
+Dialogue: 0,0:00:55.80,0:00:56.10,Cap,,0,0,0,,{\fscx84\fscy84}STARTUP {\c&H00F5FF&}INTO{\c&HFFFFFF&} ONE
+Dialogue: 0,0:00:56.10,0:00:56.30,Cap,,0,0,0,,{\fscx84\fscy84}STARTUP INTO {\c&H00F5FF&}ONE{\c&HFFFFFF&}
+Dialogue: 0,0:00:56.30,0:00:56.40,Cap,,0,0,0,,{\fscx82\fscy82\t(0,90,\fscx100\fscy100)}{\c&H00F5FF&}OF{\c&HFFFFFF&} THE MOST
+Dialogue: 0,0:00:56.40,0:00:56.48,Cap,,0,0,0,,OF {\c&H00F5FF&}THE{\c&HFFFFFF&} MOST
+Dialogue: 0,0:00:56.48,0:00:56.68,Cap,,0,0,0,,OF THE {\c&H00F5FF&}MOST{\c&HFFFFFF&}
+Dialogue: 0,0:00:56.68,0:00:57.24,Cap,,0,0,0,,{\fscx82\fscy82\t(0,90,\fscx100\fscy100)}{\c&H00F5FF&}IMPORTANT{\c&HFFFFFF&}
+Dialogue: 0,0:00:57.24,0:00:57.74,Cap,,0,0,0,,{\fscx82\fscy82\t(0,90,\fscx100\fscy100)}{\c&H00F5FF&}TECHNOLOGY{\c&HFFFFFF&}
+Dialogue: 0,0:00:57.74,0:00:58.34,Cap,,0,0,0,,{\fscx82\fscy82\t(0,90,\fscx100\fscy100)}{\c&H00F5FF&}COMPANIES{\c&HFFFFFF&} IN
+Dialogue: 0,0:00:58.34,0:00:58.66,Cap,,0,0,0,,COMPANIES {\c&H00F5FF&}IN{\c&HFFFFFF&}
+Dialogue: 0,0:00:58.66,0:00:59.44,Cap,,0,0,0,,{\fscx82\fscy82\t(0,90,\fscx100\fscy100)}{\c&H00F5FF&}AMERICA{\c&HFFFFFF&}
+Dialogue: 0,0:00:59.44,0:00:59.70,Cap,,0,0,0,,{\fscx82\fscy82\t(0,90,\fscx100\fscy100)}{\c&H00F5FF&}THEIR{\c&HFFFFFF&} LITTLE
+Dialogue: 0,0:00:59.70,0:00:59.94,Cap,,0,0,0,,THEIR {\c&H00F5FF&}LITTLE{\c&HFFFFFF&}
+Dialogue: 0,0:00:59.94,0:01:00.36,Cap,,0,0,0,,{\fscx82\fscy82\t(0,90,\fscx100\fscy100)}{\c&H00F5FF&}IDEA{\c&HFFFFFF&} WAS
+Dialogue: 0,0:01:00.36,0:01:00.68,Cap,,0,0,0,,IDEA {\c&H00F5FF&}WAS{\c&HFFFFFF&}
+Dialogue: 0,0:01:00.68,0:01:01.02,Cap,,0,0,0,,{\fscx82\fscy82\t(0,90,\fscx100\fscy100)}{\c&H00F5FF&}BECOMING{\c&HFFFFFF&}
+Dialogue: 0,0:01:01.02,0:01:01.40,Cap,,0,0,0,,{\fscx76\fscy76\t(0,90,\fscx93\fscy93)}{\c&H00F5FF&}SOMETHING{\c&HFFFFFF&} MUCH
+Dialogue: 0,0:01:01.40,0:01:01.80,Cap,,0,0,0,,{\fscx93\fscy93}SOMETHING {\c&H00F5FF&}MUCH{\c&HFFFFFF&}
+Dialogue: 0,0:01:01.80,0:01:02.22,Cap,,0,0,0,,{\fscx82\fscy82\t(0,90,\fscx100\fscy100)}{\c&H00F5FF&}BIGGER{\c&HFFFFFF&} THAN
+Dialogue: 0,0:01:02.22,0:01:02.46,Cap,,0,0,0,,BIGGER {\c&H00F5FF&}THAN{\c&HFFFFFF&}
+Dialogue: 0,0:01:02.46,0:01:02.98,Cap,,0,0,0,,{\fscx71\fscy71\t(0,90,\fscx87\fscy87)}{\c&H00F5FF&}ANYONE{\c&HFFFFFF&} IMAGINED
+Dialogue: 0,0:01:02.98,0:01:03.91,Cap,,0,0,0,,{\fscx87\fscy87}ANYONE {\c&H00F5FF&}IMAGINED{\c&HFFFFFF&}
+Dialogue: 0,0:01:04.04,0:01:04.32,Cap,,0,0,0,,{\fscx82\fscy82\t(0,90,\fscx100\fscy100)}{\c&H00F5FF&}YEARS{\c&HFFFFFF&} LATER
+Dialogue: 0,0:01:04.32,0:01:05.08,Cap,,0,0,0,,YEARS {\c&H00F5FF&}LATER{\c&HFFFFFF&}
+Dialogue: 0,0:01:05.08,0:01:05.38,Cap,,0,0,0,,{\fscx82\fscy82\t(0,90,\fscx100\fscy100)}{\c&H00F5FF&}APPLE{\c&HFFFFFF&} WOULD
+Dialogue: 0,0:01:05.38,0:01:05.54,Cap,,0,0,0,,APPLE {\c&H00F5FF&}WOULD{\c&HFFFFFF&}
+Dialogue: 0,0:01:05.54,0:01:05.96,Cap,,0,0,0,,{\fscx82\fscy82\t(0,90,\fscx100\fscy100)}{\c&H00F5FF&}INTRODUCE{\c&HFFFFFF&}
+Dialogue: 0,0:01:05.96,0:01:06.44,Cap,,0,0,0,,{\fscx82\fscy82\t(0,90,\fscx100\fscy100)}{\c&H00F5FF&}PRODUCTS{\c&HFFFFFF&} THAT
+Dialogue: 0,0:01:06.44,0:01:06.68,Cap,,0,0,0,,PRODUCTS {\c&H00F5FF&}THAT{\c&HFFFFFF&}
+Dialogue: 0,0:01:06.68,0:01:07.06,Cap,,0,0,0,,{\fscx82\fscy82\t(0,90,\fscx100\fscy100)}{\c&H00F5FF&}CHANGED{\c&HFFFFFF&} HOW
+Dialogue: 0,0:01:07.06,0:01:07.32,Cap,,0,0,0,,CHANGED {\c&H00F5FF&}HOW{\c&HFFFFFF&}
+Dialogue: 0,0:01:07.32,0:01:07.62,Cap,,0,0,0,,{\fscx82\fscy82\t(0,90,\fscx100\fscy100)}{\c&H00F5FF&}PEOPLE{\c&HFFFFFF&}
+Dialogue: 0,0:01:07.62,0:01:08.64,Cap,,0,0,0,,{\fscx82\fscy82\t(0,90,\fscx100\fscy100)}{\c&H00F5FF&}COMMUNICATE{\c&HFFFFFF&}
+Dialogue: 0,0:01:08.64,0:01:08.88,Cap,,0,0,0,,{\fscx73\fscy73\t(0,90,\fscx90\fscy90)}{\c&H00F5FF&}LISTEN{\c&HFFFFFF&} TO MUSIC
+Dialogue: 0,0:01:08.88,0:01:09.04,Cap,,0,0,0,,{\fscx90\fscy90}LISTEN {\c&H00F5FF&}TO{\c&HFFFFFF&} MUSIC
+Dialogue: 0,0:01:09.04,0:01:09.83,Cap,,0,0,0,,{\fscx90\fscy90}LISTEN TO {\c&H00F5FF&}MUSIC{\c&HFFFFFF&}
+Dialogue: 0,0:01:09.88,0:01:10.58,Cap,,0,0,0,,{\fscx82\fscy82\t(0,90,\fscx100\fscy100)}{\c&H00F5FF&}WORK{\c&HFFFFFF&}
+Dialogue: 0,0:01:10.58,0:01:10.66,Cap,,0,0,0,,{\fscx82\fscy82\t(0,90,\fscx100\fscy100)}{\c&H00F5FF&}AND{\c&HFFFFFF&} LIVE
+Dialogue: 0,0:01:10.66,0:01:11.35,Cap,,0,0,0,,AND {\c&H00F5FF&}LIVE{\c&HFFFFFF&}
+Dialogue: 0,0:01:11.42,0:01:11.52,Cap,,0,0,0,,{\fscx82\fscy82\t(0,90,\fscx100\fscy100)}{\c&H00F5FF&}THE{\c&HFFFFFF&} IPOD
+Dialogue: 0,0:01:11.52,0:01:12.36,Cap,,0,0,0,,THE {\c&H00F5FF&}IPOD{\c&HFFFFFF&}
+Dialogue: 0,0:01:12.36,0:01:12.48,Cap,,0,0,0,,{\fscx82\fscy82\t(0,90,\fscx100\fscy100)}{\c&H00F5FF&}THE{\c&HFFFFFF&} IPHONE
+Dialogue: 0,0:01:12.48,0:01:13.29,Cap,,0,0,0,,THE {\c&H00F5FF&}IPHONE{\c&HFFFFFF&}
+Dialogue: 0,0:01:13.32,0:01:13.44,Cap,,0,0,0,,{\fscx82\fscy82\t(0,90,\fscx100\fscy100)}{\c&H00F5FF&}THE{\c&HFFFFFF&} IPAD
+Dialogue: 0,0:01:13.44,0:01:14.13,Cap,,0,0,0,,THE {\c&H00F5FF&}IPAD{\c&HFFFFFF&}
+Dialogue: 0,0:01:14.22,0:01:14.40,Cap,,0,0,0,,{\fscx76\fscy76\t(0,90,\fscx93\fscy93)}{\c&H00F5FF&}AND{\c&HFFFFFF&} EVENTUALLY
+Dialogue: 0,0:01:14.40,0:01:15.29,Cap,,0,0,0,,{\fscx93\fscy93}AND {\c&H00F5FF&}EVENTUALLY{\c&HFFFFFF&}
+Dialogue: 0,0:01:15.34,0:01:15.50,Cap,,0,0,0,,{\fscx73\fscy73\t(0,90,\fscx90\fscy90)}{\c&H00F5FF&}A{\c&HFFFFFF&} COMPANY WORTH
+Dialogue: 0,0:01:15.50,0:01:15.78,Cap,,0,0,0,,{\fscx90\fscy90}A {\c&H00F5FF&}COMPANY{\c&HFFFFFF&} WORTH
+Dialogue: 0,0:01:15.78,0:01:16.10,Cap,,0,0,0,,{\fscx90\fscy90}A COMPANY {\c&H00F5FF&}WORTH{\c&HFFFFFF&}
+Dialogue: 0,0:01:16.10,0:01:16.70,Cap,,0,0,0,,{\fscx82\fscy82\t(0,90,\fscx100\fscy100)}{\c&H00F5FF&}TRILLIONS{\c&HFFFFFF&} OF
+Dialogue: 0,0:01:16.70,0:01:16.90,Cap,,0,0,0,,TRILLIONS {\c&H00F5FF&}OF{\c&HFFFFFF&}
+Dialogue: 0,0:01:16.90,0:01:17.69,Cap,,0,0,0,,{\fscx82\fscy82\t(0,90,\fscx100\fscy100)}{\c&H00F5FF&}DOLLARS{\c&HFFFFFF&}
+Dialogue: 0,0:01:17.92,0:01:18.16,Cap,,0,0,0,,{\fscx82\fscy82\t(0,90,\fscx100\fscy100)}{\c&H00F5FF&}AND{\c&HFFFFFF&} IT ALL
+Dialogue: 0,0:01:18.16,0:01:18.26,Cap,,0,0,0,,AND {\c&H00F5FF&}IT{\c&HFFFFFF&} ALL
+Dialogue: 0,0:01:18.26,0:01:18.38,Cap,,0,0,0,,AND IT {\c&H00F5FF&}ALL{\c&HFFFFFF&}
+Dialogue: 0,0:01:18.38,0:01:18.68,Cap,,0,0,0,,{\fscx68\fscy68\t(0,90,\fscx84\fscy84)}{\c&H00F5FF&}STARTED{\c&HFFFFFF&} WITH TWO
+Dialogue: 0,0:01:18.68,0:01:18.90,Cap,,0,0,0,,{\fscx84\fscy84}STARTED {\c&H00F5FF&}WITH{\c&HFFFFFF&} TWO
+Dialogue: 0,0:01:18.90,0:01:19.14,Cap,,0,0,0,,{\fscx84\fscy84}STARTED WITH {\c&H00F5FF&}TWO{\c&HFFFFFF&}
+Dialogue: 0,0:01:19.14,0:01:19.44,Cap,,0,0,0,,{\fscx82\fscy82\t(0,90,\fscx100\fscy100)}{\c&H00F5FF&}YOUNG{\c&HFFFFFF&} MEN WHO
+Dialogue: 0,0:01:19.44,0:01:19.74,Cap,,0,0,0,,YOUNG {\c&H00F5FF&}MEN{\c&HFFFFFF&} WHO
+Dialogue: 0,0:01:19.74,0:01:20.12,Cap,,0,0,0,,YOUNG MEN {\c&H00F5FF&}WHO{\c&HFFFFFF&}
+Dialogue: 0,0:01:20.12,0:01:20.42,Cap,,0,0,0,,{\fscx82\fscy82\t(0,90,\fscx100\fscy100)}{\c&H00F5FF&}BELIEVE{\c&HFFFFFF&}
+Dialogue: 0,0:01:20.42,0:01:21.00,Cap,,0,0,0,,{\fscx71\fscy71\t(0,90,\fscx87\fscy87)}{\c&H00F5FF&}COMPUTERS{\c&HFFFFFF&} COULD
+Dialogue: 0,0:01:21.00,0:01:21.30,Cap,,0,0,0,,{\fscx87\fscy87}COMPUTERS {\c&H00F5FF&}COULD{\c&HFFFFFF&}
+Dialogue: 0,0:01:21.30,0:01:21.60,Cap,,0,0,0,,{\fscx82\fscy82\t(0,90,\fscx100\fscy100)}{\c&H00F5FF&}CHANGE{\c&HFFFFFF&} THE
+Dialogue: 0,0:01:21.60,0:01:21.76,Cap,,0,0,0,,CHANGE {\c&H00F5FF&}THE{\c&HFFFFFF&}
+Dialogue: 0,0:01:21.76,0:01:22.04,Cap,,0,0,0,,{\fscx82\fscy82\t(0,90,\fscx100\fscy100)}{\c&H00F5FF&}WORLD{\c&HFFFFFF&}
+Dialogue: 0,0:01:22.04,0:01:22.68,Cap,,0,0,0,,{\fscx82\fscy82\t(0,90,\fscx100\fscy100)}{\c&H00F5FF&}BECAUSE{\c&HFFFFFF&}
+Dialogue: 0,0:01:22.68,0:01:23.71,Cap,,0,0,0,,{\fscx82\fscy82\t(0,90,\fscx100\fscy100)}{\c&H00F5FF&}SOMETIMES{\c&HFFFFFF&}
+Dialogue: 0,0:01:23.76,0:01:23.86,Cap,,0,0,0,,{\fscx82\fscy82\t(0,90,\fscx100\fscy100)}{\c&H00F5FF&}THE{\c&HFFFFFF&} BIGGEST
+Dialogue: 0,0:01:23.86,0:01:24.16,Cap,,0,0,0,,THE {\c&H00F5FF&}BIGGEST{\c&HFFFFFF&}
+Dialogue: 0,0:01:24.16,0:01:24.66,Cap,,0,0,0,,{\fscx82\fscy82\t(0,90,\fscx100\fscy100)}{\c&H00F5FF&}COMPANIES{\c&HFFFFFF&} ON
+Dialogue: 0,0:01:24.66,0:01:24.90,Cap,,0,0,0,,COMPANIES {\c&H00F5FF&}ON{\c&HFFFFFF&}
+Dialogue: 0,0:01:24.90,0:01:25.10,Cap,,0,0,0,,{\fscx68\fscy68\t(0,90,\fscx84\fscy84)}{\c&H00F5FF&}EARTH{\c&HFFFFFF&} BEGIN WITH
+Dialogue: 0,0:01:25.10,0:01:25.50,Cap,,0,0,0,,{\fscx84\fscy84}EARTH {\c&H00F5FF&}BEGIN{\c&HFFFFFF&} WITH
+Dialogue: 0,0:01:25.50,0:01:25.78,Cap,,0,0,0,,{\fscx84\fscy84}EARTH BEGIN {\c&H00F5FF&}WITH{\c&HFFFFFF&}
+Dialogue: 0,0:01:25.78,0:01:26.16,Cap,,0,0,0,,{\fscx82\fscy82\t(0,90,\fscx100\fscy100)}{\c&H00F5FF&}NOTHING{\c&HFFFFFF&} MORE
+Dialogue: 0,0:01:26.16,0:01:26.60,Cap,,0,0,0,,NOTHING {\c&H00F5FF&}MORE{\c&HFFFFFF&}
+Dialogue: 0,0:01:26.60,0:01:26.78,Cap,,0,0,0,,{\fscx82\fscy82\t(0,90,\fscx100\fscy100)}{\c&H00F5FF&}THAN{\c&HFFFFFF&} A SMALL
+Dialogue: 0,0:01:26.78,0:01:26.90,Cap,,0,0,0,,THAN {\c&H00F5FF&}A{\c&HFFFFFF&} SMALL
+Dialogue: 0,0:01:26.90,0:01:27.12,Cap,,0,0,0,,THAN A {\c&H00F5FF&}SMALL{\c&HFFFFFF&}
+Dialogue: 0,0:01:27.12,0:01:28.12,Cap,,0,0,0,,{\fscx82\fscy82\t(0,90,\fscx100\fscy100)}{\c&H00F5FF&}IDEA{\c&HFFFFFF&}

@@ -10,3 +10,5 @@ export const STORY_TOTAL = SH[SH.length - 1].t1;
 export const STORY_SHOTS = SH.length;
 export const Story: React.FC = () => <BeanVideo shots={SH} lips={lips as number[]} total={STORY_TOTAL} />;
 export const StorySampler: React.FC = () => <BeanSampler shots={SH} lips={lips as number[]} />;
+export const StoryVertical: React.FC = () => <BeanVideo shots={SH} lips={lips as number[]} total={STORY_TOTAL} vertical />;
+export const StoryVSampler: React.FC = () => <BeanSampler shots={SH} lips={lips as number[]} vertical />;
