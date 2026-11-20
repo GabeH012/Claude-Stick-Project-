@@ -493,7 +493,7 @@ const Bulb: React.FC<{ T: number }> = ({ T }) => (<g>
   <circle cy={-40} r={190} fill="#ffe066" opacity={0.18 + 0.08 * Math.sin(T * 5)} />
   {Array.from({ length: 10 }).map((_, i) => { const a = (i / 10) * Math.PI * 2; return <path key={i} d={`M${Math.cos(a) * 130},${-40 + Math.sin(a) * 130} L${Math.cos(a) * 175},${-40 + Math.sin(a) * 175}`} stroke="#ffd21f" strokeWidth={10} strokeLinecap="round" />; })}
   <path d="M-70,-40 C-70,-130 70,-130 70,-40 C70,0 40,20 36,60 L-36,60 C-40,20 -70,0 -70,-40 Z" fill="#fff3a0" stroke={OL} strokeWidth={6} />
-  <path d="M-20,50 L-14,0 L0,20 L14,0 L20,50" stroke="#e0a020" strokeWidth={5} fill="none" />
+  <path d="M-16,50 L-14,8 C-14,-14 14,-14 14,8 L16,50" stroke="#e0a020" strokeWidth={5} fill="none" strokeLinecap="round" />
   <rect x={-38} y={60} width={76} height={50} rx={8} fill="#9aa0a8" stroke={OL} strokeWidth={5} />
   <path d="M-38,78 L38,78 M-38,94 L38,94" stroke={OL} strokeWidth={3} />
 </g>);
